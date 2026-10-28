@@ -1,0 +1,2853 @@
+{
+  "runs": [
+    {
+      "dimension": 2,
+      "L": 32,
+      "R": 8,
+      "seed": 473,
+      "p0": 0.00031555172854018496,
+      "global_stress": [
+        [
+          -1.0000000000000004,
+          2.2008998131150529e-16
+        ],
+        [
+          2.2008998131150529e-16,
+          -0.9999999999999993
+        ]
+      ],
+      "equilibrium_residual": 3.277789576685479e-13,
+      "cores": [
+        {
+          "w": 1,
+          "core_side": 6,
+          "tiles": 36,
+          "members": 360,
+          "status": "ok",
+          "axial": {
+            "s": 0.9996995743134769,
+            "relative_deviation": 0.00919841394893565
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 0.9996996023729502,
+            "relative_deviation": 0.009226568427915607
+          },
+          "mean_stress": [
+            [
+              -1.000104828971195,
+              0.00018252244198097196
+            ],
+            [
+              0.00018252244198097196,
+              -0.9993017577644834
+            ]
+          ],
+          "mean_pressure": 0.9997032933678391,
+          "deviatoric_over_hydrostatic": 0.0004412037848214669,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.0000000000000007,
+                -7.558093811304505e-17
+              ],
+              [
+                -7.558093811304505e-17,
+                -0.9999999999999998
+              ]
+            ],
+            "mean_pressure": 1.0000000000000002,
+            "deviatoric_over_hydrostatic": 4.504749765650704e-16
+          }
+        },
+        {
+          "w": 2,
+          "core_side": 4,
+          "tiles": 16,
+          "members": 160,
+          "status": "ok",
+          "axial": {
+            "s": 0.9997868481656538,
+            "relative_deviation": 0.009782682400977107
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 0.9997867044333697,
+            "relative_deviation": 0.009802876463357778
+          },
+          "mean_stress": [
+            [
+              -1.0001156529603714,
+              0.00015565564582902084
+            ],
+            [
+              0.00015565564582902084,
+              -0.9994199095931129
+            ]
+          ],
+          "mean_pressure": 0.9997677812767422,
+          "deviatoric_over_hydrostatic": 0.0003811966268504699,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999996,
+                -7.540626109636683e-17
+              ],
+              [
+                -7.540626109636683e-17,
+                -0.9999999999999993
+              ]
+            ],
+            "mean_pressure": 0.9999999999999994,
+            "deviatoric_over_hydrostatic": 1.3420900065424739e-16
+          }
+        },
+        {
+          "w": 4,
+          "core_side": 0,
+          "status": "empty core: R <= 2w"
+        }
+      ],
+      "seconds": 0.327679599984549,
+      "pattern_sha256": "04816a8267b854a64b23aaadc559dbff7412aec8c131fd6f12a065c6142f61f7"
+    },
+    {
+      "dimension": 2,
+      "L": 32,
+      "R": 16,
+      "seed": 473,
+      "p0": 0.00031572902571685855,
+      "global_stress": [
+        [
+          -0.9999999999999983,
+          -1.4811200825526375e-16
+        ],
+        [
+          -1.4811200825526375e-16,
+          -1.0000000000000018
+        ]
+      ],
+      "equilibrium_residual": 3.985145609551037e-13,
+      "cores": [
+        {
+          "w": 1,
+          "core_side": 14,
+          "tiles": 196,
+          "members": 1960,
+          "status": "ok",
+          "axial": {
+            "s": 1.0008442074020119,
+            "relative_deviation": 0.00583089822488827
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.000844238442034,
+            "relative_deviation": 0.0058543519031319735
+          },
+          "mean_stress": [
+            [
+              -1.0008033501448317,
+              4.6629390243936074e-05
+            ],
+            [
+              4.6629390243936074e-05,
+              -1.000893307967331
+            ]
+          ],
+          "mean_pressure": 1.0008483290560815,
+          "deviatoric_over_hydrostatic": 6.473244925564525e-05,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999948,
+                -7.551800029985769e-17
+              ],
+              [
+                -7.551800029985769e-17,
+                -0.9999999999999947
+              ]
+            ],
+            "mean_pressure": 0.9999999999999947,
+            "deviatoric_over_hydrostatic": 1.0893091476403099e-16
+          }
+        },
+        {
+          "w": 2,
+          "core_side": 12,
+          "tiles": 144,
+          "members": 1440,
+          "status": "ok",
+          "axial": {
+            "s": 1.0007034369789631,
+            "relative_deviation": 0.005755614308150168
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0007034035065134,
+            "relative_deviation": 0.005780233647020272
+          },
+          "mean_stress": [
+            [
+              -1.000914370737863,
+              9.036151429195474e-05
+            ],
+            [
+              9.036151429195474e-05,
+              -1.0004836117722942
+            ]
+          ],
+          "mean_pressure": 1.0006989912550786,
+          "deviatoric_over_hydrostatic": 0.00023340381291707496,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.000000000000003,
+                -7.545444785958841e-17
+              ],
+              [
+                -7.545444785958841e-17,
+                -1.0000000000000029
+              ]
+            ],
+            "mean_pressure": 1.000000000000003,
+            "deviatoric_over_hydrostatic": 1.741989580621875e-16
+          }
+        },
+        {
+          "w": 4,
+          "core_side": 8,
+          "tiles": 64,
+          "members": 640,
+          "status": "ok",
+          "axial": {
+            "s": 1.0001637805931496,
+            "relative_deviation": 0.005245927206545453
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0001637650852946,
+            "relative_deviation": 0.005277740428514209
+          },
+          "mean_stress": [
+            [
+              -0.9994664036812014,
+              2.7203739384297457e-05
+            ],
+            [
+              2.7203739384297457e-05,
+              -1.0008570314725642
+            ]
+          ],
+          "mean_pressure": 1.0001617175768829,
+          "deviatoric_over_hydrostatic": 0.0006957333448761757,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.0000000000000002,
+                -7.544691867783504e-17
+              ],
+              [
+                -7.544691867783504e-17,
+                -0.9999999999999998
+              ]
+            ],
+            "mean_pressure": 1.0,
+            "deviatoric_over_hydrostatic": 2.345123538628468e-16
+          }
+        }
+      ],
+      "seconds": 0.3058335999958217,
+      "pattern_sha256": "4740115a57367d6f913e0eda855efa705ade52bb81a3fff84449bf92899bdc0e"
+    },
+    {
+      "dimension": 2,
+      "L": 32,
+      "R": 24,
+      "seed": 473,
+      "p0": 0.0003159916944937335,
+      "global_stress": [
+        [
+          -0.9999999999999998,
+          -2.5830816897441977e-16
+        ],
+        [
+          -2.5830816897441977e-16,
+          -1.0000000000000004
+        ]
+      ],
+      "equilibrium_residual": 1.6997943535875383e-13,
+      "cores": [
+        {
+          "w": 1,
+          "core_side": 22,
+          "tiles": 484,
+          "members": 4840,
+          "status": "ok",
+          "axial": {
+            "s": 1.0005661395268932,
+            "relative_deviation": 0.0036042305875003426
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.000566158766813,
+            "relative_deviation": 0.0036257311370499934
+          },
+          "mean_stress": [
+            [
+              -1.0005015823851482,
+              5.9439802825692735e-06
+            ],
+            [
+              5.9439802825692735e-06,
+              -1.000635800890716
+            ]
+          ],
+          "mean_pressure": 1.0005686916379322,
+          "deviatoric_over_hydrostatic": 6.733368063833663e-05,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999943,
+                -7.549810466882945e-17
+              ],
+              [
+                -7.549810466882945e-17,
+                -0.9999999999999943
+              ]
+            ],
+            "mean_pressure": 0.9999999999999943,
+            "deviatoric_over_hydrostatic": 7.549810466882987e-17
+          }
+        },
+        {
+          "w": 2,
+          "core_side": 20,
+          "tiles": 400,
+          "members": 4000,
+          "status": "ok",
+          "axial": {
+            "s": 1.0005918341270714,
+            "relative_deviation": 0.003323310797217258
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.000591816536083,
+            "relative_deviation": 0.0033444210611973083
+          },
+          "mean_stress": [
+            [
+              -1.0004580662066977,
+              -3.235102911048114e-05
+            ],
+            [
+              -3.235102911048114e-05,
+              -1.000720934355112
+            ]
+          ],
+          "mean_pressure": 1.0005895002809049,
+          "deviatoric_over_hydrostatic": 0.000135277207867083,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999932,
+                -7.545830280064614e-17
+              ],
+              [
+                -7.545830280064614e-17,
+                -0.999999999999993
+              ]
+            ],
+            "mean_pressure": 0.9999999999999931,
+            "deviatoric_over_hydrostatic": 1.34238247551257e-16
+          }
+        },
+        {
+          "w": 4,
+          "core_side": 16,
+          "tiles": 256,
+          "members": 2560,
+          "status": "ok",
+          "axial": {
+            "s": 1.0005645514014339,
+            "relative_deviation": 0.002791271710268186
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.00056453548493,
+            "relative_deviation": 0.0028150575282385247
+          },
+          "mean_stress": [
+            [
+              -1.0004317105965945,
+              4.5987595476815825e-05
+            ],
+            [
+              4.5987595476815825e-05,
+              -1.0006931683757976
+            ]
+          ],
+          "mean_pressure": 1.000562439486196,
+          "deviatoric_over_hydrostatic": 0.00013850385025832262,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999893,
+                -7.545708307320209e-17
+              ],
+              [
+                -7.545708307320209e-17,
+                -0.9999999999999892
+              ]
+            ],
+            "mean_pressure": 0.9999999999999893,
+            "deviatoric_over_hydrostatic": 1.0888869182773539e-16
+          }
+        }
+      ],
+      "seconds": 0.27150350000010803,
+      "pattern_sha256": "ca70446b30840149bcc3ec637a7e86c061e13d59128cc064abb39c993c968fe8"
+    },
+    {
+      "dimension": 2,
+      "L": 64,
+      "R": 8,
+      "seed": 505,
+      "p0": 0.00031552822094967845,
+      "global_stress": [
+        [
+          -1.0000000000000016,
+          -5.074068963425117e-17
+        ],
+        [
+          -5.074068963425117e-17,
+          -0.9999999999999984
+        ]
+      ],
+      "equilibrium_residual": 4.900721637920847e-12,
+      "cores": [
+        {
+          "w": 1,
+          "core_side": 6,
+          "tiles": 36,
+          "members": 360,
+          "status": "ok",
+          "axial": {
+            "s": 1.0015301073447658,
+            "relative_deviation": 0.0100012226867182
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0015301595103954,
+            "relative_deviation": 0.010011311729047276
+          },
+          "mean_stress": [
+            [
+              -1.0003401207450957,
+              -8.238152224581503e-06
+            ],
+            [
+              -8.238152224581503e-06,
+              -1.0027339370852326
+            ]
+          ],
+          "mean_pressure": 1.0015370289151642,
+          "deviatoric_over_hydrostatic": 0.0011950996180903435,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.0000000000000007,
+                -7.558093811304505e-17
+              ],
+              [
+                -7.558093811304505e-17,
+                -0.9999999999999998
+              ]
+            ],
+            "mean_pressure": 1.0000000000000002,
+            "deviatoric_over_hydrostatic": 4.504749765650704e-16
+          }
+        },
+        {
+          "w": 2,
+          "core_side": 4,
+          "tiles": 16,
+          "members": 160,
+          "status": "ok",
+          "axial": {
+            "s": 1.0031336825700243,
+            "relative_deviation": 0.01006442023782339
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0031336511027675,
+            "relative_deviation": 0.010074474464531758
+          },
+          "mean_stress": [
+            [
+              -1.0022441538309037,
+              0.00023751930477947664
+            ],
+            [
+              0.00023751930477947664,
+              -1.0040148972723009
+            ]
+          ],
+          "mean_pressure": 1.0031295255516022,
+          "deviatoric_over_hydrostatic": 0.0009138181545208159,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999996,
+                -7.540626109636683e-17
+              ],
+              [
+                -7.540626109636683e-17,
+                -0.9999999999999993
+              ]
+            ],
+            "mean_pressure": 0.9999999999999994,
+            "deviatoric_over_hydrostatic": 1.3420900065424739e-16
+          }
+        },
+        {
+          "w": 4,
+          "core_side": 0,
+          "status": "empty core: R <= 2w"
+        }
+      ],
+      "seconds": 1.6763503999682143,
+      "pattern_sha256": "c7e62b9aba094498ff211f978262da684c72591bebcbba9b28dcf11cc1f77312"
+    },
+    {
+      "dimension": 2,
+      "L": 64,
+      "R": 16,
+      "seed": 505,
+      "p0": 0.0003155723462756352,
+      "global_stress": [
+        [
+          -1.0000000000000024,
+          1.7266133641524803e-16
+        ],
+        [
+          1.7266133641524803e-16,
+          -0.9999999999999976
+        ]
+      ],
+      "equilibrium_residual": 4.493729618147536e-12,
+      "cores": [
+        {
+          "w": 1,
+          "core_side": 14,
+          "tiles": 196,
+          "members": 1960,
+          "status": "ok",
+          "axial": {
+            "s": 1.000795883545849,
+            "relative_deviation": 0.005863445673949889
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.000795885944011,
+            "relative_deviation": 0.005876169076251642
+          },
+          "mean_stress": [
+            [
+              -1.0006286112228484,
+              5.67758482349614e-05
+            ],
+            [
+              5.67758482349614e-05,
+              -1.0009638004032835
+            ]
+          ],
+          "mean_pressure": 1.000796205813066,
+          "deviatoric_over_hydrostatic": 0.00017680962188768032,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999948,
+                -7.551800029985769e-17
+              ],
+              [
+                -7.551800029985769e-17,
+                -0.9999999999999947
+              ]
+            ],
+            "mean_pressure": 0.9999999999999947,
+            "deviatoric_over_hydrostatic": 1.0893091476403099e-16
+          }
+        },
+        {
+          "w": 2,
+          "core_side": 12,
+          "tiles": 144,
+          "members": 1440,
+          "status": "ok",
+          "axial": {
+            "s": 1.0002926705228596,
+            "relative_deviation": 0.00579507480741677
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0002926736272093,
+            "relative_deviation": 0.005807588655781114
+          },
+          "mean_stress": [
+            [
+              -0.9995836818611523,
+              9.798441270273386e-05
+            ],
+            [
+              9.798441270273386e-05,
+              -1.0010024723394695
+            ]
+          ],
+          "mean_pressure": 1.000293077100311,
+          "deviatoric_over_hydrostatic": 0.0007159204409411045,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.000000000000003,
+                -7.545444785958841e-17
+              ],
+              [
+                -7.545444785958841e-17,
+                -1.0000000000000029
+              ]
+            ],
+            "mean_pressure": 1.000000000000003,
+            "deviatoric_over_hydrostatic": 1.741989580621875e-16
+          }
+        },
+        {
+          "w": 4,
+          "core_side": 8,
+          "tiles": 64,
+          "members": 640,
+          "status": "ok",
+          "axial": {
+            "s": 1.0002946091835558,
+            "relative_deviation": 0.005560327593012439
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.000294627117783,
+            "relative_deviation": 0.005571932485340575
+          },
+          "mean_stress": [
+            [
+              -1.0010022461654848,
+              -0.00011061981321560985
+            ],
+            [
+              -0.00011061981321560985,
+              -0.9995917184530475
+            ]
+          ],
+          "mean_pressure": 1.0002969823092662,
+          "deviatoric_over_hydrostatic": 0.0007136744918255274,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.0000000000000002,
+                -7.544691867783504e-17
+              ],
+              [
+                -7.544691867783504e-17,
+                -0.9999999999999998
+              ]
+            ],
+            "mean_pressure": 1.0,
+            "deviatoric_over_hydrostatic": 2.345123538628468e-16
+          }
+        }
+      ],
+      "seconds": 1.6705957999802195,
+      "pattern_sha256": "8315949bdda7cbb7431499c32770648defcd0946470528543f6e288ebc88ef38"
+    },
+    {
+      "dimension": 2,
+      "L": 64,
+      "R": 24,
+      "seed": 505,
+      "p0": 0.00031563549886746614,
+      "global_stress": [
+        [
+          -1.0000000000000033,
+          -1.5674579877428323e-16
+        ],
+        [
+          -1.5674579877428323e-16,
+          -0.9999999999999968
+        ]
+      ],
+      "equilibrium_residual": 5.473544735336013e-12,
+      "cores": [
+        {
+          "w": 1,
+          "core_side": 22,
+          "tiles": 484,
+          "members": 4840,
+          "status": "ok",
+          "axial": {
+            "s": 1.0009228975149187,
+            "relative_deviation": 0.005801605545264229
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0009229020172417,
+            "relative_deviation": 0.005814327917959278
+          },
+          "mean_stress": [
+            [
+              -1.0009819548038936,
+              6.344811069435084e-05
+            ],
+            [
+              6.344811069435084e-05,
+              -1.0008650358558744
+            ]
+          ],
+          "mean_pressure": 1.000923495329884,
+          "deviatoric_over_hydrostatic": 8.619422487378573e-05,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999943,
+                -7.549810466882945e-17
+              ],
+              [
+                -7.549810466882945e-17,
+                -0.9999999999999943
+              ]
+            ],
+            "mean_pressure": 0.9999999999999943,
+            "deviatoric_over_hydrostatic": 7.549810466882987e-17
+          }
+        },
+        {
+          "w": 2,
+          "core_side": 20,
+          "tiles": 400,
+          "members": 4000,
+          "status": "ok",
+          "axial": {
+            "s": 1.0007403153938494,
+            "relative_deviation": 0.0057277525691100594
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.000740312936397,
+            "relative_deviation": 0.0057400905087166025
+          },
+          "mean_stress": [
+            [
+              -1.0005596790187763,
+              0.00012986814790409272
+            ],
+            [
+              0.00012986814790409272,
+              -1.0009202951855876
+            ]
+          ],
+          "mean_pressure": 1.000739987102182,
+          "deviatoric_over_hydrostatic": 0.00022204446742066296,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999932,
+                -7.545830280064614e-17
+              ],
+              [
+                -7.545830280064614e-17,
+                -0.999999999999993
+              ]
+            ],
+            "mean_pressure": 0.9999999999999931,
+            "deviatoric_over_hydrostatic": 1.34238247551257e-16
+          }
+        },
+        {
+          "w": 4,
+          "core_side": 16,
+          "tiles": 256,
+          "members": 2560,
+          "status": "ok",
+          "axial": {
+            "s": 1.000795758856642,
+            "relative_deviation": 0.004982426690837145
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0007957629709225,
+            "relative_deviation": 0.00499523369031396
+          },
+          "mean_stress": [
+            [
+              -1.0007585819859606,
+              8.36924054865758e-05
+            ],
+            [
+              8.36924054865758e-05,
+              -1.0008340242969687
+            ]
+          ],
+          "mean_pressure": 1.0007963031414646,
+          "deviatoric_over_hydrostatic": 9.172730752138906e-05,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999893,
+                -7.545708307320209e-17
+              ],
+              [
+                -7.545708307320209e-17,
+                -0.9999999999999892
+              ]
+            ],
+            "mean_pressure": 0.9999999999999893,
+            "deviatoric_over_hydrostatic": 1.0888869182773539e-16
+          }
+        }
+      ],
+      "seconds": 1.6403705999837257,
+      "pattern_sha256": "697b730085394e19c076cffe6cd515a69245c37a036d73349aed9a01079f5fed"
+    },
+    {
+      "dimension": 2,
+      "L": 64,
+      "R": 32,
+      "seed": 505,
+      "p0": 0.0003157288617322638,
+      "global_stress": [
+        [
+          -0.9999999999999931,
+          -5.220514910780418e-18
+        ],
+        [
+          -5.220514910780418e-18,
+          -1.0000000000000067
+        ]
+      ],
+      "equilibrium_residual": 6.411701511035482e-12,
+      "cores": [
+        {
+          "w": 1,
+          "core_side": 30,
+          "tiles": 900,
+          "members": 9000,
+          "status": "ok",
+          "axial": {
+            "s": 1.0005782354739319,
+            "relative_deviation": 0.004957036313186645
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0005782603321047,
+            "relative_deviation": 0.004966959627838598
+          },
+          "mean_stress": [
+            [
+              -1.000566557094297,
+              6.904544197636566e-05
+            ],
+            [
+              6.904544197636566e-05,
+              -1.0005965072802903
+            ]
+          ],
+          "mean_pressure": 1.0005815321872937,
+          "deviatoric_over_hydrostatic": 7.060967399397024e-05,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.000000000000046,
+                -7.548841952765962e-17
+              ],
+              [
+                -7.548841952765962e-17,
+                -1.000000000000046
+              ]
+            ],
+            "mean_pressure": 1.000000000000046,
+            "deviatoric_over_hydrostatic": 7.548841952765614e-17
+          }
+        },
+        {
+          "w": 2,
+          "core_side": 28,
+          "tiles": 784,
+          "members": 7840,
+          "status": "ok",
+          "axial": {
+            "s": 1.0007809047401803,
+            "relative_deviation": 0.004703585833767322
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0007808825454791,
+            "relative_deviation": 0.004713779258515699
+          },
+          "mean_stress": [
+            [
+              -1.0006865122866133,
+              0.00010153043918151598
+            ],
+            [
+              0.00010153043918151598,
+              -1.0008694099547437
+            ]
+          ],
+          "mean_pressure": 1.0007779611206784,
+          "deviatoric_over_hydrostatic": 0.0001365368158303273,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.000000000000036,
+                -7.545936487624367e-17
+              ],
+              [
+                -7.545936487624367e-17,
+                -1.000000000000036
+              ]
+            ],
+            "mean_pressure": 1.000000000000036,
+            "deviatoric_over_hydrostatic": 7.545936487624096e-17
+          }
+        },
+        {
+          "w": 4,
+          "core_side": 24,
+          "tiles": 576,
+          "members": 5760,
+          "status": "ok",
+          "axial": {
+            "s": 1.0008333254078832,
+            "relative_deviation": 0.004171626623632206
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0008333153801994,
+            "relative_deviation": 0.004182463633697492
+          },
+          "mean_stress": [
+            [
+              -1.0007961669378547,
+              7.830525842796805e-05
+            ],
+            [
+              7.830525842796805e-05,
+              -1.0008678230868833
+            ]
+          ],
+          "mean_pressure": 1.000831995012369,
+          "deviatoric_over_hydrostatic": 8.604092462588403e-05,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.000000000000008,
+                -7.545896536864043e-17
+              ],
+              [
+                -7.545896536864043e-17,
+                -1.000000000000008
+              ]
+            ],
+            "mean_pressure": 1.000000000000008,
+            "deviatoric_over_hydrostatic": 7.545896536863982e-17
+          }
+        }
+      ],
+      "seconds": 1.60328009998193,
+      "pattern_sha256": "cd4a5cccf533a0ad518a70456d782262f6146a7f9af8bddd889b177768428d36"
+    },
+    {
+      "dimension": 2,
+      "L": 64,
+      "R": 48,
+      "seed": 505,
+      "p0": 0.0003160131266711706,
+      "global_stress": [
+        [
+          -0.9999999999999952,
+          -2.9469171117871526e-17
+        ],
+        [
+          -2.9469171117871526e-17,
+          -1.0000000000000049
+        ]
+      ],
+      "equilibrium_residual": 6.074577433798316e-12,
+      "cores": [
+        {
+          "w": 1,
+          "core_side": 46,
+          "tiles": 2116,
+          "members": 21160,
+          "status": "ok",
+          "axial": {
+            "s": 1.0005546869106188,
+            "relative_deviation": 0.004145224240517578
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.000554704961422,
+            "relative_deviation": 0.004153950069649545
+          },
+          "mean_stress": [
+            [
+              -1.0005633960158473,
+              1.2820052923559953e-05
+            ],
+            [
+              1.2820052923559953e-05,
+              -1.0005507657339023
+            ]
+          ],
+          "mean_pressure": 1.000557080874875,
+          "deviatoric_over_hydrostatic": 1.4283115973412724e-05,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.0000000000000115,
+                -7.547891698864399e-17
+              ],
+              [
+                -7.547891698864399e-17,
+                -1.0000000000000115
+              ]
+            ],
+            "mean_pressure": 1.0000000000000115,
+            "deviatoric_over_hydrostatic": 7.54789169886431e-17
+          }
+        },
+        {
+          "w": 2,
+          "core_side": 44,
+          "tiles": 1936,
+          "members": 19360,
+          "status": "ok",
+          "axial": {
+            "s": 1.0005732633032336,
+            "relative_deviation": 0.0038875681298913937
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0005732472109716,
+            "relative_deviation": 0.003896250969209395
+          },
+          "mean_stress": [
+            [
+              -1.0005940262947508,
+              2.784715083626284e-05
+            ],
+            [
+              2.784715083626284e-05,
+              -1.0005482315334473
+            ]
+          ],
+          "mean_pressure": 1.000571128914099,
+          "deviatoric_over_hydrostatic": 3.603152046922142e-05,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.0000000000000286,
+                -7.546002318756447e-17
+              ],
+              [
+                -7.546002318756447e-17,
+                -1.0000000000000286
+              ]
+            ],
+            "mean_pressure": 1.0000000000000286,
+            "deviatoric_over_hydrostatic": 7.546002318756231e-17
+          }
+        },
+        {
+          "w": 4,
+          "core_side": 40,
+          "tiles": 1600,
+          "members": 16000,
+          "status": "ok",
+          "axial": {
+            "s": 1.0005891659096067,
+            "relative_deviation": 0.003468770188567795
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.000589150760894,
+            "relative_deviation": 0.0034775108300821207
+          },
+          "mean_stress": [
+            [
+              -1.0005789342991398,
+              4.315016429590239e-05
+            ],
+            [
+              4.315016429590239e-05,
+              -1.0005953793423208
+            ]
+          ],
+          "mean_pressure": 1.0005871568207303,
+          "deviatoric_over_hydrostatic": 4.390082734227375e-05,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.0000000000000346,
+                -7.545992910390487e-17
+              ],
+              [
+                -7.545992910390487e-17,
+                -1.0000000000000346
+              ]
+            ],
+            "mean_pressure": 1.0000000000000346,
+            "deviatoric_over_hydrostatic": 7.545992910390224e-17
+          }
+        }
+      ],
+      "seconds": 1.4579287000233307,
+      "pattern_sha256": "d29016c4de5052922cd85edd54cb7ce1f2c019238b4e0083c337cd0252ba43ec"
+    },
+    {
+      "dimension": 2,
+      "L": 96,
+      "R": 8,
+      "seed": 537,
+      "p0": 0.0003155343239388054,
+      "global_stress": [
+        [
+          -1.000000000000004,
+          7.403399621288175e-17
+        ],
+        [
+          7.403399621288175e-17,
+          -0.999999999999996
+        ]
+      ],
+      "equilibrium_residual": 7.829636166772356e-12,
+      "cores": [
+        {
+          "w": 1,
+          "core_side": 6,
+          "tiles": 36,
+          "members": 360,
+          "status": "ok",
+          "axial": {
+            "s": 1.0013861744840942,
+            "relative_deviation": 0.011684045486711135
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0013862036221528,
+            "relative_deviation": 0.011686169732652841
+          },
+          "mean_stress": [
+            [
+              -1.002975941069171,
+              -3.526448282110297e-05
+            ],
+            [
+              -3.526448282110297e-05,
+              -0.9998041306271408
+            ]
+          ],
+          "mean_pressure": 1.0013900358481558,
+          "deviatoric_over_hydrostatic": 0.0015840952971045363,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.0000000000000007,
+                -7.558093811304505e-17
+              ],
+              [
+                -7.558093811304505e-17,
+                -0.9999999999999998
+              ]
+            ],
+            "mean_pressure": 1.0000000000000002,
+            "deviatoric_over_hydrostatic": 4.504749765650704e-16
+          }
+        },
+        {
+          "w": 2,
+          "core_side": 4,
+          "tiles": 16,
+          "members": 160,
+          "status": "ok",
+          "axial": {
+            "s": 1.001591145905129,
+            "relative_deviation": 0.011231928849721929
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0015911759059133,
+            "relative_deviation": 0.011233031043717371
+          },
+          "mean_stress": [
+            [
+              -1.0014732856382134,
+              -2.9161275160038188e-05
+            ],
+            [
+              -2.9161275160038188e-05,
+              -1.0017169571484046
+            ]
+          ],
+          "mean_pressure": 1.001595121393309,
+          "deviatoric_over_hydrostatic": 0.0001250775039968179,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999996,
+                -7.540626109636683e-17
+              ],
+              [
+                -7.540626109636683e-17,
+                -0.9999999999999993
+              ]
+            ],
+            "mean_pressure": 0.9999999999999994,
+            "deviatoric_over_hydrostatic": 1.3420900065424739e-16
+          }
+        },
+        {
+          "w": 4,
+          "core_side": 0,
+          "status": "empty core: R <= 2w"
+        }
+      ],
+      "seconds": 5.05426930001704,
+      "pattern_sha256": "7bee32777b60591a40582331e2f835295c3638d8c1468fc95346e8d26679ed2c"
+    },
+    {
+      "dimension": 2,
+      "L": 96,
+      "R": 16,
+      "seed": 537,
+      "p0": 0.00031555356276461854,
+      "global_stress": [
+        [
+          -0.9999999999999981,
+          -1.9600674461884889e-16
+        ],
+        [
+          -1.9600674461884889e-16,
+          -1.000000000000002
+        ]
+      ],
+      "equilibrium_residual": 7.330581329063642e-12,
+      "cores": [
+        {
+          "w": 1,
+          "core_side": 14,
+          "tiles": 196,
+          "members": 1960,
+          "status": "ok",
+          "axial": {
+            "s": 1.000850088355116,
+            "relative_deviation": 0.007190035066329816
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0008501287434746,
+            "relative_deviation": 0.007198572594624148
+          },
+          "mean_stress": [
+            [
+              -1.0006213243836863,
+              -5.5233962113135456e-05
+            ],
+            [
+              -5.5233962113135456e-05,
+              -1.0010895600777956
+            ]
+          ],
+          "mean_pressure": 1.000855442230741,
+          "deviatoric_over_hydrostatic": 0.00024033952783396656,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999948,
+                -7.551800029985769e-17
+              ],
+              [
+                -7.551800029985769e-17,
+                -0.9999999999999947
+              ]
+            ],
+            "mean_pressure": 0.9999999999999947,
+            "deviatoric_over_hydrostatic": 1.0893091476403099e-16
+          }
+        },
+        {
+          "w": 2,
+          "core_side": 12,
+          "tiles": 144,
+          "members": 1440,
+          "status": "ok",
+          "axial": {
+            "s": 1.000756929260099,
+            "relative_deviation": 0.00693124166297652
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0007568975604608,
+            "relative_deviation": 0.00693949963532166
+          },
+          "mean_stress": [
+            [
+              -1.0000988549344783,
+              -4.851821515207111e-05
+            ],
+            [
+              -4.851821515207111e-05,
+              -1.001406597629408
+            ]
+          ],
+          "mean_pressure": 1.0007527262819431,
+          "deviatoric_over_hydrostatic": 0.0006551757699626502,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.000000000000003,
+                -7.545444785958841e-17
+              ],
+              [
+                -7.545444785958841e-17,
+                -1.0000000000000029
+              ]
+            ],
+            "mean_pressure": 1.000000000000003,
+            "deviatoric_over_hydrostatic": 1.741989580621875e-16
+          }
+        },
+        {
+          "w": 4,
+          "core_side": 8,
+          "tiles": 64,
+          "members": 640,
+          "status": "ok",
+          "axial": {
+            "s": 1.0009587447454094,
+            "relative_deviation": 0.007307701060536832
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0009586983791339,
+            "relative_deviation": 0.007316154912559582
+          },
+          "mean_stress": [
+            [
+              -1.0006187386360492,
+              -7.947697786279875e-05
+            ],
+            [
+              -7.947697786279875e-05,
+              -1.001286452887166
+            ]
+          ],
+          "mean_pressure": 1.0009525957616074,
+          "deviatoric_over_hydrostatic": 0.0003428601791543161,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.0000000000000002,
+                -7.544691867783504e-17
+              ],
+              [
+                -7.544691867783504e-17,
+                -0.9999999999999998
+              ]
+            ],
+            "mean_pressure": 1.0,
+            "deviatoric_over_hydrostatic": 2.345123538628468e-16
+          }
+        }
+      ],
+      "seconds": 5.065767400024924,
+      "pattern_sha256": "7d69960e01cab2a6a8351982d9a9111127323befa375a468c49ae1a8ac8aa31e"
+    },
+    {
+      "dimension": 2,
+      "L": 96,
+      "R": 24,
+      "seed": 537,
+      "p0": 0.00031558430105320585,
+      "global_stress": [
+        [
+          -1.0000000000000078,
+          -9.416055597145027e-17
+        ],
+        [
+          -9.416055597145027e-17,
+          -0.9999999999999925
+        ]
+      ],
+      "equilibrium_residual": 8.786608025098905e-12,
+      "cores": [
+        {
+          "w": 1,
+          "core_side": 22,
+          "tiles": 484,
+          "members": 4840,
+          "status": "ok",
+          "axial": {
+            "s": 1.0010968522440915,
+            "relative_deviation": 0.00749626029860509
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.001096906114212,
+            "relative_deviation": 0.007502740618979914
+          },
+          "mean_stress": [
+            [
+              -1.0007602131755666,
+              -6.643723143615007e-05
+            ],
+            [
+              -6.643723143615007e-05,
+              -1.0014477826848363
+            ]
+          ],
+          "mean_pressure": 1.0011039979302014,
+          "deviatoric_over_hydrostatic": 0.0003497593550720235,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999943,
+                -7.549810466882945e-17
+              ],
+              [
+                -7.549810466882945e-17,
+                -0.9999999999999943
+              ]
+            ],
+            "mean_pressure": 0.9999999999999943,
+            "deviatoric_over_hydrostatic": 7.549810466882987e-17
+          }
+        },
+        {
+          "w": 2,
+          "core_side": 20,
+          "tiles": 400,
+          "members": 4000,
+          "status": "ok",
+          "axial": {
+            "s": 1.000553448722418,
+            "relative_deviation": 0.007303447494466611
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0005533988659139,
+            "relative_deviation": 0.007309424911538578
+          },
+          "mean_stress": [
+            [
+              -1.0002764958302697,
+              -5.9116933354334495e-05
+            ],
+            [
+              -5.9116933354334495e-05,
+              -1.0008171759573647
+            ]
+          ],
+          "mean_pressure": 1.0005468358938172,
+          "deviatoric_over_hydrostatic": 0.0002765770753393254,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999932,
+                -7.545830280064614e-17
+              ],
+              [
+                -7.545830280064614e-17,
+                -0.999999999999993
+              ]
+            ],
+            "mean_pressure": 0.9999999999999931,
+            "deviatoric_over_hydrostatic": 1.34238247551257e-16
+          }
+        },
+        {
+          "w": 4,
+          "core_side": 16,
+          "tiles": 256,
+          "members": 2560,
+          "status": "ok",
+          "axial": {
+            "s": 1.0005166736250273,
+            "relative_deviation": 0.007174046116287336
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0005166221706103,
+            "relative_deviation": 0.007179207779929021
+          },
+          "mean_stress": [
+            [
+              -0.999895585486846,
+              -9.290745214645942e-05
+            ],
+            [
+              -9.290745214645942e-05,
+              -1.0011241139391385
+            ]
+          ],
+          "mean_pressure": 1.0005098497129923,
+          "deviatoric_over_hydrostatic": 0.0006209340380349809,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999893,
+                -7.545708307320209e-17
+              ],
+              [
+                -7.545708307320209e-17,
+                -0.9999999999999892
+              ]
+            ],
+            "mean_pressure": 0.9999999999999893,
+            "deviatoric_over_hydrostatic": 1.0888869182773539e-16
+          }
+        }
+      ],
+      "seconds": 4.966618600010406,
+      "pattern_sha256": "42139562efbd1d44ac39717bcc6cbc38ac23bd3c24ec050ee8fa9bd9637f7406"
+    },
+    {
+      "dimension": 2,
+      "L": 96,
+      "R": 32,
+      "seed": 537,
+      "p0": 0.0003156264653448356,
+      "global_stress": [
+        [
+          -1.000000000000001,
+          -1.480526668222306e-16
+        ],
+        [
+          -1.480526668222306e-16,
+          -0.9999999999999988
+        ]
+      ],
+      "equilibrium_residual": 8.983017302833686e-12,
+      "cores": [
+        {
+          "w": 1,
+          "core_side": 30,
+          "tiles": 900,
+          "members": 9000,
+          "status": "ok",
+          "axial": {
+            "s": 1.0005118254456455,
+            "relative_deviation": 0.005982025893942353
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0005118647512206,
+            "relative_deviation": 0.005989491569182278
+          },
+          "mean_stress": [
+            [
+              -1.0003787166026685,
+              -3.221276900423878e-05
+            ],
+            [
+              -3.221276900423878e-05,
+              -1.0006553589356895
+            ]
+          ],
+          "mean_pressure": 1.000517037769179,
+          "deviatoric_over_hydrostatic": 0.00014194916706994427,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.000000000000046,
+                -7.548841952765962e-17
+              ],
+              [
+                -7.548841952765962e-17,
+                -1.000000000000046
+              ]
+            ],
+            "mean_pressure": 1.000000000000046,
+            "deviatoric_over_hydrostatic": 7.548841952765614e-17
+          }
+        },
+        {
+          "w": 2,
+          "core_side": 28,
+          "tiles": 784,
+          "members": 7840,
+          "status": "ok",
+          "axial": {
+            "s": 1.0005371873205047,
+            "relative_deviation": 0.0059177555000456804
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.000537147188229,
+            "relative_deviation": 0.005925061020419911
+          },
+          "mean_stress": [
+            [
+              -1.0003513993717923,
+              -2.6604510196843487e-05
+            ],
+            [
+              -2.6604510196843487e-05,
+              -1.0007123311155157
+            ]
+          ],
+          "mean_pressure": 1.0005318652436541,
+          "deviatoric_over_hydrostatic": 0.00018231939743037698,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.000000000000036,
+                -7.545936487624367e-17
+              ],
+              [
+                -7.545936487624367e-17,
+                -1.000000000000036
+              ]
+            ],
+            "mean_pressure": 1.000000000000036,
+            "deviatoric_over_hydrostatic": 7.545936487624096e-17
+          }
+        },
+        {
+          "w": 4,
+          "core_side": 24,
+          "tiles": 576,
+          "members": 5760,
+          "status": "ok",
+          "axial": {
+            "s": 1.0009406408219956,
+            "relative_deviation": 0.005813251246925158
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0009405933320727,
+            "relative_deviation": 0.005820424953333273
+          },
+          "mean_stress": [
+            [
+              -1.0009155978894535,
+              -6.294271564432155e-05
+            ],
+            [
+              -6.294271564432155e-05,
+              -1.000953089186536
+            ]
+          ],
+          "mean_pressure": 1.0009343435379947,
+          "deviatoric_over_hydrostatic": 6.561353580917742e-05,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.000000000000008,
+                -7.545896536864043e-17
+              ],
+              [
+                -7.545896536864043e-17,
+                -1.000000000000008
+              ]
+            ],
+            "mean_pressure": 1.000000000000008,
+            "deviatoric_over_hydrostatic": 7.545896536863982e-17
+          }
+        }
+      ],
+      "seconds": 5.067626799980644,
+      "pattern_sha256": "eea5d6d919e93a0d0bf2dd9730454223294f6d2e1f49e3f62dac979bda8854e6"
+    },
+    {
+      "dimension": 2,
+      "L": 96,
+      "R": 48,
+      "seed": 537,
+      "p0": 0.00031575304552647126,
+      "global_stress": [
+        [
+          -1.0000000000000004,
+          1.3267699510364959e-17
+        ],
+        [
+          1.3267699510364959e-17,
+          -0.9999999999999993
+        ]
+      ],
+      "equilibrium_residual": 9.913437657313295e-12,
+      "cores": [
+        {
+          "w": 1,
+          "core_side": 46,
+          "tiles": 2116,
+          "members": 21160,
+          "status": "ok",
+          "axial": {
+            "s": 1.0007659017100763,
+            "relative_deviation": 0.004916486413843694
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.00076592066919,
+            "relative_deviation": 0.004924100689541554
+          },
+          "mean_stress": [
+            [
+              -1.000704695370165,
+              -2.806072935025409e-05
+            ],
+            [
+              -2.806072935025409e-05,
+              -1.0008321397590225
+            ]
+          ],
+          "mean_pressure": 1.000768417564594,
+          "deviatoric_over_hydrostatic": 6.957356333794702e-05,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.0000000000000115,
+                -7.547891698864399e-17
+              ],
+              [
+                -7.547891698864399e-17,
+                -1.0000000000000115
+              ]
+            ],
+            "mean_pressure": 1.0000000000000115,
+            "deviatoric_over_hydrostatic": 7.54789169886431e-17
+          }
+        },
+        {
+          "w": 2,
+          "core_side": 44,
+          "tiles": 1936,
+          "members": 19360,
+          "status": "ok",
+          "axial": {
+            "s": 1.0006924369400525,
+            "relative_deviation": 0.004561520190282547
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.000692420328645,
+            "relative_deviation": 0.0045688231380604065
+          },
+          "mean_stress": [
+            [
+              -1.0008045772410565,
+              -2.9085799971869563e-05
+            ],
+            [
+              -2.9085799971869563e-05,
+              -1.0005758886647744
+            ]
+          ],
+          "mean_pressure": 1.0006902329529155,
+          "deviatoric_over_hydrostatic": 0.00011790421092878034,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.0000000000000286,
+                -7.546002318756447e-17
+              ],
+              [
+                -7.546002318756447e-17,
+                -1.0000000000000286
+              ]
+            ],
+            "mean_pressure": 1.0000000000000286,
+            "deviatoric_over_hydrostatic": 7.546002318756231e-17
+          }
+        },
+        {
+          "w": 4,
+          "core_side": 40,
+          "tiles": 1600,
+          "members": 16000,
+          "status": "ok",
+          "axial": {
+            "s": 1.0006579193736993,
+            "relative_deviation": 0.004151408636712384
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0006579028515084,
+            "relative_deviation": 0.004158657683598789
+          },
+          "mean_stress": [
+            [
+              -1.0007064904450171,
+              -3.258411136534478e-05
+            ],
+            [
+              -3.258411136534478e-05,
+              -1.000604964098649
+            ]
+          ],
+          "mean_pressure": 1.000655727271833,
+          "deviatoric_over_hydrostatic": 6.0281480278865764e-05,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.0000000000000346,
+                -7.545992910390487e-17
+              ],
+              [
+                -7.545992910390487e-17,
+                -1.0000000000000346
+              ]
+            ],
+            "mean_pressure": 1.0000000000000346,
+            "deviatoric_over_hydrostatic": 7.545992910390224e-17
+          }
+        }
+      ],
+      "seconds": 4.440440600039437,
+      "pattern_sha256": "9d8d8e7f1e9a1fd4857b99da6138973fe4bd46f23f45a69ecd2253f5a698931f"
+    },
+    {
+      "dimension": 3,
+      "L": 10,
+      "R": 4,
+      "seed": 451,
+      "p0": 0.0004417923391261914,
+      "global_stress": [
+        [
+          -0.9999999999999989,
+          -3.544926946726659e-17,
+          -5.1254257693061225e-18
+        ],
+        [
+          -3.544926946726659e-17,
+          -1.0000000000000002,
+          1.0226810834135142e-18
+        ],
+        [
+          -5.1254257693061225e-18,
+          1.0226810834135142e-18,
+          -1.0000000000000009
+        ]
+      ],
+      "equilibrium_residual": 1.0769374461676281e-13,
+      "cores": [
+        {
+          "w": 1,
+          "core_side": 2,
+          "tiles": 8,
+          "members": 136,
+          "status": "ok",
+          "axial": {
+            "s": 1.0003820270192996,
+            "relative_deviation": 0.004647820730298242
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0003821855646795,
+            "relative_deviation": 0.004696115908723821
+          },
+          "mean_stress": [
+            [
+              -1.000397479431024,
+              -0.00021348362705565733,
+              0.0002593615320549871
+            ],
+            [
+              -0.00021348362705565733,
+              -1.0003895871558364,
+              0.0002850518537266003
+            ],
+            [
+              0.0002593615320549871,
+              0.0002850518537266003,
+              -1.0000078412774995
+            ]
+          ],
+          "mean_pressure": 1.0002649692881198,
+          "deviatoric_over_hydrostatic": 0.0004029646885775404,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.0,
+                -4.83554168928535e-17,
+                0.0
+              ],
+              [
+                -4.83554168928535e-17,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.000000000000001
+              ]
+            ],
+            "mean_pressure": 1.0000000000000002,
+            "deviatoric_over_hydrostatic": 5.45327122334048e-16
+          }
+        },
+        {
+          "w": 2,
+          "core_side": 0,
+          "status": "empty core: R <= 2w"
+        },
+        {
+          "w": 4,
+          "core_side": 0,
+          "status": "empty core: R <= 2w"
+        }
+      ],
+      "seconds": 9.813946100010071,
+      "pattern_sha256": "aeb103d03e767903c107a4795e704416243e44d0090dc0ba68f5ef33bddb0d2c"
+    },
+    {
+      "dimension": 3,
+      "L": 10,
+      "R": 5,
+      "seed": 451,
+      "p0": 0.000441845246103923,
+      "global_stress": [
+        [
+          -1.0000000000000007,
+          -6.752565247034026e-17,
+          -2.946483302490149e-18
+        ],
+        [
+          -6.752565247034026e-17,
+          -0.9999999999999989,
+          -9.653471034549093e-19
+        ],
+        [
+          -2.946483302490149e-18,
+          -9.653471034549093e-19,
+          -1.0000000000000002
+        ]
+      ],
+      "equilibrium_residual": 1.9542038215438678e-13,
+      "cores": [
+        {
+          "w": 1,
+          "core_side": 3,
+          "tiles": 27,
+          "members": 459,
+          "status": "ok",
+          "axial": {
+            "s": 1.0003707523534113,
+            "relative_deviation": 0.003487350400507227
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0003723987883235,
+            "relative_deviation": 0.0036390161960756693
+          },
+          "mean_stress": [
+            [
+              -1.0007173731009082,
+              0.0008391668208189202,
+              0.00013995433936474873
+            ],
+            [
+              0.0008391668208189202,
+              -1.0004510035495324,
+              8.764109018079931e-05
+            ],
+            [
+              0.00013995433936474873,
+              8.764109018079931e-05,
+              -1.0001221189810412
+            ]
+          ],
+          "mean_pressure": 1.0004301652104939,
+          "deviatoric_over_hydrostatic": 0.0007392209120350691,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999994,
+                0.0007997238877570129,
+                0.0
+              ],
+              [
+                0.0007997238877570129,
+                -0.9999999999999994,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -0.9999999999999979
+              ]
+            ],
+            "mean_pressure": 0.999999999999999,
+            "deviatoric_over_hydrostatic": 0.0006529718200398303
+          }
+        },
+        {
+          "w": 2,
+          "core_side": 1,
+          "tiles": 1,
+          "members": 17,
+          "status": "ok",
+          "axial": {
+            "s": 1.0030695308173476,
+            "relative_deviation": 0.0027916751859814537
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.003059613878171,
+            "relative_deviation": 0.0033014707909524636
+          },
+          "mean_stress": [
+            [
+              -1.0001665038905647,
+              0.005211459612654921,
+              8.033230412865427e-05
+            ],
+            [
+              0.005211459612654921,
+              -1.0037068657129253,
+              0.00018446088789934786
+            ],
+            [
+              8.033230412865427e-05,
+              0.00018446088789934786,
+              -0.9987225241558788
+            ]
+          ],
+          "mean_pressure": 1.0008652979197896,
+          "deviatoric_over_hydrostatic": 0.004741206734850215,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999998,
+                0.0071975149898136385,
+                0.0
+              ],
+              [
+                0.0071975149898136385,
+                -0.9999999999999999,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0000000000000004
+              ]
+            ],
+            "mean_pressure": 1.0,
+            "deviatoric_over_hydrostatic": 0.005876746380358893
+          }
+        },
+        {
+          "w": 4,
+          "core_side": 0,
+          "status": "empty core: R <= 2w"
+        }
+      ],
+      "seconds": 9.517115199996624,
+      "pattern_sha256": "9767a3c91dee3b880c7c69de2dd88353989891984df8fb097207e21655b78eb9"
+    },
+    {
+      "dimension": 3,
+      "L": 10,
+      "R": 6,
+      "seed": 451,
+      "p0": 0.00044195262442950356,
+      "global_stress": [
+        [
+          -1.0000000000000022,
+          -3.7193907179778764e-17,
+          8.706095838790828e-18
+        ],
+        [
+          -3.7193907179778764e-17,
+          -0.9999999999999989,
+          -5.928788150436547e-19
+        ],
+        [
+          8.706095838790828e-18,
+          -5.928788150436547e-19,
+          -0.999999999999999
+        ]
+      ],
+      "equilibrium_residual": 3.1502427134457326e-13,
+      "cores": [
+        {
+          "w": 1,
+          "core_side": 4,
+          "tiles": 64,
+          "members": 1088,
+          "status": "ok",
+          "axial": {
+            "s": 1.000760641201802,
+            "relative_deviation": 0.003403646316689722
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0007607099937066,
+            "relative_deviation": 0.0035248052854413917
+          },
+          "mean_stress": [
+            [
+              -1.0008157452136524,
+              7.76332198448144e-05,
+              8.20017511824513e-05
+            ],
+            [
+              7.76332198448144e-05,
+              -1.0007561517377204,
+              5.9038371076331303e-05
+            ],
+            [
+              8.20017511824513e-05,
+              5.9038371076331303e-05,
+              -0.9999589264484879
+            ]
+          ],
+          "mean_pressure": 1.0005102744666203,
+          "deviatoric_over_hydrostatic": 0.0004040322579249775,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999998,
+                -4.773200064367433e-17,
+                0.0
+              ],
+              [
+                -4.773200064367433e-17,
+                -0.9999999999999998,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0000000000000093
+              ]
+            ],
+            "mean_pressure": 1.0000000000000029,
+            "deviatoric_over_hydrostatic": 4.501708942033932e-15
+          }
+        },
+        {
+          "w": 2,
+          "core_side": 2,
+          "tiles": 8,
+          "members": 136,
+          "status": "ok",
+          "axial": {
+            "s": 1.0008194410855011,
+            "relative_deviation": 0.004425679476780798
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.000819383651526,
+            "relative_deviation": 0.004513932202351677
+          },
+          "mean_stress": [
+            [
+              -1.0005238871172566,
+              -0.00011847954933140784,
+              0.00027872412799559253
+            ],
+            [
+              -0.00011847954933140784,
+              -1.0011659553080337,
+              0.00034016197492911846
+            ],
+            [
+              0.00027872412799559253,
+              0.00034016197492911846,
+              -1.0000049278134158
+            ]
+          ],
+          "mean_pressure": 1.0005649234129022,
+          "deviatoric_over_hydrostatic": 0.0006028144423418284,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.0,
+                -4.7596475372113645e-17,
+                0.0
+              ],
+              [
+                -4.7596475372113645e-17,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.000000000000001
+              ]
+            ],
+            "mean_pressure": 1.0000000000000002,
+            "deviatoric_over_hydrostatic": 5.452826078616894e-16
+          }
+        },
+        {
+          "w": 4,
+          "core_side": 0,
+          "status": "empty core: R <= 2w"
+        }
+      ],
+      "seconds": 8.958658799994737,
+      "pattern_sha256": "ee8c4e6b77e7690a5750336cfebc8fd06ffc12bb6661c8db6690815df6d97e15"
+    },
+    {
+      "dimension": 3,
+      "L": 10,
+      "R": 7,
+      "seed": 451,
+      "p0": 0.0004420322429555328,
+      "global_stress": [
+        [
+          -1.0000000000000013,
+          -2.112445722985586e-17,
+          1.4971251256291212e-18
+        ],
+        [
+          -2.112445722985586e-17,
+          -0.999999999999998,
+          3.579147792964455e-19
+        ],
+        [
+          1.4971251256291212e-18,
+          3.579147792964455e-19,
+          -1.0000000000000009
+        ]
+      ],
+      "equilibrium_residual": 1.7001256341412226e-13,
+      "cores": [
+        {
+          "w": 1,
+          "core_side": 5,
+          "tiles": 125,
+          "members": 2125,
+          "status": "ok",
+          "axial": {
+            "s": 1.00080010112504,
+            "relative_deviation": 0.0026500011858556494
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0008008217773494,
+            "relative_deviation": 0.002786626454100175
+          },
+          "mean_stress": [
+            [
+              -1.0010160048060173,
+              0.0006149653017300109,
+              1.2849630452080044e-05
+            ],
+            [
+              0.0006149653017300109,
+              -1.0008183562038788,
+              2.0973757653422413e-05
+            ],
+            [
+              1.2849630452080044e-05,
+              2.0973757653422413e-05,
+              -1.0000127642991792
+            ]
+          ],
+          "mean_pressure": 1.0006157084363585,
+          "deviatoric_over_hydrostatic": 0.0006635240900984607,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -1.0000000000000069,
+                0.00028790059959249084,
+                0.0
+              ],
+              [
+                0.00028790059959249084,
+                -1.0000000000000069,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -0.9999999999999909
+              ]
+            ],
+            "mean_pressure": 1.0000000000000016,
+            "deviatoric_over_hydrostatic": 0.00023506985521431071
+          }
+        },
+        {
+          "w": 2,
+          "core_side": 3,
+          "tiles": 27,
+          "members": 459,
+          "status": "ok",
+          "axial": {
+            "s": 1.0008216971455461,
+            "relative_deviation": 0.0017157987764601864
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.0008210449250887,
+            "relative_deviation": 0.0018525444747201948
+          },
+          "mean_stress": [
+            [
+              -1.000824915321707,
+              0.0007436992541332075,
+              0.00010843205216532869
+            ],
+            [
+              0.0007436992541332075,
+              -1.0007013626284946,
+              3.5100524706605604e-05
+            ],
+            [
+              0.00010843205216532869,
+              3.5100524706605604e-05,
+              -1.0000068884528457
+            ]
+          ],
+          "mean_pressure": 1.0005110554676824,
+          "deviatoric_over_hydrostatic": 0.0007116909372168281,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999994,
+                0.0007997238877570367,
+                0.0
+              ],
+              [
+                0.0007997238877570367,
+                -0.9999999999999994,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -0.9999999999999979
+              ]
+            ],
+            "mean_pressure": 0.999999999999999,
+            "deviatoric_over_hydrostatic": 0.0006529718200398497
+          }
+        },
+        {
+          "w": 4,
+          "core_side": 0,
+          "status": "empty core: R <= 2w"
+        }
+      ],
+      "seconds": 7.179244099999778,
+      "pattern_sha256": "3d741f6f5435d8c70bc6e22d110f6e2708683438c7d69ae26c948252bedf4ce8"
+    },
+    {
+      "dimension": 3,
+      "L": 10,
+      "R": 8,
+      "seed": 451,
+      "p0": 0.0004422345708120906,
+      "global_stress": [
+        [
+          -1.0000000000000013,
+          -3.6016676102815465e-17,
+          7.061737159858016e-18
+        ],
+        [
+          -3.6016676102815465e-17,
+          -0.9999999999999987,
+          3.183966199943611e-18
+        ],
+        [
+          7.061737159858016e-18,
+          3.183966199943611e-18,
+          -0.9999999999999998
+        ]
+      ],
+      "equilibrium_residual": 2.1278611764579668e-13,
+      "cores": [
+        {
+          "w": 1,
+          "core_side": 6,
+          "tiles": 216,
+          "members": 3672,
+          "status": "ok",
+          "axial": {
+            "s": 1.0006872135251512,
+            "relative_deviation": 0.002172959595699271
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.000687253010855,
+            "relative_deviation": 0.0022452213058018738
+          },
+          "mean_stress": [
+            [
+              -1.00063828222504,
+              2.7070427041592045e-06,
+              -1.9707266843653913e-05
+            ],
+            [
+              2.7070427041592045e-06,
+              -1.0007813396895517,
+              -1.5902483432291482e-06
+            ],
+            [
+              -1.9707266843653913e-05,
+              -1.5902483432291482e-06,
+              -0.9999972633461246
+            ]
+          ],
+          "mean_pressure": 1.0004722950869054,
+          "deviatoric_over_hydrostatic": 0.00034116565189154936,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999925,
+                -4.803417180470964e-17,
+                0.0
+              ],
+              [
+                -4.803417180470964e-17,
+                -0.9999999999999925,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -0.9999999999999828
+              ]
+            ],
+            "mean_pressure": 0.9999999999999892,
+            "deviatoric_over_hydrostatic": 4.553437037350373e-15
+          }
+        },
+        {
+          "w": 2,
+          "core_side": 4,
+          "tiles": 64,
+          "members": 1088,
+          "status": "ok",
+          "axial": {
+            "s": 1.0006510671443247,
+            "relative_deviation": 0.0016021352745155017
+          },
+          "full_end_wrench_tile_length_units": {
+            "s": 1.000651058608216,
+            "relative_deviation": 0.00171141812906929
+          },
+          "mean_stress": [
+            [
+              -1.000592949283717,
+              0.0001224972409711332,
+              1.567905248109812e-05
+            ],
+            [
+              0.0001224972409711332,
+              -1.0007593127796113,
+              -5.876493326160448e-06
+            ],
+            [
+              1.567905248109812e-05,
+              -5.876493326160448e-06,
+              -0.9999813313538555
+            ]
+          ],
+          "mean_pressure": 1.0004445311390613,
+          "deviatoric_over_hydrostatic": 0.00034924487748007105,
+          "periodic_core_stress": {
+            "mean_stress": [
+              [
+                -0.9999999999999998,
+                -4.785397338807895e-17,
+                0.0
+              ],
+              [
+                -4.785397338807895e-17,
+                -0.9999999999999998,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0000000000000093
+              ]
+            ],
+            "mean_pressure": 1.0000000000000029,
+            "deviatoric_over_hydrostatic": 4.501709805327006e-15
+          }
+        },
+        {
+          "w": 4,
+          "core_side": 0,
+          "status": "empty core: R <= 2w"
+        }
+      ],
+      "seconds": 6.1492506000213325,
+      "pattern_sha256": "c52054c389295451094c3cb8ecbbb5d2833c5eb2e546f7dfde08f77681f2e9eb"
+    }
+  ],
+  "metadata": {
+    "workers": 1,
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "thread_environment": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "BLIS_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    },
+    "loading": "hydrostatic stress, p=1 by force / p0; radius=.01, div=1, common/sparse adapters",
+    "reference": "periodic checkerboard 2x2; common/3d_periodic weakest motif; same-pressure member mapping",
+    "core": "all owner tiles [lo+w,hi-w)^d; edge slots include assigned boundary members",
+    "force_metric": "min_s ||f-s*f_P||_2 / ||f_P||_2; f=axial forces, companion complete end-wrench metric",
+    "anisotropy": "||dev(mean sigma)||_F / ||(tr(mean sigma)/d) I||_F; full symmetrized end-force virial",
+    "fit_limitations": "one deterministic background per L; nested correlated patches; fixed L/R and shrinking-matrix bias; no asymptotic-rate proof",
+    "source_sha256": {
+      "common/sparse_frames.py": "2565628b070a32bc5f80187d447e46cb3716173b41db7a6962735c7fb03918e5",
+      "common/initial_stress.py": "204cec277e73a93029d8e6e86220c816d7ae26c4b6fd0c0f8b536367510e9f8f",
+      "truchet_2d/frame.py": "0bbbd5fb80c55a55b66926941b67dfe6b8f81b220a1b39df4c9de147792df8c2",
+      "frame_3d/frame.py": "791472303f9820844941ffd24e0ac91f2aeabdd9156b6a261566c7844dc5c3ed"
+    }
+  },
+  "periodic_motifs": {
+    "2": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "3": [
+      [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      [
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  "fits": [
+    {
+      "dimension": 2,
+      "L": 32,
+      "w": 1,
+      "metric": "axial_relative_deviation",
+      "n": 3,
+      "R": [
+        8.0,
+        16.0,
+        24.0
+      ],
+      "form": "A * R^(-alpha); descriptive log-OLS only",
+      "A": 0.05358497803359731,
+      "alpha": 0.8318089545887738,
+      "log_R_squared": 0.9728337208331603
+    },
+    {
+      "dimension": 2,
+      "L": 32,
+      "w": 1,
+      "metric": "stress_anisotropy",
+      "n": 3,
+      "R": [
+        8.0,
+        16.0,
+        24.0
+      ],
+      "form": "A * R^(-alpha); descriptive log-OLS only",
+      "A": 0.016451078717386547,
+      "alpha": 1.8250131348895644,
+      "log_R_squared": 0.8543928384219618
+    },
+    {
+      "dimension": 2,
+      "L": 32,
+      "w": 2,
+      "metric": "axial_relative_deviation",
+      "n": 3,
+      "R": [
+        8.0,
+        16.0,
+        24.0
+      ],
+      "form": "A * R^(-alpha); descriptive log-OLS only",
+      "A": 0.07456950168352552,
+      "alpha": 0.959322927635426,
+      "log_R_squared": 0.9745897851651272
+    },
+    {
+      "dimension": 2,
+      "L": 32,
+      "w": 2,
+      "metric": "stress_anisotropy",
+      "n": 3,
+      "R": [
+        8.0,
+        16.0,
+        24.0
+      ],
+      "form": "A * R^(-alpha); descriptive log-OLS only",
+      "A": 0.0026725011112712443,
+      "alpha": 0.9176614647896333,
+      "log_R_squared": 0.9677248683487429
+    },
+    {
+      "dimension": 2,
+      "L": 64,
+      "w": 1,
+      "metric": "axial_relative_deviation",
+      "n": 5,
+      "R": [
+        8.0,
+        16.0,
+        24.0,
+        32.0,
+        48.0
+      ],
+      "form": "A * R^(-alpha); descriptive log-OLS only",
+      "A": 0.024534387378146057,
+      "alpha": 0.4651541820482688,
+      "log_R_squared": 0.9378630796675858
+    },
+    {
+      "dimension": 2,
+      "L": 64,
+      "w": 1,
+      "metric": "stress_anisotropy",
+      "n": 5,
+      "R": [
+        8.0,
+        16.0,
+        24.0,
+        32.0,
+        48.0
+      ],
+      "form": "A * R^(-alpha); descriptive log-OLS only",
+      "A": 0.13671662363710943,
+      "alpha": 2.309778923292238,
+      "log_R_squared": 0.9703148364239979
+    },
+    {
+      "dimension": 2,
+      "L": 64,
+      "w": 2,
+      "metric": "axial_relative_deviation",
+      "n": 5,
+      "R": [
+        8.0,
+        16.0,
+        24.0,
+        32.0,
+        48.0
+      ],
+      "form": "A * R^(-alpha); descriptive log-OLS only",
+      "A": 0.027034833985562116,
+      "alpha": 0.5055100705101894,
+      "log_R_squared": 0.9477426640634445
+    },
+    {
+      "dimension": 2,
+      "L": 64,
+      "w": 2,
+      "metric": "stress_anisotropy",
+      "n": 5,
+      "R": [
+        8.0,
+        16.0,
+        24.0,
+        32.0,
+        48.0
+      ],
+      "form": "A * R^(-alpha); descriptive log-OLS only",
+      "A": 0.06094753129984009,
+      "alpha": 1.8086639184004922,
+      "log_R_squared": 0.8912556957844622
+    },
+    {
+      "dimension": 2,
+      "L": 64,
+      "w": 4,
+      "metric": "axial_relative_deviation",
+      "n": 4,
+      "R": [
+        16.0,
+        24.0,
+        32.0,
+        48.0
+      ],
+      "form": "A * R^(-alpha); descriptive log-OLS only",
+      "A": 0.019399229390470896,
+      "alpha": 0.441559212921914,
+      "log_R_squared": 0.9784855460606426
+    },
+    {
+      "dimension": 2,
+      "L": 64,
+      "w": 4,
+      "metric": "stress_anisotropy",
+      "n": 4,
+      "R": [
+        16.0,
+        24.0,
+        32.0,
+        48.0
+      ],
+      "form": "A * R^(-alpha); descriptive log-OLS only",
+      "A": 0.3513309960731093,
+      "alpha": 2.389594962701865,
+      "log_R_squared": 0.8435586268872701
+    },
+    {
+      "dimension": 2,
+      "L": 96,
+      "w": 1,
+      "metric": "axial_relative_deviation",
+      "n": 5,
+      "R": [
+        8.0,
+        16.0,
+        24.0,
+        32.0,
+        48.0
+      ],
+      "form": "A * R^(-alpha); descriptive log-OLS only",
+      "A": 0.028818030367176523,
+      "alpha": 0.45411067039424785,
+      "log_R_squared": 0.9329285550685817
+    },
+    {
+      "dimension": 2,
+      "L": 96,
+      "w": 1,
+      "metric": "stress_anisotropy",
+      "n": 5,
+      "R": [
+        8.0,
+        16.0,
+        24.0,
+        32.0,
+        48.0
+      ],
+      "form": "A * R^(-alpha); descriptive log-OLS only",
+      "A": 0.03764643297860415,
+      "alpha": 1.612221850464644,
+      "log_R_squared": 0.89459230429578
+    },
+    {
+      "dimension": 2,
+      "L": 96,
+      "w": 2,
+      "metric": "axial_relative_deviation",
+      "n": 5,
+      "R": [
+        8.0,
+        16.0,
+        24.0,
+        32.0,
+        48.0
+      ],
+      "form": "A * R^(-alpha); descriptive log-OLS only",
+      "A": 0.028513873108042063,
+      "alpha": 0.46288702015973193,
+      "log_R_squared": 0.9249708235199079
+    },
+    {
+      "dimension": 2,
+      "L": 96,
+      "w": 2,
+      "metric": "stress_anisotropy",
+      "n": 5,
+      "R": [
+        8.0,
+        16.0,
+        24.0,
+        32.0,
+        48.0
+      ],
+      "form": "A * R^(-alpha); descriptive log-OLS only",
+      "A": 0.00036371825811628303,
+      "alpha": 0.16723726030614186,
+      "log_R_squared": 0.026474499870245305
+    },
+    {
+      "dimension": 2,
+      "L": 96,
+      "w": 4,
+      "metric": "axial_relative_deviation",
+      "n": 4,
+      "R": [
+        16.0,
+        24.0,
+        32.0,
+        48.0
+      ],
+      "form": "A * R^(-alpha); descriptive log-OLS only",
+      "A": 0.03452662253937548,
+      "alpha": 0.5286091826658423,
+      "log_R_squared": 0.869133376941311
+    },
+    {
+      "dimension": 2,
+      "L": 96,
+      "w": 4,
+      "metric": "stress_anisotropy",
+      "n": 4,
+      "R": [
+        16.0,
+        24.0,
+        32.0,
+        48.0
+      ],
+      "form": "A * R^(-alpha); descriptive log-OLS only",
+      "A": 0.12325206408602486,
+      "alpha": 1.9820459323391701,
+      "log_R_squared": 0.6102195613651622
+    },
+    {
+      "dimension": 3,
+      "L": 10,
+      "w": 1,
+      "metric": "axial_relative_deviation",
+      "n": 5,
+      "R": [
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0
+      ],
+      "form": "A * R^(-alpha); descriptive log-OLS only",
+      "A": 0.01946141845542413,
+      "alpha": 1.0304428639145282,
+      "log_R_squared": 0.9497327606675585
+    },
+    {
+      "dimension": 3,
+      "L": 10,
+      "w": 1,
+      "metric": "stress_anisotropy",
+      "n": 5,
+      "R": [
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0
+      ],
+      "form": "A * R^(-alpha); descriptive log-OLS only",
+      "A": 0.0006687647477162878,
+      "alpha": 0.18056464914666795,
+      "log_R_squared": 0.020926698035322322
+    },
+    {
+      "dimension": 3,
+      "L": 10,
+      "w": 2,
+      "metric": "axial_relative_deviation",
+      "n": 4,
+      "R": [
+        5.0,
+        6.0,
+        7.0,
+        8.0
+      ],
+      "form": "A * R^(-alpha); descriptive log-OLS only",
+      "A": 0.04736149953322192,
+      "alpha": 1.6031614166098171,
+      "log_R_squared": 0.4693477607107367
+    },
+    {
+      "dimension": 3,
+      "L": 10,
+      "w": 2,
+      "metric": "stress_anisotropy",
+      "n": 4,
+      "R": [
+        5.0,
+        6.0,
+        7.0,
+        8.0
+      ],
+      "form": "A * R^(-alpha); descriptive log-OLS only",
+      "A": 10.17494830697021,
+      "alpha": 5.016149897939713,
+      "log_R_squared": 0.7989709089273962
+    }
+  ]
+}

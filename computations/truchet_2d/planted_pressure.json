@@ -1,0 +1,99 @@
+{
+  "baseline": {
+    "strain": 0.0003545415585402992,
+    "pressure": 1.1219000481158657e-07
+  },
+  "runs": [
+    {
+      "L": 64,
+      "R": 16,
+      "pressure_compact_ratio": 1.048302323547428,
+      "pressure_compact_residual": 1.8779430746916043e-12,
+      "s_P_far": 1.0006125319000527,
+      "s_P_global": 1.0005742266730397,
+      "pressure_normalized_compact_excess": 0.048904286703018496,
+      "seconds": 3.544650800002273
+    },
+    {
+      "L": 64,
+      "R": 24,
+      "pressure_compact_ratio": 1.0211625763779408,
+      "pressure_compact_residual": 2.2395116963015447e-10,
+      "s_P_far": 1.0010220542144592,
+      "s_P_global": 1.0008782016198166,
+      "pressure_normalized_compact_excess": 0.02205936300661193,
+      "seconds": 3.5710621000034735
+    },
+    {
+      "L": 64,
+      "R": 32,
+      "pressure_compact_ratio": 1.01151145983888,
+      "pressure_compact_residual": 1.4511982352532154e-11,
+      "s_P_far": 1.0007759345655893,
+      "s_P_global": 1.0005818380571272,
+      "pressure_normalized_compact_excess": 0.012099995701434496,
+      "seconds": 4.29941969999345
+    },
+    {
+      "L": 64,
+      "R": 40,
+      "pressure_compact_ratio": 1.0071611364417565,
+      "pressure_compact_residual": 2.9890736152997165e-09,
+      "s_P_far": 1.0011783507139473,
+      "s_P_global": 1.0007177271013732,
+      "pressure_normalized_compact_excess": 0.007884003284830632,
+      "seconds": 5.363997199980076
+    },
+    {
+      "L": 64,
+      "R": 48,
+      "strain_compact_ratio": 1.0062516477266443,
+      "strain_compact_residual": 1.1901426159128634e-09,
+      "strain_ratio": 1.0056599733574074,
+      "strain_energy_fraction": 0.9983943213533404,
+      "strain_residual": 4.849412334329346e-09,
+      "pressure_compact_ratio": 1.004904691488582,
+      "pressure_compact_residual": 1.191280376368607e-09,
+      "s_P_far": 1.0012707535958116,
+      "s_P_global": 1.0005555575862175,
+      "pressure_normalized_compact_excess": 0.005462973913364033,
+      "pressure_ratio": 1.004313787229463,
+      "pressure_energy_fraction": 0.9983942396324221,
+      "pressure_residual": 4.788897772644353e-09,
+      "seconds": 12.932598099985626
+    },
+    {
+      "L": 96,
+      "R": 64,
+      "strain_compact_ratio": 1.0040520011068546,
+      "strain_compact_residual": 7.537188424989252e-10,
+      "pressure_compact_ratio": 1.0024450240734268,
+      "pressure_compact_residual": 7.506736455716526e-10,
+      "s_P_far": 1.0011150389491759,
+      "s_P_global": 1.000619159244354,
+      "pressure_normalized_compact_excess": 0.00306569717703864,
+      "seconds": 9.886104399978649
+    }
+  ],
+  "model": "Kirchhoff-Hermite exact-strain initial tangent v1",
+  "fit": {
+    "power_prefactor": 12.256863787759462,
+    "power_exponent": 1.9920090394947194,
+    "R": [
+      16.0,
+      24.0,
+      32.0,
+      40.0,
+      48.0,
+      64.0
+    ],
+    "excess": [
+      0.048904286703018496,
+      0.02205936300661193,
+      0.012099995701434496,
+      0.007884003284830632,
+      0.005462973913364033,
+      0.00306569717703864
+    ]
+  }
+}

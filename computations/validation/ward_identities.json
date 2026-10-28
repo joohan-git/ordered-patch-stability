@@ -1,0 +1,83 @@
+{
+  "acoustic_anisotropic": [
+    {
+      "R": 8,
+      "delta": 1.0021402272527031,
+      "R_delta": 8.017121818021625,
+      "lower_bound": 0.6945927106677213,
+      "ratio_to_Rminus2": 64.136974544173
+    },
+    {
+      "R": 16,
+      "delta": 0.4619487712734701,
+      "R_delta": 7.391180340375522,
+      "lower_bound": 0.36907343785320795,
+      "ratio_to_Rminus2": 118.25888544600835
+    },
+    {
+      "R": 32,
+      "delta": 0.21811949678585618,
+      "R_delta": 6.979823897147398,
+      "lower_bound": 0.19032766329496917,
+      "ratio_to_Rminus2": 223.35436470871673
+    },
+    {
+      "R": 64,
+      "delta": 0.10474235789505587,
+      "R_delta": 6.703510905283576,
+      "lower_bound": 0.09665498094452915,
+      "ratio_to_Rminus2": 429.02469793814885
+    },
+    {
+      "R": 128,
+      "delta": 0.050816023359406666,
+      "R_delta": 6.504450990004053,
+      "lower_bound": 0.04870565920799013,
+      "ratio_to_Rminus2": 832.5697267205188
+    },
+    {
+      "R": 256,
+      "delta": 0.025022333667675166,
+      "R_delta": 6.4057174189248425,
+      "lower_bound": 0.024448039637966032,
+      "ratio_to_Rminus2": 1639.8636592447597
+    }
+  ],
+  "flat_optical": [
+    {
+      "R": 8,
+      "delta": 0.050531996312922864,
+      "R4_delta": 206.97905689773205
+    },
+    {
+      "R": 16,
+      "delta": 0.004783348976427357,
+      "R4_delta": 313.4815585191433
+    },
+    {
+      "R": 32,
+      "delta": 0.0003749161992862688,
+      "R4_delta": 393.1281285827986
+    },
+    {
+      "R": 64,
+      "delta": 2.6386878356962933e-05,
+      "R4_delta": 442.69835776049223
+    },
+    {
+      "R": 128,
+      "delta": 1.7527219585730466e-06,
+      "R4_delta": 470.49271819076887
+    },
+    {
+      "R": 256,
+      "delta": 1.1297634994173897e-07,
+      "R4_delta": 485.2297282212204
+    }
+  ],
+  "definitions": {
+    "acoustic": "Phi(k;lambda)=rho_y+(1-lambda)*rho_x+rho_x^2; rho_i=4 sin^2(k_i/2), lambda_LE=1. Along x, up to positive factors: -delta*kx^2+kx^4+...; square-patch excess is Theta(1/R).",
+    "optical": "Phi(k;lambda)=1-lambda+rho_x^2; isolated minimum has M=0 but finite compact-support excess >0, decaying as R^-4.",
+    "interpretation": "finite-range bounded quadratic-form counterexamples; not claimed to be the decorated beam frame"
+  }
+}

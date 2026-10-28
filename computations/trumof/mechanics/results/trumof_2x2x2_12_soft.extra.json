@@ -1,0 +1,18 @@
+{
+  "bloch_refinement": {
+    "name": "trumof_2x2x2_12_soft",
+    "p_GPa": 1.927712748832845,
+    "min_normalized_Bloch_eigen": 0.08837969266763938,
+    "k": [
+      0.0011847883739039902,
+      0.0005466909675406226,
+      -0.0010291359557355745
+    ],
+    "normalization": "lambda_min / sum(sin(pi*k)^2), avoids trivial acoustic origin",
+    "search": "4-grid, 3 local refinements; numerical search, not interval certification"
+  },
+  "source_Born_LE_GPa": 1.1266787650909218,
+  "best_k_eigen_at_first": 0.0883796843413958,
+  "seconds": 5.436918399995193,
+  "cpu_seconds": 5.328125
+}

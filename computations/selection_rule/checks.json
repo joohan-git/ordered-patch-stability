@@ -1,0 +1,152 @@
+{
+  "all_checks_pass": true,
+  "exports": [
+    {
+      "net": "pcu",
+      "file": "selection_rule/cell_pcu.json",
+      "reference_bytes": 206746,
+      "sha256": "20e8ccd312833c79d5c85a0679d67abbc6921295b1a414b9a05601f04dbd141a",
+      "nodes": 108,
+      "elements": 162,
+      "boundary_edges": 27,
+      "midpoint_nodes": 81,
+      "threshold": 6.843293557958896e-07,
+      "k": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "supercell": [
+        3,
+        3,
+        3
+      ],
+      "checks": {
+        "eigen_residual": 3.935540684188672e-16,
+        "supercell_nodal_force_residual": 8.606122756819825e-16,
+        "gibbs_tangent_energy_over_elastic_energy": 1.311026134196022e-15,
+        "bulk_tangent_energy": 1.1708129968468317e-05,
+        "pressure_volume_tangent_energy": -1.1708129968468283e-05,
+        "elastic_quadratic_form": 2.5843358119591954e-05,
+        "max_node_translation": 0.9999999999999998,
+        "max_element_mode_energy": 1.0,
+        "min_element_mode_energy": 0.0,
+        "element_energy_fraction_sum": 1.0,
+        "max_edge_length_relative_error": 0.0,
+        "max_nonaffine_translation": 5.119426919415862e-16,
+        "max_rotation": 0.8643857680504363,
+        "commensurate_phase_error": 0.0
+      },
+      "threshold_relative_change_vs_atlas": 0.0,
+      "commensuration_relative_threshold_change": 0.0,
+      "dominant_translation_polarization": null,
+      "dominant_polarization_transverse_fraction": null
+    },
+    {
+      "net": "cco",
+      "file": "selection_rule/cell_cco.json",
+      "reference_bytes": 548331,
+      "sha256": "0b18ec5efa99a9909b917abfe52fd2d24b2d392ccbcf7a79d06676d75cb37fa0",
+      "nodes": 192,
+      "elements": 320,
+      "boundary_edges": 78,
+      "midpoint_nodes": 160,
+      "threshold": 1.7125326514616369e-06,
+      "k": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "supercell": [
+        2,
+        2,
+        2
+      ],
+      "checks": {
+        "eigen_residual": 1.7929015643713921e-13,
+        "supercell_nodal_force_residual": 1.9092792033512596e-13,
+        "gibbs_tangent_energy_over_elastic_energy": 3.1739298281366653e-13,
+        "bulk_tangent_energy": 3.0092466780406756e-05,
+        "pressure_volume_tangent_energy": -3.009246678037841e-05,
+        "elastic_quadratic_form": 8.930604040341563e-05,
+        "max_node_translation": 1.0,
+        "max_element_mode_energy": 1.0,
+        "min_element_mode_energy": 0.19967462137038042,
+        "element_energy_fraction_sum": 0.9999999999999999,
+        "max_edge_length_relative_error": 8.881784197001252e-16,
+        "max_nonaffine_translation": 0.26259006217951103,
+        "max_rotation": 1.1728373302252224,
+        "commensurate_phase_error": 0.0
+      },
+      "threshold_relative_change_vs_atlas": 0.0,
+      "commensuration_relative_threshold_change": 0.0,
+      "dominant_translation_polarization": null,
+      "dominant_polarization_transverse_fraction": null
+    },
+    {
+      "net": "acs",
+      "file": "selection_rule/cell_acs.json",
+      "reference_bytes": 49244,
+      "sha256": "ddc578ed7f7bd4fb56141edf7748db2e7fea24e5075c975f7f884469b4a67a7a",
+      "nodes": 16,
+      "elements": 24,
+      "boundary_edges": 10,
+      "midpoint_nodes": 12,
+      "threshold": 5.743744304321552e-07,
+      "k": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "supercell": [
+        1,
+        2,
+        1
+      ],
+      "checks": {
+        "eigen_residual": 5.934811016256114e-13,
+        "supercell_nodal_force_residual": 4.4349533649509527e-13,
+        "gibbs_tangent_energy_over_elastic_energy": 3.709737510338771e-13,
+        "bulk_tangent_energy": 3.1079756417128415e-18,
+        "pressure_volume_tangent_energy": 0.0,
+        "elastic_quadratic_form": 8.377885586382157e-06,
+        "max_node_translation": 1.0,
+        "max_element_mode_energy": 1.0,
+        "min_element_mode_energy": 0.9560933456779269,
+        "element_energy_fraction_sum": 0.9999999999999999,
+        "max_edge_length_relative_error": 2.220446049250313e-16,
+        "max_nonaffine_translation": 1.0,
+        "max_rotation": 2.152581627560737,
+        "commensurate_phase_error": 2.4492935982947064e-16
+      },
+      "threshold_relative_change_vs_atlas": 0.0,
+      "commensuration_relative_threshold_change": 4.929390229335695e-14,
+      "dominant_translation_polarization": [
+        1.0,
+        -2.9366643240489515e-15,
+        4.545508904757431e-16
+      ],
+      "dominant_polarization_transverse_fraction": 1.0
+    }
+  ],
+  "model_sources_unchanged": true,
+  "source_sha256": {
+    "selection_rule/mode_common.py": "4017e31291d88513c96e8d8688205cc929c2d0ccec1b69f90c32cd3b7f86e0b3",
+    "selection_rule/candidates.py": "d40848303ab7998334c057fcaaf9c4a1e7d3c5f686f0b6b470bab80409a1c75c",
+    "selection_rule/mode_data.py": "1a7819e2b7d79479a93ede8a8fdf104cc2ce6bf24380a4442e4b104f6ceee6b7",
+    "selection_rule/verification.py": "244baed974e647c79b1c07d9c39994b8be0d5fad431901b35de0180c5754ef24"
+  },
+  "baseline_atlas_sha256": "bb0acb12cd6eb23c094cdada873b375ac8cdd7cb405642b579937d4762f23c63",
+  "threadpools": [
+    {
+      "library": "source-artifact:libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "symbol": "scipy_openblas_get_num_threads",
+      "num_threads": 1
+    },
+    {
+      "library": "source-artifact:libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "symbol": "scipy_openblas_get_num_threads64_",
+      "num_threads": 1
+    }
+  ]
+}

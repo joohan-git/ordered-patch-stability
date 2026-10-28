@@ -1,0 +1,68 @@
+{
+  "periodic_pressure": 1.1219005778592121e-07,
+  "rows": [
+    {
+      "L": 32,
+      "R": 0,
+      "pressure_critical": 1.3606042161877602e-07,
+      "ratio": 1.2127671943836926,
+      "energy_fraction_inside": null,
+      "IPR": 0.003961717345155271,
+      "eigen_residual": 1.0088941534234757e-08
+    },
+    {
+      "L": 32,
+      "R": 8,
+      "pressure_critical": 1.2337216118473866e-07,
+      "ratio": 1.0996710726377814,
+      "energy_fraction_inside": 0.8094725985906244,
+      "IPR": 0.013295199918332173,
+      "eigen_residual": 4.9570248163955525e-09
+    },
+    {
+      "L": 32,
+      "R": 16,
+      "pressure_critical": 1.1602837938519992e-07,
+      "ratio": 1.0342126715595683,
+      "energy_fraction_inside": 0.9671026189573926,
+      "IPR": 0.005756663650807842,
+      "eigen_residual": 1.3851369533702697e-10
+    },
+    {
+      "L": 32,
+      "R": 24,
+      "pressure_critical": 1.1408610190177813e-07,
+      "ratio": 1.0169002864716847,
+      "energy_fraction_inside": 0.9884360973288626,
+      "IPR": 0.003000426114234081,
+      "eigen_residual": 2.8418041681008008e-09
+    },
+    {
+      "L": 64,
+      "R": 16,
+      "pressure_critical": 1.1597785924438089e-07,
+      "ratio": 1.0337623630222874,
+      "energy_fraction_inside": 0.965610209482775,
+      "IPR": 0.005734694647775585,
+      "eigen_residual": 9.22595069338818e-11
+    },
+    {
+      "L": 64,
+      "R": 32,
+      "pressure_critical": 1.1327756478064766e-07,
+      "ratio": 1.0096934346606863,
+      "energy_fraction_inside": 0.9953508752919578,
+      "IPR": 0.0018281921310936105,
+      "eigen_residual": 4.556906883094012e-09
+    },
+    {
+      "L": 64,
+      "R": 48,
+      "pressure_critical": 1.126740216721706e-07,
+      "ratio": 1.004313785871943,
+      "energy_fraction_inside": 0.9983942366580462,
+      "IPR": 0.0008636569005540864,
+      "eigen_residual": 2.0009274705840479e-10
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "formula": "baseline formula with the baseline dense loss-of-ellipticity search",
+  "radii": {
+    "0.02": {
+      "n": 876,
+      "tolerances": [
+        {
+          "tolerance": 1e-08,
+          "classes": {
+            "PD+LE": 258,
+            "micro": 514,
+            "PD-only-nonvolumetric": 103,
+            "PD-only-volumetric": 1
+          },
+          "pdonly_invariant_count": 104,
+          "windows": {
+            "n": 104,
+            "min": 6.034125354936748e-08,
+            "p50": 0.03550828290179353,
+            "p99": 1.1634345356200264,
+            "max": 1.176664294862825,
+            "q25": 0.004071295196662661,
+            "q75": 0.18947065388722334,
+            "unavailable": []
+          }
+        },
+        {
+          "tolerance": 1e-06,
+          "classes": {
+            "PD+LE": 264,
+            "micro": 514,
+            "PD-only-nonvolumetric": 98
+          },
+          "pdonly_invariant_count": 98,
+          "windows": {
+            "n": 98,
+            "min": 2.245060050976022e-06,
+            "p50": 0.041957180282175766,
+            "p99": 1.1668567133181897,
+            "max": 1.176664294862825,
+            "q25": 0.006185371631974079,
+            "q75": 0.19895003716602172,
+            "unavailable": []
+          }
+        },
+        {
+          "tolerance": 0.0001,
+          "classes": {
+            "PD+LE": 275,
+            "micro": 514,
+            "PD-only-nonvolumetric": 87
+          },
+          "pdonly_invariant_count": 87,
+          "windows": {
+            "n": 87,
+            "min": 0.00019861530521336768,
+            "p50": 0.05605581182185393,
+            "p99": 1.167968913287169,
+            "max": 1.176664294862825,
+            "q25": 0.01387439185490813,
+            "q75": 0.20736082306665515,
+            "unavailable": []
+          }
+        },
+        {
+          "tolerance": 0.001,
+          "classes": {
+            "PD+LE": 284,
+            "micro": 512,
+            "PD-only-nonvolumetric": 80
+          },
+          "pdonly_invariant_count": 80,
+          "windows": {
+            "n": 80,
+            "min": 0.002209958536571577,
+            "p50": 0.07116874343400459,
+            "p99": 1.168676676903792,
+            "max": 1.176664294862825,
+            "q25": 0.023678258293067633,
+            "q75": 0.2108351786397747,
+            "unavailable": []
+          }
+        },
+        {
+          "tolerance": 0.003,
+          "classes": {
+            "PD+LE": 290,
+            "micro": 508,
+            "PD-only-nonvolumetric": 78
+          },
+          "pdonly_invariant_count": 78,
+          "windows": {
+            "n": 78,
+            "min": 0.004486994827006763,
+            "p50": 0.07613807857893573,
+            "p99": 1.1688788950799702,
+            "max": 1.176664294862825,
+            "q25": 0.02449534169762224,
+            "q75": 0.21516882779882435,
+            "unavailable": []
+          }
+        },
+        {
+          "tolerance": 0.01,
+          "classes": {
+            "PD+LE": 307,
+            "micro": 495,
+            "PD-only-nonvolumetric": 70,
+            "PD+micro": 4
+          },
+          "pdonly_invariant_count": 70,
+          "windows": {
+            "n": 70,
+            "min": 0.010312425800427683,
+            "p50": 0.08864523276821168,
+            "p99": 1.1696877677846824,
+            "max": 1.176664294862825,
+            "q25": 0.03467842648698766,
+            "q75": 0.23962493999565476,
+            "unavailable": []
+          }
+        },
+        {
+          "tolerance": 0.03,
+          "classes": {
+            "PD+LE": 337,
+            "micro": 476,
+            "PD-only-nonvolumetric": 54,
+            "PD+micro": 9
+          },
+          "pdonly_invariant_count": 54,
+          "windows": {
+            "n": 54,
+            "min": 0.0335967314596215,
+            "p50": 0.18046110226051748,
+            "p99": 1.1713055131941066,
+            "max": 1.176664294862825,
+            "q25": 0.07040420071044812,
+            "q75": 0.32086750657254826,
+            "unavailable": []
+          }
+        }
+      ]
+    },
+    "0.05": {
+      "n": 876,
+      "tolerances": [
+        {
+          "tolerance": 1e-08,
+          "classes": {
+            "PD+LE": 261,
+            "micro": 516,
+            "PD-only-nonvolumetric": 99
+          },
+          "pdonly_invariant_count": 99,
+          "windows": {
+            "n": 99,
+            "min": 1.9315901145233738e-07,
+            "p50": 0.036944857512215545,
+            "p99": 1.1689646781016907,
+            "max": 1.1787096474431973,
+            "q25": 0.0036338119760985776,
+            "q75": 0.1792936086451239,
+            "unavailable": []
+          }
+        },
+        {
+          "tolerance": 1e-06,
+          "classes": {
+            "PD+LE": 265,
+            "micro": 516,
+            "PD-only-nonvolumetric": 95
+          },
+          "pdonly_invariant_count": 95,
+          "windows": {
+            "n": 95,
+            "min": 8.205855931198158e-06,
+            "p50": 0.03795262044724268,
+            "p99": 1.1693624319523643,
+            "max": 1.1787096474431973,
+            "q25": 0.005242721820581497,
+            "q75": 0.189871455473828,
+            "unavailable": []
+          }
+        },
+        {
+          "tolerance": 0.0001,
+          "classes": {
+            "PD+LE": 275,
+            "micro": 515,
+            "PD-only-nonvolumetric": 86
+          },
+          "pdonly_invariant_count": 86,
+          "windows": {
+            "n": 86,
+            "min": 0.00014472451281810628,
+            "p50": 0.04686030318161294,
+            "p99": 1.1702573781163803,
+            "max": 1.1787096474431973,
+            "q25": 0.013005238107466177,
+            "q75": 0.19747153668897738,
+            "unavailable": []
+          }
+        },
+        {
+          "tolerance": 0.001,
+          "classes": {
+            "PD+LE": 285,
+            "micro": 514,
+            "PD-only-nonvolumetric": 77
+          },
+          "pdonly_invariant_count": 77,
+          "windows": {
+            "n": 77,
+            "min": 0.0011197603796859745,
+            "p50": 0.0660577386455099,
+            "p99": 1.171152324280396,
+            "max": 1.1787096474431973,
+            "q25": 0.024283288875238895,
+            "q75": 0.2060012597428027,
+            "unavailable": []
+          }
+        },
+        {
+          "tolerance": 0.003,
+          "classes": {
+            "PD+LE": 291,
+            "micro": 510,
+            "PD-only-nonvolumetric": 74,
+            "PD+micro": 1
+          },
+          "pdonly_invariant_count": 74,
+          "windows": {
+            "n": 74,
+            "min": 0.004455164525217548,
+            "p50": 0.06769218121743659,
+            "p99": 1.1714506396684015,
+            "max": 1.1787096474431973,
+            "q25": 0.024788468989784818,
+            "q75": 0.20805691714359797,
+            "unavailable": []
+          }
+        },
+        {
+          "tolerance": 0.01,
+          "classes": {
+            "PD+LE": 309,
+            "micro": 496,
+            "PD-only-nonvolumetric": 67,
+            "PD+micro": 4
+          },
+          "pdonly_invariant_count": 67,
+          "windows": {
+            "n": 67,
+            "min": 0.010255861067481442,
+            "p50": 0.08418863003304322,
+            "p99": 1.1721467089070805,
+            "max": 1.1787096474431973,
+            "q25": 0.035609849236064584,
+            "q75": 0.25118547188196483,
+            "unavailable": []
+          }
+        },
+        {
+          "tolerance": 0.03,
+          "classes": {
+            "PD+LE": 339,
+            "micro": 477,
+            "PD-only-nonvolumetric": 52,
+            "PD+micro": 8
+          },
+          "pdonly_invariant_count": 52,
+          "windows": {
+            "n": 52,
+            "min": 0.03379172199558589,
+            "p50": 0.1622555447272308,
+            "p99": 1.173638285847107,
+            "max": 1.1787096474431973,
+            "q25": 0.06469076172628635,
+            "q75": 0.29307529651660985,
+            "unavailable": []
+          }
+        }
+      ]
+    }
+  }
+}

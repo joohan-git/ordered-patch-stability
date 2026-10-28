@@ -1,0 +1,614 @@
+{
+  "references": {
+    "utp": {
+      "PD": 2.433527736913207e-08,
+      "loc": 2.4966350652785925e-08,
+      "class_first": "PD-only-nonvolumetric",
+      "LE": {
+        "load": 9.812606770282089e-05,
+        "bound": 9.812606770282089e-05,
+        "censored_by_gamma": false,
+        "direction": [
+          -3.3298955779241933e-07,
+          -0.7067674947820186,
+          -0.7074459048714881
+        ],
+        "acoustic_eigenvalues_near_bound": [
+          2.644567370578651e-13,
+          8.248837350151767e-08,
+          8.572531017187932e-05
+        ],
+        "pressure_null_lagrangian_error": 1.2363853397017208e-17
+      },
+      "micro": {
+        "load": 9.84014232208502e-05,
+        "k": [
+          0.9999935600033567,
+          0.016667589477338804,
+          0.018643351812717923
+        ],
+        "grid": 4,
+        "points": 27,
+        "near_excluded_origin": true,
+        "gamma_optical": 0.00021375488262478603
+      },
+      "final_atlas": {
+        "lambda_loc": 2.4966350652747788e-08,
+        "lambda_PD": 2.4335277369126812e-08,
+        "class_first": "PD-only-nonvolumetric",
+        "radius": 0.02,
+        "source": "atlas/atlas_rows.json",
+        "rho_loc_formula": "pressure * s_P / final_atlas.lambda_loc"
+      }
+    },
+    "ncd": {
+      "PD": 1.4139758471164557e-06,
+      "loc": 2.244764648571568e-06,
+      "class_first": "PD-only-nonvolumetric",
+      "LE": {
+        "load": 0.0009270273462980678,
+        "bound": 0.0009270273462980678,
+        "censored_by_gamma": false,
+        "direction": [
+          0.7066189070917773,
+          5.829620858727234e-08,
+          -0.7075943189006103
+        ],
+        "acoustic_eigenvalues_near_bound": [
+          3.0522113658661316e-10,
+          0.0004910330214381565,
+          0.0015566446524168816
+        ],
+        "pressure_null_lagrangian_error": 2.808701780060036e-17
+      },
+      "micro": {
+        "load": 0.0013750141463364169,
+        "k": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "grid": 4,
+        "points": 18,
+        "near_excluded_origin": false,
+        "gamma_optical": 0.0013750141463364169
+      },
+      "final_atlas": {
+        "lambda_loc": 2.244764648562019e-06,
+        "lambda_PD": 1.4139758471164544e-06,
+        "class_first": "PD-only-nonvolumetric",
+        "radius": 0.02,
+        "source": "atlas/atlas_rows.json",
+        "rho_loc_formula": "pressure * s_P / final_atlas.lambda_loc"
+      }
+    },
+    "ncj": {
+      "PD": 1.2797043919347825e-06,
+      "loc": 1.5881708449592646e-06,
+      "class_first": "PD-only-nonvolumetric",
+      "LE": {
+        "load": 0.0007199452974566132,
+        "bound": 0.0007199452974566132,
+        "censored_by_gamma": false,
+        "direction": [
+          -0.00020220245479685684,
+          -2.3264222506800337e-09,
+          0.9999999795570833
+        ],
+        "acoustic_eigenvalues_near_bound": [
+          3.9522401458078115e-11,
+          0.0007382061772221169,
+          0.001545547792762712
+        ],
+        "pressure_null_lagrangian_error": 1.8580646911357674e-20
+      },
+      "micro": {
+        "load": 0.0006601304814966097,
+        "k": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "grid": 4,
+        "points": 30,
+        "near_excluded_origin": false,
+        "gamma_optical": 0.0012055576692509
+      },
+      "final_atlas": {
+        "lambda_loc": 1.2797047524359652e-06,
+        "lambda_PD": 1.2797043919348296e-06,
+        "class_first": "PD+LE",
+        "radius": 0.02,
+        "source": "atlas/atlas_rows.json",
+        "rho_loc_formula": "pressure * s_P / final_atlas.lambda_loc"
+      }
+    },
+    "cco": {
+      "PD": 1.7125326514617288e-06,
+      "loc": 3.7276086762767725e-06,
+      "class_first": "PD-only-nonvolumetric",
+      "LE": {
+        "load": null,
+        "bound": 0.001407463509067526,
+        "censored_by_gamma": true,
+        "direction": [
+          -0.5773502691896258,
+          -0.5773502691896258,
+          -0.5773502691896258
+        ],
+        "acoustic_eigenvalues_near_bound": [
+          0.00016866416242533548,
+          0.0006717390715270194,
+          0.0017668581062892414
+        ],
+        "pressure_null_lagrangian_error": 7.216515555235219e-18
+      },
+      "micro": {
+        "load": 0.0014005636001362875,
+        "k": [
+          0.9999978702389088,
+          0.9999969242931647,
+          0.60442346019332
+        ],
+        "grid": 4,
+        "points": 27,
+        "near_excluded_origin": false,
+        "gamma_optical": 0.001407463509067526
+      },
+      "final_atlas": {
+        "lambda_loc": 3.727608676223308e-06,
+        "lambda_PD": 1.7125326514616369e-06,
+        "class_first": "PD-only-nonvolumetric",
+        "radius": 0.02,
+        "source": "atlas/atlas_rows.json",
+        "rho_loc_formula": "pressure * s_P / final_atlas.lambda_loc"
+      }
+    },
+    "vne": {
+      "PD": 1.668974293770499e-06,
+      "loc": 2.8094911691379296e-06,
+      "class_first": "PD-only-nonvolumetric",
+      "LE": {
+        "load": null,
+        "bound": 0.0017442047267257007,
+        "censored_by_gamma": true,
+        "direction": [
+          -0.5773502691896258,
+          -0.5773502691896258,
+          -0.5773502691896258
+        ],
+        "acoustic_eigenvalues_near_bound": [
+          0.00017514539200582096,
+          0.0005886583793649724,
+          0.0009552622314651696
+        ],
+        "pressure_null_lagrangian_error": 7.216515555235219e-18
+      },
+      "micro": {
+        "load": 0.001280504374761469,
+        "k": [
+          0.4814780300519813,
+          0.9999990822699746,
+          0.4611207044405034
+        ],
+        "grid": 4,
+        "points": 30,
+        "near_excluded_origin": false,
+        "gamma_optical": 0.0017442047267257007
+      },
+      "final_atlas": {
+        "lambda_loc": 2.809491169037042e-06,
+        "lambda_PD": 1.66897429377046e-06,
+        "class_first": "PD-only-nonvolumetric",
+        "radius": 0.02,
+        "source": "atlas/atlas_rows.json",
+        "rho_loc_formula": "pressure * s_P / final_atlas.lambda_loc"
+      }
+    },
+    "oof": {
+      "PD": 1.1463184505047814e-06,
+      "loc": 1.2798488198389838e-06,
+      "class_first": "PD-only-nonvolumetric",
+      "LE": {
+        "load": 0.0006211041282824026,
+        "bound": 0.0006211041282824026,
+        "censored_by_gamma": false,
+        "direction": [
+          -3.7207284675509926e-10,
+          -1.0,
+          2.4548509608706584e-10
+        ],
+        "acoustic_eigenvalues_near_bound": [
+          1.7683462731301984e-11,
+          4.142017325934834e-06,
+          0.0013918522377414546
+        ],
+        "pressure_null_lagrangian_error": 2.927651432485338e-36
+      },
+      "micro": {
+        "load": 0.0006192283796341813,
+        "k": [
+          2.8644690325503924e-09,
+          0.6774676158828823,
+          1.228720370843666e-10
+        ],
+        "grid": 4,
+        "points": 30,
+        "near_excluded_origin": false,
+        "gamma_optical": 0.0006758303112224022
+      },
+      "final_atlas": {
+        "lambda_loc": 1.1904134297466417e-06,
+        "lambda_PD": 1.146318450504761e-06,
+        "class_first": "PD-only-nonvolumetric",
+        "radius": 0.02,
+        "source": "atlas/atlas_rows.json",
+        "rho_loc_formula": "pressure * s_P / final_atlas.lambda_loc"
+      }
+    }
+  },
+  "runs": [
+    {
+      "name": "cco",
+      "L": 10,
+      "R_fraction": 0.22,
+      "pressure": 5.725722507003411e-06,
+      "s_P": 0.7933463911150676,
+      "rho_PD": 2.6524932436063318,
+      "rho_loc": 1.218604655678239,
+      "patch_energy": 0.9925371082760749,
+      "core_energy": 0.6872861485215398,
+      "eigen_residual": 1.1425545323360507e-08,
+      "baseline_rho_PD": 2.6528152983947573,
+      "baseline_rho_loc": 1.2185556972616003,
+      "seconds": 27.593840699992143
+    },
+    {
+      "name": "cco",
+      "L": 10,
+      "R_fraction": 0.34,
+      "pressure": 5.337654093437145e-06,
+      "s_P": 0.7734756708311732,
+      "rho_PD": 2.4107835707903975,
+      "rho_loc": 1.1075587431859255,
+      "patch_energy": 0.998313740369116,
+      "core_energy": 0.9287121419166358,
+      "eigen_residual": 3.994546232203863e-08,
+      "baseline_rho_PD": 2.4111567899031594,
+      "baseline_rho_loc": 1.10755122872873,
+      "seconds": 37.50597280001966
+    },
+    {
+      "name": "cco",
+      "L": 6,
+      "R_fraction": 0.22,
+      "pressure": 6.326261604732466e-06,
+      "s_P": 0.8092662102339142,
+      "rho_PD": 2.9895078201518164,
+      "rho_loc": 1.373435410855352,
+      "patch_energy": 0.9851951328740493,
+      "core_energy": 0.3476014427230979,
+      "eigen_residual": 2.242340826538981e-09,
+      "baseline_rho_PD": 2.989956407604495,
+      "baseline_rho_loc": 1.3734195581784214,
+      "seconds": 1.8447551999706775
+    },
+    {
+      "name": "cco",
+      "L": 6,
+      "R_fraction": 0.34,
+      "pressure": 5.66037558683457e-06,
+      "s_P": 0.7693827867171134,
+      "rho_PD": 2.543014604216217,
+      "rho_loc": 1.1683081356099252,
+      "patch_energy": 0.9904357519715156,
+      "core_energy": 0.7012307248096974,
+      "eigen_residual": 1.7024748650349621e-09,
+      "baseline_rho_PD": 2.543443781223342,
+      "baseline_rho_loc": 1.1683165096905623,
+      "seconds": 1.81426630000351
+    },
+    {
+      "name": "ncd",
+      "L": 6,
+      "R_fraction": 0.22,
+      "pressure": 5.5784227170060656e-06,
+      "s_P": 0.8185098761424057,
+      "rho_PD": 3.229188176359677,
+      "rho_loc": 2.0340636111104735,
+      "patch_energy": 0.974892096352022,
+      "core_energy": 0.3596010413140633,
+      "eigen_residual": 2.6770046296810056e-09,
+      "baseline_rho_PD": 3.2294698863357834,
+      "baseline_rho_loc": 2.0342672374111483,
+      "seconds": 1.3612571000121534
+    },
+    {
+      "name": "ncd",
+      "L": 6,
+      "R_fraction": 0.34,
+      "pressure": 4.97086204633635e-06,
+      "s_P": 0.7876577743366125,
+      "rho_PD": 2.7690275926114594,
+      "rho_loc": 1.7442087474262,
+      "patch_energy": 0.9922365710318904,
+      "core_energy": 0.6912054932930617,
+      "eigen_residual": 2.1578269322568483e-08,
+      "baseline_rho_PD": 2.7693379406250296,
+      "baseline_rho_loc": 1.7444266830817594,
+      "seconds": 1.7862778999842703
+    },
+    {
+      "name": "ncd",
+      "L": 8,
+      "R_fraction": 0.22,
+      "pressure": 5.274418527502342e-06,
+      "s_P": 0.7239731801869929,
+      "rho_PD": 2.7005677379711073,
+      "rho_loc": 1.701085927837893,
+      "patch_energy": 0.9849444433467783,
+      "core_energy": 0.5700427753490653,
+      "eigen_residual": 4.6776018333372634e-08,
+      "baseline_rho_PD": 2.700680405450133,
+      "baseline_rho_loc": 1.7011787881257967,
+      "seconds": 5.51226459996542
+    },
+    {
+      "name": "ncd",
+      "L": 8,
+      "R_fraction": 0.34,
+      "pressure": 4.773068407555038e-06,
+      "s_P": 0.8096832620187697,
+      "rho_PD": 2.733196331428992,
+      "rho_loc": 1.7216386584344787,
+      "patch_energy": 0.9965658170034274,
+      "core_energy": 0.8312620140077505,
+      "eigen_residual": 5.7595544315493e-08,
+      "baseline_rho_PD": 2.7334957449877697,
+      "baseline_rho_loc": 1.7218494159549598,
+      "seconds": 6.382376499997918
+    },
+    {
+      "name": "ncj",
+      "L": 6,
+      "R_fraction": 0.22,
+      "pressure": 5.354084789802883e-06,
+      "s_P": 0.8219804540627795,
+      "rho_PD": 3.4390387923565715,
+      "rho_loc": 2.7710828848049256,
+      "patch_energy": 0.9645340938504702,
+      "core_energy": 0.3306329375326371,
+      "eigen_residual": 3.532462899301869e-10,
+      "baseline_rho_PD": 3.439389334210818,
+      "baseline_rho_loc": 2.771466335296478,
+      "seconds": 2.016845500038471
+    },
+    {
+      "name": "ncj",
+      "L": 6,
+      "R_fraction": 0.34,
+      "pressure": 4.5358637170596e-06,
+      "s_P": 0.7991468259202414,
+      "rho_PD": 2.8325456372112687,
+      "rho_loc": 2.282387379040409,
+      "patch_energy": 0.9864060565004903,
+      "core_energy": 0.6520624084076081,
+      "eigen_residual": 9.76173360978133e-08,
+      "baseline_rho_PD": 2.8326104744756484,
+      "baseline_rho_loc": 2.28252279930349,
+      "seconds": 2.6564030000008643
+    },
+    {
+      "name": "ncj",
+      "L": 8,
+      "R_fraction": 0.22,
+      "pressure": 4.859061605141814e-06,
+      "s_P": 0.796739021970977,
+      "rho_PD": 3.025233026765069,
+      "rho_loc": 2.437649578611118,
+      "patch_energy": 0.9771308129652396,
+      "core_energy": 0.5147220001354199,
+      "eigen_residual": 3.429061448962439e-08,
+      "baseline_rho_PD": 3.02530894156452,
+      "baseline_rho_loc": 2.4377995832046024,
+      "seconds": 13.650530000042636
+    },
+    {
+      "name": "ncj",
+      "L": 8,
+      "R_fraction": 0.34,
+      "pressure": 4.254043713680004e-06,
+      "s_P": 0.816195884058101,
+      "rho_PD": 2.7132304863464185,
+      "rho_loc": 2.1862465116578282,
+      "patch_energy": 0.9930785635908553,
+      "core_energy": 0.7484762219672392,
+      "eigen_residual": 3.743721661958819e-07,
+      "baseline_rho_PD": 2.7132408923160303,
+      "baseline_rho_loc": 2.186334567537138,
+      "seconds": 10.876108600001317
+    },
+    {
+      "name": "oof",
+      "L": 6,
+      "R_fraction": 0.22,
+      "pressure": 4.766319922691041e-06,
+      "s_P": 0.8936882201366367,
+      "rho_PD": 3.715899335333765,
+      "rho_loc": 3.3282086933107022,
+      "patch_energy": 0.9399180115896788,
+      "core_energy": 0.22887646420598823,
+      "eigen_residual": 4.690601604932163e-07,
+      "baseline_rho_PD": 3.7160138969508396,
+      "baseline_rho_loc": 3.328278674738755,
+      "seconds": 0.9692244000034407
+    },
+    {
+      "name": "oof",
+      "L": 6,
+      "R_fraction": 0.34,
+      "pressure": 4.001447072558439e-06,
+      "s_P": 0.8039626817522487,
+      "rho_PD": 2.806387804302683,
+      "rho_loc": 2.5135891594981477,
+      "patch_energy": 0.9822330425913408,
+      "core_energy": 0.4944253454361355,
+      "eigen_residual": 4.755392580663204e-09,
+      "baseline_rho_PD": 2.8066262220007827,
+      "baseline_rho_loc": 2.5137780594181085,
+      "seconds": 0.983126999984961
+    },
+    {
+      "name": "utp",
+      "L": 10,
+      "R_fraction": 0.22,
+      "pressure": 6.323386468432682e-08,
+      "s_P": 0.9959667745142701,
+      "rho_PD": 2.587964266624957,
+      "rho_loc": 2.5225484142870984,
+      "patch_energy": 0.9590669312719885,
+      "core_energy": 0.8075760511220473,
+      "eigen_residual": 3.232934142207795e-08,
+      "baseline_rho_PD": 2.587194617261868,
+      "baseline_rho_loc": 2.5204840270332913,
+      "seconds": 17.7419976000092
+    },
+    {
+      "name": "utp",
+      "L": 10,
+      "R_fraction": 0.34,
+      "pressure": 5.4243619778569643e-08,
+      "s_P": 0.9962339333657607,
+      "rho_PD": 2.2206171670986197,
+      "rho_loc": 2.1644867303011748,
+      "patch_energy": 0.9893206456942573,
+      "core_energy": 0.9522385372320427,
+      "eigen_residual": 1.174792450252237e-06,
+      "baseline_rho_PD": 2.2199567274655463,
+      "baseline_rho_loc": 2.1627153345749486,
+      "seconds": 19.898979899997357
+    },
+    {
+      "name": "utp",
+      "L": 6,
+      "R_fraction": 0.22,
+      "pressure": 8.180605481097754e-08,
+      "s_P": 0.9967545678902396,
+      "rho_PD": 3.3507141742033646,
+      "rho_loc": 3.266018327945831,
+      "patch_energy": 0.9253270107281868,
+      "core_energy": 0.5765095850175185,
+      "eigen_residual": 6.12558009051712e-08,
+      "baseline_rho_PD": 3.3501444939598475,
+      "baseline_rho_loc": 3.263761306915493,
+      "seconds": 1.216066699998919
+    },
+    {
+      "name": "utp",
+      "L": 6,
+      "R_fraction": 0.34,
+      "pressure": 6.50187148116717e-08,
+      "s_P": 0.997087071987113,
+      "rho_PD": 2.6640057967108777,
+      "rho_loc": 2.5966678461555914,
+      "patch_energy": 0.950922672953527,
+      "core_energy": 0.7518467361311527,
+      "eigen_residual": 2.8113735369952067e-08,
+      "baseline_rho_PD": 2.663231016493631,
+      "baseline_rho_loc": 2.594559834264065,
+      "seconds": 1.3774995999992825
+    },
+    {
+      "name": "utp",
+      "L": 8,
+      "R_fraction": 0.22,
+      "pressure": 7.11825943398645e-08,
+      "s_P": 0.9964665279065821,
+      "rho_PD": 2.9147427232203884,
+      "rho_loc": 2.841066907041639,
+      "patch_energy": 0.9494036395406358,
+      "core_energy": 0.7411776927504672,
+      "eigen_residual": 3.280236523879215e-07,
+      "baseline_rho_PD": 2.9141602368617003,
+      "baseline_rho_loc": 2.839018866311293,
+      "seconds": 5.329145699972287
+    },
+    {
+      "name": "utp",
+      "L": 8,
+      "R_fraction": 0.34,
+      "pressure": 5.764939201309271e-08,
+      "s_P": 0.9966183186056714,
+      "rho_PD": 2.3609527545227573,
+      "rho_loc": 2.3012750616124387,
+      "patch_energy": 0.9772283224910895,
+      "core_energy": 0.8950305187248677,
+      "eigen_residual": 3.540045711115899e-08,
+      "baseline_rho_PD": 2.3602506482851617,
+      "baseline_rho_loc": 2.29939178873747,
+      "seconds": 6.2593231000355445
+    },
+    {
+      "name": "vne",
+      "L": 10,
+      "R_fraction": 0.22,
+      "pressure": 4.531537271800037e-06,
+      "s_P": 0.7709661945128334,
+      "rho_PD": 2.0932988954790672,
+      "rho_loc": 1.2435212767743793,
+      "patch_energy": 0.9835247072417013,
+      "core_energy": 0.5914200272907071,
+      "eigen_residual": 1.0380203375031135e-10,
+      "baseline_rho_PD": 2.0939000610975853,
+      "baseline_rho_loc": 1.2435753457283993,
+      "seconds": 35.56434129999252
+    },
+    {
+      "name": "vne",
+      "L": 10,
+      "R_fraction": 0.34,
+      "pressure": 4.218301882851086e-06,
+      "s_P": 0.7726155400607582,
+      "rho_PD": 1.9527715912240815,
+      "rho_loc": 1.1600412285183803,
+      "patch_energy": 0.9950658639002246,
+      "core_energy": 0.8163231777949644,
+      "eigen_residual": 1.1176353428961496e-08,
+      "baseline_rho_PD": 1.9532981506116764,
+      "baseline_rho_loc": 1.1600713272267071,
+      "seconds": 36.03601919999346
+    },
+    {
+      "name": "vne",
+      "L": 6,
+      "R_fraction": 0.22,
+      "pressure": 6.055044679881795e-06,
+      "s_P": 0.7643356857310357,
+      "rho_PD": 2.773012589111765,
+      "rho_loc": 1.647304244401524,
+      "patch_energy": 0.9369679952828596,
+      "core_energy": 0.4880696343834656,
+      "eigen_residual": 2.5266463041434893e-12,
+      "baseline_rho_PD": 2.773616805936368,
+      "baseline_rho_loc": 1.6472617497094906,
+      "seconds": 1.6091312999487855
+    },
+    {
+      "name": "vne",
+      "L": 6,
+      "R_fraction": 0.34,
+      "pressure": 4.820450003424534e-06,
+      "s_P": 0.7911603121114061,
+      "rho_PD": 2.285085362585706,
+      "rho_loc": 1.3574517589236637,
+      "patch_energy": 0.9826974521601992,
+      "core_energy": 0.45280422753172844,
+      "eigen_residual": 4.309892973935868e-10,
+      "baseline_rho_PD": 2.285763793570114,
+      "baseline_rho_loc": 1.3575239585944774,
+      "seconds": 1.5798072999459691
+    }
+  ],
+  "model": "Kirchhoff-Hermite exact-strain initial tangent v1",
+  "normalization": "runs.rho_loc uses references[name].loc from the cohort search. For the final atlas normalization, use pressure * s_P / references[name].final_atlas.lambda_loc."
+}

@@ -1,0 +1,638 @@
+{
+  "sliding_mode": [
+    {
+      "parameters": "soft",
+      "p_GPa": 0,
+      "k": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "exact_kernel_dimension": 3,
+      "kernel_residual": 2.703019959766875e-13,
+      "kernel_energy_eigenvalues": [
+        -2.309520700857557e-14,
+        3.7249952839736616e-14,
+        4.091231619024674e-14
+      ],
+      "minimum_full_eigen": 7.79159039971057e-14,
+      "nearby": [
+        {
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "minimum_eigen": 0.0005318140520949032
+        },
+        {
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "minimum_eigen": 0.0005318140519015431
+        },
+        {
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "minimum_eigen": 0.0006453460728850116
+        },
+        {
+          "direction": [
+            0.7071067811865475,
+            0.7071067811865475,
+            0.0
+          ],
+          "minimum_eigen": 0.0001928449598341802
+        },
+        {
+          "direction": [
+            0.7071067811865475,
+            -0.7071067811865475,
+            0.0
+          ],
+          "minimum_eigen": 0.00019284495973660373
+        }
+      ]
+    },
+    {
+      "parameters": "soft",
+      "p_GPa": 0.3,
+      "k": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "exact_kernel_dimension": 3,
+      "kernel_residual": 2.851213953333768e-13,
+      "kernel_energy_eigenvalues": [
+        -4.796416629938413e-14,
+        3.7305264354098464e-14,
+        5.329146609089173e-14
+      ],
+      "minimum_full_eigen": -2.0292003892026654e-13,
+      "nearby": [
+        {
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "minimum_eigen": 0.00047996804317137646
+        },
+        {
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "minimum_eigen": 0.00047996804342336196
+        },
+        {
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "minimum_eigen": 0.0005860881763809712
+        },
+        {
+          "direction": [
+            0.7071067811865475,
+            0.7071067811865475,
+            0.0
+          ],
+          "minimum_eigen": 0.00013046644541409112
+        },
+        {
+          "direction": [
+            0.7071067811865475,
+            -0.7071067811865475,
+            0.0
+          ],
+          "minimum_eigen": 0.00013046644535336972
+        }
+      ]
+    },
+    {
+      "parameters": "soft",
+      "p_GPa": 0.6,
+      "k": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "exact_kernel_dimension": 3,
+      "kernel_residual": 2.8812566759677207e-13,
+      "kernel_energy_eigenvalues": [
+        -6.750986132190488e-14,
+        -3.37630034592346e-14,
+        -1.755831904074971e-15
+      ],
+      "minimum_full_eigen": -1.428118002383611e-13,
+      "nearby": [
+        {
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "minimum_eigen": 0.0004286697634345734
+        },
+        {
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "minimum_eigen": 0.0004286697637072458
+        },
+        {
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "minimum_eigen": 0.0005268302781747655
+        },
+        {
+          "direction": [
+            0.7071067811865475,
+            0.7071067811865475,
+            0.0
+          ],
+          "minimum_eigen": 6.78898773497469e-05
+        },
+        {
+          "direction": [
+            0.7071067811865475,
+            -0.7071067811865475,
+            0.0
+          ],
+          "minimum_eigen": 6.788987733172703e-05
+        }
+      ]
+    },
+    {
+      "parameters": "soft",
+      "p_GPa": 0.9,
+      "k": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "exact_kernel_dimension": 3,
+      "kernel_residual": 2.899478605708147e-13,
+      "kernel_energy_eigenvalues": [
+        -7.463450900043285e-14,
+        -5.68387336627635e-14,
+        -3.372794340102685e-14
+      ],
+      "minimum_full_eigen": -1.4948926252110003e-13,
+      "nearby": [
+        {
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "minimum_eigen": 0.00037789054655718046
+        },
+        {
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "minimum_eigen": 0.00037789054590514637
+        },
+        {
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "minimum_eigen": 0.0004675282670340689
+        },
+        {
+          "direction": [
+            0.7071067811865475,
+            0.7071067811865475,
+            0.0
+          ],
+          "minimum_eigen": 5.045002021981503e-06
+        },
+        {
+          "direction": [
+            0.7071067811865475,
+            -0.7071067811865475,
+            0.0
+          ],
+          "minimum_eigen": 5.0450017736328526e-06
+        }
+      ]
+    },
+    {
+      "parameters": "soft",
+      "p_GPa": 1.2,
+      "k": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "exact_kernel_dimension": 3,
+      "kernel_residual": 2.487105751304481e-13,
+      "kernel_energy_eigenvalues": [
+        -5.107152581661306e-14,
+        -4.843040363329446e-14,
+        -4.61593313809129e-14
+      ],
+      "minimum_full_eigen": -1.9514363428276168e-13,
+      "nearby": [
+        {
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "minimum_eigen": 0.0003276038471734356
+        },
+        {
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "minimum_eigen": 0.00032760384675550706
+        },
+        {
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "minimum_eigen": 0.00040813924432611464
+        },
+        {
+          "direction": [
+            0.7071067811865475,
+            0.7071067811865475,
+            0.0
+          ],
+          "minimum_eigen": -5.8139014305562506e-05
+        },
+        {
+          "direction": [
+            0.7071067811865475,
+            -0.7071067811865475,
+            0.0
+          ],
+          "minimum_eigen": -5.8139014648847585e-05
+        }
+      ]
+    },
+    {
+      "parameters": "hard",
+      "p_GPa": 0,
+      "k": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "exact_kernel_dimension": 3,
+      "kernel_residual": 4.947608067718884e-13,
+      "kernel_energy_eigenvalues": [
+        -3.763540498847371e-14,
+        -3.488023169521484e-14,
+        1.4613631076786399e-15
+      ],
+      "minimum_full_eigen": -1.6638302184452555e-13,
+      "nearby": [
+        {
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "minimum_eigen": 0.0015677102807098624
+        },
+        {
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "minimum_eigen": 0.0015677102811547195
+        },
+        {
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "minimum_eigen": 0.0017441595971133684
+        },
+        {
+          "direction": [
+            0.7071067811865475,
+            0.7071067811865475,
+            0.0
+          ],
+          "minimum_eigen": 0.0006350761169938452
+        },
+        {
+          "direction": [
+            0.7071067811865475,
+            -0.7071067811865475,
+            0.0
+          ],
+          "minimum_eigen": 0.0006350761168061082
+        }
+      ]
+    },
+    {
+      "parameters": "hard",
+      "p_GPa": 0.3,
+      "k": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "exact_kernel_dimension": 3,
+      "kernel_residual": 5.148011149842305e-13,
+      "kernel_energy_eigenvalues": [
+        -1.002660928632539e-13,
+        -7.276163226767768e-14,
+        -1.171338616669423e-14
+      ],
+      "minimum_full_eigen": -3.3086892611756954e-13,
+      "nearby": [
+        {
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "minimum_eigen": 0.001531553802170337
+        },
+        {
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "minimum_eigen": 0.0015315538021575884
+        },
+        {
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "minimum_eigen": 0.0017069529794293723
+        },
+        {
+          "direction": [
+            0.7071067811865475,
+            0.7071067811865475,
+            0.0
+          ],
+          "minimum_eigen": 0.000580575102868984
+        },
+        {
+          "direction": [
+            0.7071067811865475,
+            -0.7071067811865475,
+            0.0
+          ],
+          "minimum_eigen": 0.0005805751025311882
+        }
+      ]
+    },
+    {
+      "parameters": "hard",
+      "p_GPa": 0.6,
+      "k": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "exact_kernel_dimension": 3,
+      "kernel_residual": 4.2503199251460903e-13,
+      "kernel_energy_eigenvalues": [
+        2.7338375026714733e-14,
+        4.067003027686075e-14,
+        5.2783859775641625e-14
+      ],
+      "minimum_full_eigen": -3.7436789636982276e-13,
+      "nearby": [
+        {
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "minimum_eigen": 0.001495849988433849
+        },
+        {
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "minimum_eigen": 0.0014958499881355396
+        },
+        {
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "minimum_eigen": 0.0016701286718367818
+        },
+        {
+          "direction": [
+            0.7071067811865475,
+            0.7071067811865475,
+            0.0
+          ],
+          "minimum_eigen": 0.0005261297735025894
+        },
+        {
+          "direction": [
+            0.7071067811865475,
+            -0.7071067811865475,
+            0.0
+          ],
+          "minimum_eigen": 0.0005261297737402517
+        }
+      ]
+    },
+    {
+      "parameters": "hard",
+      "p_GPa": 0.9,
+      "k": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "exact_kernel_dimension": 3,
+      "kernel_residual": 4.802011639283338e-13,
+      "kernel_energy_eigenvalues": [
+        -9.96435547157723e-14,
+        -8.702509491169923e-14,
+        -6.912673524616439e-14
+      ],
+      "minimum_full_eigen": -3.262619197648077e-13,
+      "nearby": [
+        {
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "minimum_eigen": 0.0014605840443806764
+        },
+        {
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "minimum_eigen": 0.0014605840447161097
+        },
+        {
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "minimum_eigen": 0.0016336729011918593
+        },
+        {
+          "direction": [
+            0.7071067811865475,
+            0.7071067811865475,
+            0.0
+          ],
+          "minimum_eigen": 0.0004717136445958779
+        },
+        {
+          "direction": [
+            0.7071067811865475,
+            -0.7071067811865475,
+            0.0
+          ],
+          "minimum_eigen": 0.00047171364462951157
+        }
+      ]
+    },
+    {
+      "parameters": "hard",
+      "p_GPa": 1.2,
+      "k": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "exact_kernel_dimension": 3,
+      "kernel_residual": 4.4456556566588446e-13,
+      "kernel_energy_eigenvalues": [
+        -1.476633080525975e-13,
+        -1.0103845429193005e-13,
+        5.685522368930062e-14
+      ],
+      "minimum_full_eigen": -5.651268375141617e-13,
+      "nearby": [
+        {
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "minimum_eigen": 0.0014257419996808838
+        },
+        {
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "minimum_eigen": 0.0014257420001832447
+        },
+        {
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "minimum_eigen": 0.0015975726707862302
+        },
+        {
+          "direction": [
+            0.7071067811865475,
+            0.7071067811865475,
+            0.0
+          ],
+          "minimum_eigen": 0.0004173006966353317
+        },
+        {
+          "direction": [
+            0.7071067811865475,
+            -0.7071067811865475,
+            0.0
+          ],
+          "minimum_eigen": 0.0004173006961653118
+        }
+      ]
+    }
+  ],
+  "Pc_L2_folding": {
+    "p_GPa": 0.01,
+    "baseline_pinned_min_eigen": -554836.6013967926,
+    "pinned_min_eigen": 5.8325877077300845,
+    "folding_max_abs": 2.9558577807620168e-12,
+    "folding_relative": 1.5862670694822183e-15
+  },
+  "angle_derivative": [
+    {
+      "step": 0.001,
+      "predicted": 0.37325944228326946,
+      "finite_difference": 0.373259423036164,
+      "relative_error": 5.156495264321626e-08
+    },
+    {
+      "step": 0.0003,
+      "predicted": 0.37325944228326946,
+      "finite_difference": 0.37325883512588137,
+      "relative_error": 1.6266363802461764e-06
+    },
+    {
+      "step": 0.0001,
+      "predicted": 0.37325944228326946,
+      "finite_difference": 0.37323923891245603,
+      "relative_error": 5.412688474763202e-05
+    }
+  ],
+  "unsnapped_angle_at_equilibrium_root": [
+    {
+      "name": "random_L4_seed403",
+      "parameters": "soft",
+      "p_GPa": 1.8464735824028833,
+      "snapped_angle_PD_eigen": 1.8718278611135064e-09,
+      "unsnapped_angle_PD_eigen": -6.993948148056872e-09
+    },
+    {
+      "name": "trumof_2x2x2_14",
+      "parameters": "hard",
+      "p_GPa": 7.065435756654604,
+      "snapped_angle_PD_eigen": 3.433767639213306e-15,
+      "unsnapped_angle_PD_eigen": -2.8888269673218537e-08
+    }
+  ],
+  "cpu_seconds": 0.21875
+}

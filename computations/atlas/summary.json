@@ -1,0 +1,1002 @@
+{
+  "n_rows": 1752,
+  "source": "baseline atlas + baseline dense loss-of-ellipticity search (computations/atlas/dense_search_*.jsonl)",
+  "radii": {
+    "0.02": {
+      "n": 876,
+      "classes": {
+        "PD+LE": 290,
+        "micro": 508,
+        "PD-only-nonvolumetric": 78
+      },
+      "by_crystal_system": {
+        "tetragonal": {
+          "PD+LE": 110,
+          "micro": 95,
+          "PD-only-nonvolumetric": 16
+        },
+        "hexagonal": {
+          "micro": 214,
+          "PD+LE": 43,
+          "PD-only-nonvolumetric": 20
+        },
+        "trigonal": {
+          "micro": 36,
+          "PD-only-nonvolumetric": 8,
+          "PD+LE": 12
+        },
+        "orthorhombic": {
+          "PD-only-nonvolumetric": 18,
+          "micro": 71,
+          "PD+LE": 70
+        },
+        "monoclinic": {
+          "PD+LE": 22,
+          "micro": 28,
+          "PD-only-nonvolumetric": 16
+        },
+        "cubic": {
+          "PD+LE": 31,
+          "micro": 64
+        },
+        "triclinic": {
+          "PD+LE": 2
+        }
+      },
+      "PD_only_n": 78,
+      "PD_only_invariant_n": 78,
+      "protection_window": {
+        "n": 78,
+        "median": 0.07613807857893573,
+        "q25": 0.02449534169762224,
+        "q75": 0.21516882779882435,
+        "min": 0.004486994827006763,
+        "max": 1.1766642948628254,
+        "max_net": "cco",
+        "nets": [
+          {
+            "name": "apo",
+            "window": 0.08027264255339683
+          },
+          {
+            "name": "bpf",
+            "window": 0.09678730827009363
+          },
+          {
+            "name": "cco",
+            "window": 1.1766642948628254
+          },
+          {
+            "name": "ceg",
+            "window": 0.04235671236303373
+          },
+          {
+            "name": "cep",
+            "window": 0.08445916725741354
+          },
+          {
+            "name": "ceq",
+            "window": 0.33907212589273716
+          },
+          {
+            "name": "ces",
+            "window": 0.5276767229229566
+          },
+          {
+            "name": "cml",
+            "window": 0.20771122326779512
+          },
+          {
+            "name": "crg",
+            "window": 0.005038325607761518
+          },
+          {
+            "name": "dag",
+            "window": 0.24108407196040993
+          },
+          {
+            "name": "dmc",
+            "window": 0.005280721156573964
+          },
+          {
+            "name": "ecp",
+            "window": 1.1665533860539226
+          },
+          {
+            "name": "fna",
+            "window": 0.027028849355353657
+          },
+          {
+            "name": "fnr",
+            "window": 0.021936097539977384
+          },
+          {
+            "name": "fsk",
+            "window": 0.009138751223417563
+          },
+          {
+            "name": "fso",
+            "window": 0.004486994827006763
+          },
+          {
+            "name": "htp",
+            "window": 0.06963965798689165
+          },
+          {
+            "name": "jhw",
+            "window": 0.26295979395599267
+          },
+          {
+            "name": "jjt",
+            "window": 0.38405560381704285
+          },
+          {
+            "name": "jus",
+            "window": 0.08579559484168775
+          },
+          {
+            "name": "knb",
+            "window": 0.20701042286551496
+          },
+          {
+            "name": "knc",
+            "window": 0.07269782888111753
+          },
+          {
+            "name": "lil",
+            "window": 0.1191342565796929
+          },
+          {
+            "name": "lim",
+            "window": 0.06067520255818937
+          },
+          {
+            "name": "lom",
+            "window": 0.005458024536792561
+          },
+          {
+            "name": "lvt",
+            "window": 0.2809246567034507
+          },
+          {
+            "name": "mab",
+            "window": 0.06747278305092164
+          },
+          {
+            "name": "mgz",
+            "window": 0.19234967256297253
+          },
+          {
+            "name": "msp",
+            "window": 0.027981856012929462
+          },
+          {
+            "name": "ncd",
+            "window": 0.5875551574235207
+          },
+          {
+            "name": "nia",
+            "window": 0.024398677743125985
+          },
+          {
+            "name": "nob",
+            "window": 0.010312425800427683
+          },
+          {
+            "name": "not",
+            "window": 0.05100569941575239
+          },
+          {
+            "name": "ooc",
+            "window": 0.024258978544097642
+          },
+          {
+            "name": "oof",
+            "window": 0.03846660517630518
+          },
+          {
+            "name": "pht",
+            "window": 0.07957832827675393
+          },
+          {
+            "name": "smb",
+            "window": 0.20866835406024986
+          },
+          {
+            "name": "snx",
+            "window": 0.01107488170832438
+          },
+          {
+            "name": "sol",
+            "window": 0.01754482773508248
+          },
+          {
+            "name": "sqc",
+            "window": 0.15460442812547281
+          },
+          {
+            "name": "sta",
+            "window": 0.019805846934263016
+          },
+          {
+            "name": "stb",
+            "window": 0.04346219165337617
+          },
+          {
+            "name": "stc",
+            "window": 0.03716799573140528
+          },
+          {
+            "name": "std",
+            "window": 0.05605581182185371
+          },
+          {
+            "name": "ste",
+            "window": 0.014087132962652849
+          },
+          {
+            "name": "sur",
+            "window": 0.02478533356111101
+          },
+          {
+            "name": "tav",
+            "window": 0.20587125511190552
+          },
+          {
+            "name": "tcb",
+            "window": 0.18851098099530694
+          },
+          {
+            "name": "tfv",
+            "window": 0.12943133402333307
+          },
+          {
+            "name": "thl",
+            "window": 0.17241122352572802
+          },
+          {
+            "name": "txs",
+            "window": 0.012136312397740712
+          },
+          {
+            "name": "uon",
+            "window": 0.033596731459621276
+          },
+          {
+            "name": "utp",
+            "window": 0.02593244671300088
+          },
+          {
+            "name": "vcv",
+            "window": 0.93009072094197
+          },
+          {
+            "name": "vcx",
+            "window": 0.10531166996742058
+          },
+          {
+            "name": "vcy",
+            "window": 0.4105215380099092
+          },
+          {
+            "name": "vma",
+            "window": 0.03384857007218156
+          },
+          {
+            "name": "vmy",
+            "window": 0.9174018704811984
+          },
+          {
+            "name": "vnb",
+            "window": 0.015981428039202328
+          },
+          {
+            "name": "vne",
+            "window": 0.6833639556484634
+          },
+          {
+            "name": "wfd",
+            "window": 0.05543204600255813
+          },
+          {
+            "name": "wff",
+            "window": 0.009782402523120348
+          },
+          {
+            "name": "wfs",
+            "window": 1.0625917049240536
+          },
+          {
+            "name": "wft",
+            "window": 0.21733565237834918
+          },
+          {
+            "name": "wfu",
+            "window": 0.9318578888019111
+          },
+          {
+            "name": "wfy",
+            "window": 0.9694845867853361
+          },
+          {
+            "name": "wha",
+            "window": 0.005813659922086822
+          },
+          {
+            "name": "wjl",
+            "window": 0.0415576482013178
+          },
+          {
+            "name": "wjo",
+            "window": 0.278524262525627
+          },
+          {
+            "name": "wkf",
+            "window": 0.23524754410138926
+          },
+          {
+            "name": "wma",
+            "window": 0.013661650747163412
+          },
+          {
+            "name": "wnj",
+            "window": 0.12927600069906453
+          },
+          {
+            "name": "wys",
+            "window": 0.09149487069473539
+          },
+          {
+            "name": "xft",
+            "window": 0.33418178986224745
+          },
+          {
+            "name": "xux",
+            "window": 0.04369723095646072
+          },
+          {
+            "name": "yyz",
+            "window": 0.20115015870037145
+          },
+          {
+            "name": "zbb",
+            "window": 0.013210314820808478
+          },
+          {
+            "name": "zbo",
+            "window": 0.007300506761635184
+          }
+        ]
+      },
+      "selection_rule_test": {
+        "n_breaking_defined": 496,
+        "max_gap": 1.8719914507414614e-11,
+        "n_gap_gt_1e8": 0,
+        "n_inv_between_1e9_and_099": 0
+      },
+      "preload_force_normalized_residual": {
+        "max": 1.3041851856882404e-12,
+        "p99": 9.786030237750659e-14
+      }
+    },
+    "0.05": {
+      "n": 876,
+      "classes": {
+        "PD+LE": 291,
+        "micro": 510,
+        "PD-only-nonvolumetric": 74,
+        "PD+micro": 1
+      },
+      "by_crystal_system": {
+        "tetragonal": {
+          "PD+LE": 114,
+          "micro": 94,
+          "PD-only-nonvolumetric": 13
+        },
+        "hexagonal": {
+          "micro": 216,
+          "PD+LE": 41,
+          "PD-only-nonvolumetric": 20
+        },
+        "trigonal": {
+          "micro": 37,
+          "PD-only-nonvolumetric": 7,
+          "PD+LE": 12
+        },
+        "orthorhombic": {
+          "PD-only-nonvolumetric": 18,
+          "micro": 70,
+          "PD+LE": 70,
+          "PD+micro": 1
+        },
+        "monoclinic": {
+          "PD+LE": 22,
+          "micro": 28,
+          "PD-only-nonvolumetric": 16
+        },
+        "cubic": {
+          "PD+LE": 30,
+          "micro": 65
+        },
+        "triclinic": {
+          "PD+LE": 2
+        }
+      },
+      "PD_only_n": 74,
+      "PD_only_invariant_n": 74,
+      "protection_window": {
+        "n": 74,
+        "median": 0.06769218121743659,
+        "q25": 0.024788468989784873,
+        "q75": 0.20805691714359797,
+        "min": 0.00445516452521777,
+        "max": 1.1787096474431973,
+        "max_net": "cco",
+        "nets": [
+          {
+            "name": "apo",
+            "window": 0.07976192340168864
+          },
+          {
+            "name": "bpf",
+            "window": 0.0959068385788584
+          },
+          {
+            "name": "cco",
+            "window": 1.1787096474431973
+          },
+          {
+            "name": "ceg",
+            "window": 0.04255835619442139
+          },
+          {
+            "name": "cep",
+            "window": 0.08418863003304322
+          },
+          {
+            "name": "ceq",
+            "window": 0.33882154957277355
+          },
+          {
+            "name": "ces",
+            "window": 0.5181031812489432
+          },
+          {
+            "name": "cml",
+            "window": 0.20547696763928225
+          },
+          {
+            "name": "crg",
+            "window": 0.004975582071618412
+          },
+          {
+            "name": "dag",
+            "window": 0.2402171945321323
+          },
+          {
+            "name": "dmc",
+            "window": 0.005240070359136428
+          },
+          {
+            "name": "ecp",
+            "window": 1.1687658011763538
+          },
+          {
+            "name": "fna",
+            "window": 0.024813597311180713
+          },
+          {
+            "name": "fnr",
+            "window": 0.021872795599522155
+          },
+          {
+            "name": "fsk",
+            "window": 0.009114881924270568
+          },
+          {
+            "name": "fso",
+            "window": 0.00445516452521777
+          },
+          {
+            "name": "htp",
+            "window": 0.06813112851501257
+          },
+          {
+            "name": "jhw",
+            "window": 0.26215374923179735
+          },
+          {
+            "name": "jjt",
+            "window": 0.3839672652446844
+          },
+          {
+            "name": "jus",
+            "window": 0.0852496710820283
+          },
+          {
+            "name": "knb",
+            "window": 0.1925513971639481
+          },
+          {
+            "name": "knc",
+            "window": 0.06605773864550968
+          },
+          {
+            "name": "lil",
+            "window": 0.1189267088029109
+          },
+          {
+            "name": "lim",
+            "window": 0.0605898309686157
+          },
+          {
+            "name": "lom",
+            "window": 0.005245373282026788
+          },
+          {
+            "name": "lvt",
+            "window": 0.28076624273639905
+          },
+          {
+            "name": "mab",
+            "window": 0.0672532339198606
+          },
+          {
+            "name": "mgz",
+            "window": 0.03763829864604218
+          },
+          {
+            "name": "msp",
+            "window": 0.027329200001831255
+          },
+          {
+            "name": "ncd",
+            "window": 0.5856470594544245
+          },
+          {
+            "name": "nia",
+            "window": 0.024354039612042744
+          },
+          {
+            "name": "nob",
+            "window": 0.010255861067481442
+          },
+          {
+            "name": "not",
+            "window": 0.05001706947042206
+          },
+          {
+            "name": "ooc",
+            "window": 0.024283288875238895
+          },
+          {
+            "name": "oof",
+            "window": 0.0379526204472429
+          },
+          {
+            "name": "pht",
+            "window": 0.07883165155619132
+          },
+          {
+            "name": "smb",
+            "window": 0.2087421362771964
+          },
+          {
+            "name": "snx",
+            "window": 0.011024868776529972
+          },
+          {
+            "name": "sol",
+            "window": 0.017647436502082225
+          },
+          {
+            "name": "sqc",
+            "window": 0.15360859773383373
+          },
+          {
+            "name": "sta",
+            "window": 0.019707934267394922
+          },
+          {
+            "name": "stb",
+            "window": 0.04330181224981855
+          },
+          {
+            "name": "stc",
+            "window": 0.036944857512215545
+          },
+          {
+            "name": "std",
+            "window": 0.05578494567641101
+          },
+          {
+            "name": "ste",
+            "window": 0.014033665659943573
+          },
+          {
+            "name": "sur",
+            "window": 0.024780092882652927
+          },
+          {
+            "name": "tav",
+            "window": 0.2060012597428027
+          },
+          {
+            "name": "tcb",
+            "window": 0.18768472556961968
+          },
+          {
+            "name": "tfv",
+            "window": 0.12909687265979208
+          },
+          {
+            "name": "thl",
+            "window": 0.17090249172062788
+          },
+          {
+            "name": "txs",
+            "window": 0.01297507454275526
+          },
+          {
+            "name": "uon",
+            "window": 0.03427484095991362
+          },
+          {
+            "name": "utp",
+            "window": 0.025850093294025545
+          },
+          {
+            "name": "vcv",
+            "window": 0.9309879062529296
+          },
+          {
+            "name": "vcx",
+            "window": 0.1026966020540716
+          },
+          {
+            "name": "vcy",
+            "window": 0.2978779971336585
+          },
+          {
+            "name": "vma",
+            "window": 0.03379172199558611
+          },
+          {
+            "name": "vmy",
+            "window": 0.9211206062086594
+          },
+          {
+            "name": "vnb",
+            "window": 0.015276721431448426
+          },
+          {
+            "name": "vne",
+            "window": 0.6862520874407565
+          },
+          {
+            "name": "wfd",
+            "window": 0.0555740186212077
+          },
+          {
+            "name": "wfs",
+            "window": 0.7950571334719205
+          },
+          {
+            "name": "wfu",
+            "window": 0.291474396310927
+          },
+          {
+            "name": "wfy",
+            "window": 0.7057086502373455
+          },
+          {
+            "name": "wjl",
+            "window": 0.03910431165771189
+          },
+          {
+            "name": "wjo",
+            "window": 0.2760451701507345
+          },
+          {
+            "name": "wkf",
+            "window": 0.1920581853780361
+          },
+          {
+            "name": "wma",
+            "window": 0.009259396979665713
+          },
+          {
+            "name": "wys",
+            "window": 0.0942998031560578
+          },
+          {
+            "name": "xft",
+            "window": 0.33626090173314105
+          },
+          {
+            "name": "xux",
+            "window": 0.04370353689280382
+          },
+          {
+            "name": "yyz",
+            "window": 0.19911158319732047
+          },
+          {
+            "name": "zbb",
+            "window": 0.013095728801598927
+          },
+          {
+            "name": "zbo",
+            "window": 0.0070534781002007385
+          }
+        ]
+      },
+      "selection_rule_test": {
+        "n_breaking_defined": 506,
+        "max_gap": 5.9332538882017616e-12,
+        "n_gap_gt_1e8": 0,
+        "n_inv_between_1e9_and_099": 0
+      },
+      "preload_force_normalized_residual": {
+        "max": 1.2458997834841118e-13,
+        "p99": 1.423899543142612e-14
+      }
+    }
+  },
+  "n_nets": 876,
+  "class_same_both_radii": 867,
+  "changes_from_bloch": [
+    {
+      "name": "cdt",
+      "r": 0.02,
+      "lambda_LE": [
+        3.110859939143011e-08,
+        3.110859856017311e-08
+      ],
+      "cls": [
+        "PD+LE",
+        "PD+LE"
+      ]
+    },
+    {
+      "name": "cdt",
+      "r": 0.05,
+      "lambda_LE": [
+        1.2151801106598455e-06,
+        1.215180077445732e-06
+      ],
+      "cls": [
+        "PD+LE",
+        "PD+LE"
+      ]
+    },
+    {
+      "name": "ceg",
+      "r": 0.02,
+      "lambda_LE": [
+        1.296905665228561e-07,
+        1.2969056637938493e-07
+      ],
+      "cls": [
+        "PD-only-nonvolumetric",
+        "PD-only-nonvolumetric"
+      ]
+    },
+    {
+      "name": "ecu",
+      "r": 0.02,
+      "lambda_LE": [
+        1.0620504552625268e-06,
+        1.0620504541841645e-06
+      ],
+      "cls": [
+        "PD+LE",
+        "PD+LE"
+      ]
+    },
+    {
+      "name": "nch",
+      "r": 0.02,
+      "lambda_LE": [
+        1.671328863977116e-06,
+        1.2457670590453712e-06
+      ],
+      "cls": [
+        "PD+micro",
+        "PD+LE"
+      ]
+    },
+    {
+      "name": "ooc",
+      "r": 0.02,
+      "lambda_LE": [
+        1.0676445607179716e-06,
+        1.0046833949514048e-06
+      ],
+      "cls": [
+        "PD-only-nonvolumetric",
+        "PD-only-nonvolumetric"
+      ]
+    },
+    {
+      "name": "pyu",
+      "r": 0.02,
+      "lambda_LE": [
+        null,
+        3.8054012275079368e-06
+      ],
+      "cls": [
+        "PD+micro",
+        "PD+LE"
+      ]
+    },
+    {
+      "name": "rna",
+      "r": 0.02,
+      "lambda_LE": [
+        2.5764274897013228e-08,
+        2.5764274661411943e-08
+      ],
+      "cls": [
+        "PD+LE",
+        "PD+LE"
+      ]
+    },
+    {
+      "name": "sow",
+      "r": 0.02,
+      "lambda_LE": [
+        9.655164287777334e-08,
+        9.655163411654889e-08
+      ],
+      "cls": [
+        "PD+LE",
+        "PD+LE"
+      ]
+    },
+    {
+      "name": "urs",
+      "r": 0.02,
+      "lambda_LE": [
+        6.964633619670577e-07,
+        6.964524714316622e-07
+      ],
+      "cls": [
+        "micro",
+        "micro"
+      ]
+    },
+    {
+      "name": "urs",
+      "r": 0.05,
+      "lambda_LE": [
+        2.7171234250615912e-05,
+        2.7170798211711062e-05
+      ],
+      "cls": [
+        "micro",
+        "micro"
+      ]
+    },
+    {
+      "name": "vcx",
+      "r": 0.02,
+      "lambda_LE": [
+        null,
+        1.4929158986949905e-06
+      ],
+      "cls": [
+        "PD-only-nonvolumetric",
+        "PD-only-nonvolumetric"
+      ]
+    },
+    {
+      "name": "vcx",
+      "r": 0.05,
+      "lambda_LE": [
+        null,
+        5.818010349603536e-05
+      ],
+      "cls": [
+        "PD-only-nonvolumetric",
+        "PD-only-nonvolumetric"
+      ]
+    },
+    {
+      "name": "vmz",
+      "r": 0.02,
+      "lambda_LE": [
+        1.0822888517158556e-06,
+        1.0441153038889285e-06
+      ],
+      "cls": [
+        "micro",
+        "micro"
+      ]
+    },
+    {
+      "name": "vmz",
+      "r": 0.05,
+      "lambda_LE": [
+        4.2254145405803655e-05,
+        4.072770611574278e-05
+      ],
+      "cls": [
+        "micro",
+        "micro"
+      ]
+    },
+    {
+      "name": "vnh",
+      "r": 0.02,
+      "lambda_LE": [
+        8.036650342314714e-07,
+        7.148193348153801e-07
+      ],
+      "cls": [
+        "micro",
+        "micro"
+      ]
+    },
+    {
+      "name": "wfe",
+      "r": 0.02,
+      "lambda_LE": [
+        1.353558435995152e-06,
+        1.353558070481581e-06
+      ],
+      "cls": [
+        "PD+LE",
+        "PD+LE"
+      ]
+    },
+    {
+      "name": "wld",
+      "r": 0.05,
+      "lambda_LE": [
+        1.7201053106956502e-05,
+        1.7201052203514393e-05
+      ],
+      "cls": [
+        "micro",
+        "micro"
+      ]
+    },
+    {
+      "name": "wma",
+      "r": 0.05,
+      "lambda_LE": [
+        3.340577055133125e-05,
+        3.338905208894038e-05
+      ],
+      "cls": [
+        "PD-only-nonvolumetric",
+        "PD-only-nonvolumetric"
+      ]
+    },
+    {
+      "name": "wmm",
+      "r": 0.02,
+      "lambda_LE": [
+        9.860849535540842e-07,
+        9.771266035855822e-07
+      ],
+      "cls": [
+        "micro",
+        "micro"
+      ]
+    },
+    {
+      "name": "wys",
+      "r": 0.05,
+      "lambda_LE": [
+        1.7581875803688313e-05,
+        1.7476240943200396e-05
+      ],
+      "cls": [
+        "PD-only-nonvolumetric",
+        "PD-only-nonvolumetric"
+      ]
+    }
+  ]
+}

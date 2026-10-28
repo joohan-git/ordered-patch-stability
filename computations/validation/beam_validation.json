@@ -1,0 +1,362 @@
+{
+  "model": "Kirchhoff-Hermite exact-strain initial tangent v1",
+  "elements": [
+    {
+      "axial_relative_error": 3.9868732331795584e-16,
+      "symmetry_error": 3.676688489224301e-17,
+      "end_reversal_error": 5.57046025530444e-16,
+      "linear_stiffness_error": 1.626245482791804e-16,
+      "finite_objectivity_error": 6.685868231518457e-16
+    },
+    {
+      "axial_relative_error": 3.5536527365946496e-16,
+      "symmetry_error": 7.0914895981944e-17,
+      "end_reversal_error": 4.793899334720526e-16,
+      "linear_stiffness_error": 1.2310194466634013e-16,
+      "finite_objectivity_error": 2.3978277604410983e-16
+    },
+    {
+      "axial_relative_error": 3.440534387387653e-16,
+      "symmetry_error": 4.8700546612358735e-17,
+      "end_reversal_error": 4.700440307238408e-16,
+      "linear_stiffness_error": 1.875767373929277e-16,
+      "finite_objectivity_error": 3.483988156481097e-16
+    },
+    {
+      "axial_relative_error": 2.9152381936866964e-16,
+      "symmetry_error": 7.179013033767929e-17,
+      "end_reversal_error": 3.696075489891712e-16,
+      "linear_stiffness_error": 4.772470982436618e-16,
+      "finite_objectivity_error": 3.1798006553922506e-16
+    },
+    {
+      "axial_relative_error": 2.355331969748054e-16,
+      "symmetry_error": 4.0294600120726263e-17,
+      "end_reversal_error": 2.7319220794305895e-16,
+      "linear_stiffness_error": 1.9723298249798745e-16,
+      "finite_objectivity_error": 1.052907129920727e-16
+    },
+    {
+      "axial_relative_error": 2.266995032712338e-16,
+      "symmetry_error": 1.4872069297026987e-17,
+      "end_reversal_error": 3.3910226373341895e-16,
+      "linear_stiffness_error": 3.526917615606859e-17,
+      "finite_objectivity_error": 2.7928509224031823e-16
+    },
+    {
+      "axial_relative_error": 2.6023385267043427e-16,
+      "symmetry_error": 4.409758102029455e-17,
+      "end_reversal_error": 4.194639281272809e-16,
+      "linear_stiffness_error": 7.387290939188735e-18,
+      "finite_objectivity_error": 5.310520964736449e-16
+    },
+    {
+      "axial_relative_error": 2.983438527741419e-16,
+      "symmetry_error": 5.4688690536752025e-17,
+      "end_reversal_error": 3.9268906404743044e-16,
+      "linear_stiffness_error": 2.5684613126726987e-16,
+      "finite_objectivity_error": 3.32849996320979e-16
+    }
+  ],
+  "nets": [
+    {
+      "name": "pcu",
+      "load": 0.0002178287993556164,
+      "ward": 5.491600776347219e-20,
+      "initial_stress_ward": 1.199304623196017e-16,
+      "schur_relative_error": 5.023577633066159e-18,
+      "rotation_energy": 3.727468432051796e-21,
+      "analytic_bloch_coefficient_error": 6.434670379060951e-17,
+      "bloch": [
+        {
+          "wave_number": 0.02,
+          "relative_error": 0.0014420706553855945
+        },
+        {
+          "wave_number": 0.01,
+          "relative_error": 0.00036092864065066083
+        },
+        {
+          "wave_number": 0.005,
+          "relative_error": 9.025782684471882e-05
+        },
+        {
+          "wave_number": 0.0025,
+          "relative_error": 2.2565848616211426e-05
+        }
+      ]
+    },
+    {
+      "name": "utp",
+      "load": 3.825829586229763e-05,
+      "ward": 8.084402532180167e-18,
+      "initial_stress_ward": 1.3220796069543564e-16,
+      "schur_relative_error": 1.4627309760559734e-15,
+      "rotation_energy": 2.496474370330786e-19,
+      "analytic_bloch_coefficient_error": 1.1641064492690949e-15,
+      "bloch": [
+        {
+          "wave_number": 0.02,
+          "relative_error": 0.052617190790549696
+        },
+        {
+          "wave_number": 0.01,
+          "relative_error": 0.013695475341459365
+        },
+        {
+          "wave_number": 0.005,
+          "relative_error": 0.003459449989695182
+        },
+        {
+          "wave_number": 0.0025,
+          "relative_error": 0.0008671154449584696
+        }
+      ]
+    },
+    {
+      "name": "cco",
+      "load": 0.00025737797113165565,
+      "ward": 8.428945283436506e-18,
+      "initial_stress_ward": 4.199517496638307e-17,
+      "schur_relative_error": 3.0425785171917446e-16,
+      "rotation_energy": 1.147615128101105e-18,
+      "analytic_bloch_coefficient_error": 4.3339632092406395e-16,
+      "bloch": [
+        {
+          "wave_number": 0.02,
+          "relative_error": 0.0017897315325024503
+        },
+        {
+          "wave_number": 0.01,
+          "relative_error": 0.0004480792201260531
+        },
+        {
+          "wave_number": 0.005,
+          "relative_error": 0.00011206024846727305
+        },
+        {
+          "wave_number": 0.0025,
+          "relative_error": 2.8017580030147928e-05
+        }
+      ]
+    },
+    {
+      "name": "cyg",
+      "load": 0.004586331580842177,
+      "ward": 5.729659541460628e-18,
+      "initial_stress_ward": 3.4435064063127017e-15,
+      "schur_relative_error": 1.3551096893706968e-15,
+      "rotation_energy": 6.974809659533864e-19,
+      "analytic_bloch_coefficient_error": 2.4317497428520613e-14,
+      "bloch": [
+        {
+          "wave_number": 0.02,
+          "relative_error": 0.001107179761753784
+        },
+        {
+          "wave_number": 0.01,
+          "relative_error": 0.000277029198956575
+        },
+        {
+          "wave_number": 0.005,
+          "relative_error": 6.927193735778408e-05
+        },
+        {
+          "wave_number": 0.0025,
+          "relative_error": 1.7319099616810624e-05
+        }
+      ]
+    },
+    {
+      "name": "tfk",
+      "load": 0.003180340812592167,
+      "ward": 9.324720698214033e-18,
+      "initial_stress_ward": 3.688433584525716e-15,
+      "schur_relative_error": 7.809441252114911e-16,
+      "rotation_energy": 6.813355742752387e-19,
+      "analytic_bloch_coefficient_error": 7.910612417572459e-16,
+      "bloch": [
+        {
+          "wave_number": 0.02,
+          "relative_error": 0.02188252756435759
+        },
+        {
+          "wave_number": 0.01,
+          "relative_error": 0.005561230957647955
+        },
+        {
+          "wave_number": 0.005,
+          "relative_error": 0.0013960878576362394
+        },
+        {
+          "wave_number": 0.0025,
+          "relative_error": 0.0003493849048791957
+        }
+      ]
+    },
+    {
+      "name": "srs",
+      "load": 6.062229037291441e-05,
+      "ward": 1.0502537229229434e-17,
+      "initial_stress_ward": 1.0836832488093646e-16,
+      "schur_relative_error": 6.900247799399814e-16,
+      "rotation_energy": 6.119059742614009e-19,
+      "analytic_bloch_coefficient_error": 7.194365967159641e-16,
+      "bloch": [
+        {
+          "wave_number": 0.02,
+          "relative_error": 0.010907429827820933
+        },
+        {
+          "wave_number": 0.01,
+          "relative_error": 0.0027493848032496605
+        },
+        {
+          "wave_number": 0.005,
+          "relative_error": 0.0006887691976086896
+        },
+        {
+          "wave_number": 0.0025,
+          "relative_error": 0.0001722820177285695
+        }
+      ]
+    }
+  ],
+  "benchmarks": [
+    {
+      "div": 1,
+      "euler": 7.634070148223197e-06,
+      "portal_per_column": 6.361725123519328e-06,
+      "exact": 6.278771027760713e-06,
+      "euler_relative": 0.2158542037080533,
+      "portal_relative": 0.01321183642337731
+    },
+    {
+      "div": 2,
+      "euler": 6.326001998959268e-06,
+      "portal_per_column": 6.326001998959261e-06,
+      "exact": 6.278771027760713e-06,
+      "euler_relative": 0.007522327377400773,
+      "portal_relative": 0.007522327377399662
+    },
+    {
+      "div": 4,
+      "euler": 6.281986640960804e-06,
+      "portal_per_column": 6.281986640960823e-06,
+      "exact": 6.278771027760713e-06,
+      "euler_relative": 0.0005121405424524106,
+      "portal_relative": 0.0005121405424555192
+    },
+    {
+      "div": 8,
+      "euler": 6.278976758509608e-06,
+      "portal_per_column": 6.278976758509444e-06,
+      "exact": 6.278771027760713e-06,
+      "euler_relative": 3.276608558988592e-05,
+      "portal_relative": 3.27660855639067e-05
+    },
+    {
+      "div": 16,
+      "euler": 6.27878396335319e-06,
+      "portal_per_column": 6.2787839633651714e-06,
+      "exact": 6.278771027760713e-06,
+      "euler_relative": 2.060210894772041e-06,
+      "portal_relative": 2.0602128030233757e-06
+    }
+  ],
+  "selfstress": [
+    {
+      "balance": 7.298971370593915e-17,
+      "ward": 9.749713219761925e-17,
+      "rotation_energy": 1.7600725226972385e-17
+    },
+    {
+      "balance": 4.4234732038970235e-17,
+      "ward": 8.235404632561525e-17,
+      "rotation_energy": 8.811370057467532e-18
+    },
+    {
+      "balance": 4.915976520787301e-17,
+      "ward": 8.149101138955691e-17,
+      "rotation_energy": 1.067475266974517e-17
+    },
+    {
+      "balance": 4.6778126841307847e-17,
+      "ward": 8.6900600553653e-17,
+      "rotation_energy": 1.4160935471395546e-17
+    },
+    {
+      "balance": 4.4229849354817785e-17,
+      "ward": 7.57468882401481e-17,
+      "rotation_energy": 9.532124689890147e-18
+    },
+    {
+      "balance": 7.015056845369936e-17,
+      "ward": 9.247829662003928e-17,
+      "rotation_energy": 7.894473235980625e-18
+    },
+    {
+      "balance": 5.0174864476541427e-17,
+      "ward": 8.480020465960953e-17,
+      "rotation_energy": 9.960261190489474e-18
+    },
+    {
+      "balance": 5.698555501237396e-17,
+      "ward": 7.679680474881918e-17,
+      "rotation_energy": 1.2142308186345857e-17
+    },
+    {
+      "balance": 4.660612731213528e-17,
+      "ward": 7.475011841549716e-17,
+      "rotation_energy": 8.499036473862104e-18
+    },
+    {
+      "balance": 5.756625162911318e-17,
+      "ward": 8.940812402490694e-17,
+      "rotation_energy": 7.891680102289743e-18
+    }
+  ],
+  "loaded_portal": [
+    {
+      "div": 1,
+      "critical_load_factor": 7.456889435448224,
+      "reference_force": 6.36172512351933e-07,
+      "finite_difference_factor": 7.4568895249264315,
+      "hessian_relative_error": 3.355604462297552e-08
+    },
+    {
+      "div": 2,
+      "critical_load_factor": 7.413573074528396,
+      "reference_force": 6.36172512351933e-07
+    },
+    {
+      "div": 4,
+      "critical_load_factor": 7.392008010033958,
+      "reference_force": 6.36172512351933e-07
+    },
+    {
+      "div": 8,
+      "critical_load_factor": 7.390484652551963,
+      "reference_force": 6.36172512351933e-07
+    },
+    {
+      "div": 16,
+      "critical_load_factor": 7.39038610035781,
+      "reference_force": 6.36172512351933e-07
+    }
+  ],
+  "finite_rotation_jet": [
+    {
+      "eps": 0.01,
+      "error": 6.384104778506456e-06
+    },
+    {
+      "eps": 0.001,
+      "error": 6.321879873549803e-09
+    },
+    {
+      "eps": 0.0001,
+      "error": 6.315831188384806e-12
+    }
+  ]
+}

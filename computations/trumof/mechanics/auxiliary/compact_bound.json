@@ -1,0 +1,55 @@
+{
+  "rows": [
+    {
+      "R_cells": 2,
+      "L": 4,
+      "components": 2,
+      "clamped_nodes": 32,
+      "p0_min_eigen": 81.04098937868106,
+      "window_relative_translation_p0_Rayleigh": 314.04176895201783,
+      "critical_pressure_GPa": 3.7370019371616703,
+      "bracket": [
+        3.73700093716167,
+        3.7370029371616704
+      ],
+      "critical_eigen": -6.944520018003016e-12,
+      "participation_fraction": 0.055411084508413824,
+      "interpretation": "compact upper bound on negative onset; actual periodic preload"
+    },
+    {
+      "R_cells": 4,
+      "L": 6,
+      "components": 2,
+      "clamped_nodes": 256,
+      "p0_min_eigen": 28.997008863236026,
+      "window_relative_translation_p0_Rayleigh": 90.76239323167505,
+      "critical_pressure_GPa": 2.271662441671683,
+      "bracket": [
+        2.2716614416716827,
+        2.271663441671683
+      ],
+      "critical_eigen": -1.4610925273501675e-09,
+      "participation_fraction": 0.03654067288453362,
+      "interpretation": "compact upper bound on negative onset; actual periodic preload"
+    },
+    {
+      "R_cells": 6,
+      "L": 8,
+      "components": 2,
+      "clamped_nodes": 864,
+      "p0_min_eigen": 14.907331689876731,
+      "window_relative_translation_p0_Rayleigh": 41.35127843791766,
+      "critical_pressure_GPa": 1.9256087409470874,
+      "bracket": [
+        1.9256077409470875,
+        1.9256097409470874
+      ],
+      "critical_eigen": 5.904798249708223e-13,
+      "participation_fraction": 0.08679653018310944,
+      "interpretation": "compact upper bound on negative onset; actual periodic preload"
+    }
+  ],
+  "seconds": 3.9298082999885082,
+  "cpu_seconds": 3.8125,
+  "participation_note": "Individual degenerate eigenvector participation is basis-dependent; compact-mode participation depends on the selected degenerate eigenvector."
+}

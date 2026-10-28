@@ -1,0 +1,177 @@
+{
+  "rows": [
+    {
+      "mu_matrix": 0.1,
+      "R": 2.0,
+      "outer_radius": 8.0,
+      "critical_radial_FE": 1.173341449129,
+      "exact_first": 1.1733333333333333,
+      "uniform_dilation_trial_threshold": 1.1733333333333333,
+      "relative_error": 6.916871306827943e-06,
+      "PD_only_negative_mode": true
+    },
+    {
+      "mu_matrix": 0.1,
+      "R": 4.0,
+      "outer_radius": 16.0,
+      "critical_radial_FE": 1.173341449129,
+      "exact_first": 1.1733333333333333,
+      "uniform_dilation_trial_threshold": 1.1733333333333333,
+      "relative_error": 6.916871306827943e-06,
+      "PD_only_negative_mode": true
+    },
+    {
+      "mu_matrix": 0.1,
+      "R": 8.0,
+      "outer_radius": 32.0,
+      "critical_radial_FE": 1.173341449129,
+      "exact_first": 1.1733333333333333,
+      "uniform_dilation_trial_threshold": 1.1733333333333333,
+      "relative_error": 6.916871306827943e-06,
+      "PD_only_negative_mode": true
+    },
+    {
+      "mu_matrix": 0.1,
+      "R": 16.0,
+      "outer_radius": 64.0,
+      "critical_radial_FE": 1.173341449129,
+      "exact_first": 1.1733333333333333,
+      "uniform_dilation_trial_threshold": 1.1733333333333333,
+      "relative_error": 6.916871306827943e-06,
+      "PD_only_negative_mode": true
+    },
+    {
+      "mu_matrix": 0.1,
+      "R": 32.0,
+      "outer_radius": 128.0,
+      "critical_radial_FE": 1.173341449129,
+      "exact_first": 1.1733333333333333,
+      "uniform_dilation_trial_threshold": 1.1733333333333333,
+      "relative_error": 6.916871306827943e-06,
+      "PD_only_negative_mode": true
+    },
+    {
+      "mu_matrix": 1.0,
+      "R": 2.0,
+      "outer_radius": 8.0,
+      "critical_radial_FE": 1.9999999999999623,
+      "exact_first": 2.0,
+      "uniform_dilation_trial_threshold": 2.1333333333333333,
+      "relative_error": -1.887379141862766e-14,
+      "PD_only_negative_mode": false
+    },
+    {
+      "mu_matrix": 1.0,
+      "R": 4.0,
+      "outer_radius": 16.0,
+      "critical_radial_FE": 1.9999999999999623,
+      "exact_first": 2.0,
+      "uniform_dilation_trial_threshold": 2.1333333333333333,
+      "relative_error": -1.887379141862766e-14,
+      "PD_only_negative_mode": false
+    },
+    {
+      "mu_matrix": 1.0,
+      "R": 8.0,
+      "outer_radius": 32.0,
+      "critical_radial_FE": 1.9999999999999623,
+      "exact_first": 2.0,
+      "uniform_dilation_trial_threshold": 2.1333333333333333,
+      "relative_error": -1.887379141862766e-14,
+      "PD_only_negative_mode": false
+    },
+    {
+      "mu_matrix": 1.0,
+      "R": 16.0,
+      "outer_radius": 64.0,
+      "critical_radial_FE": 1.9999999999999623,
+      "exact_first": 2.0,
+      "uniform_dilation_trial_threshold": 2.1333333333333333,
+      "relative_error": -1.887379141862766e-14,
+      "PD_only_negative_mode": false
+    },
+    {
+      "mu_matrix": 1.0,
+      "R": 32.0,
+      "outer_radius": 128.0,
+      "critical_radial_FE": 1.9999999999999623,
+      "exact_first": 2.0,
+      "uniform_dilation_trial_threshold": 2.1333333333333333,
+      "relative_error": -1.887379141862766e-14,
+      "PD_only_negative_mode": false
+    },
+    {
+      "mu_matrix": 3.0,
+      "R": 2.0,
+      "outer_radius": 8.0,
+      "critical_radial_FE": 1.9999999999999623,
+      "exact_first": 2.0,
+      "uniform_dilation_trial_threshold": 4.266666666666667,
+      "relative_error": -1.887379141862766e-14,
+      "PD_only_negative_mode": false
+    },
+    {
+      "mu_matrix": 3.0,
+      "R": 4.0,
+      "outer_radius": 16.0,
+      "critical_radial_FE": 1.9999999999999623,
+      "exact_first": 2.0,
+      "uniform_dilation_trial_threshold": 4.266666666666667,
+      "relative_error": -1.887379141862766e-14,
+      "PD_only_negative_mode": false
+    },
+    {
+      "mu_matrix": 3.0,
+      "R": 8.0,
+      "outer_radius": 32.0,
+      "critical_radial_FE": 1.9999999999999623,
+      "exact_first": 2.0,
+      "uniform_dilation_trial_threshold": 4.266666666666667,
+      "relative_error": -1.887379141862766e-14,
+      "PD_only_negative_mode": false
+    },
+    {
+      "mu_matrix": 3.0,
+      "R": 16.0,
+      "outer_radius": 64.0,
+      "critical_radial_FE": 1.9999999999999623,
+      "exact_first": 2.0,
+      "uniform_dilation_trial_threshold": 4.266666666666667,
+      "relative_error": -1.887379141862766e-14,
+      "PD_only_negative_mode": false
+    },
+    {
+      "mu_matrix": 3.0,
+      "R": 32.0,
+      "outer_radius": 128.0,
+      "critical_radial_FE": 1.9999999999999623,
+      "exact_first": 2.0,
+      "uniform_dilation_trial_threshold": 4.266666666666667,
+      "relative_error": -1.887379141862766e-14,
+      "PD_only_negative_mode": false
+    }
+  ],
+  "analytic": {
+    "lambda_PD": 1.0,
+    "lambda_LE": 2.0,
+    "infinite_radial_threshold": "1 + mu_matrix",
+    "finite_radial_threshold": "1 + (mu_matrix + K_matrix*(R/B)^2)/(1-(R/B)^2)"
+  },
+  "counterexample": {
+    "lambda_test": 1.5,
+    "K_inside": -0.5,
+    "mu_inside": 1.0,
+    "K_matrix": 1.0,
+    "mu_matrix": 0.1,
+    "outer_to_patch_radius": 4.0,
+    "normalized_trial_energy": -0.32666666666666666,
+    "acoustic_eigenvalues_inside": [
+      1.0,
+      0.5
+    ],
+    "acoustic_eigenvalues_matrix": [
+      0.1,
+      1.1
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "source_note": "Earlier inclusion preload uses the same elastic geometry, stiffness and hydrostatic preload as the production beam tangent run; the later change affects the instability tangent only. Stress-factor identity is verified below.",
+  "cases": [
+    {
+      "name": "cco",
+      "L": 10,
+      "R_fraction": 0.34,
+      "onset_pressure": 5.337654093437145e-06,
+      "s_P": 0.7734756708311732,
+      "scalar_rho_loc": 1.1075587431859255,
+      "scalar_rho_PD": 2.4107835707903975,
+      "patch_stress_per_reference_factor": [
+        [
+          -0.00426001058207014,
+          -1.0357852185417985e-08,
+          1.2685290132167971e-08
+        ],
+        [
+          -1.0357852185417985e-08,
+          -0.004255289055115763,
+          -2.3884721254889523e-05
+        ],
+        [
+          1.2685290132167971e-08,
+          -2.3884721254889523e-05,
+          -0.004239108736904699
+        ]
+      ],
+      "applied_pressure_per_reference_factor": 0.005496578132136454,
+      "preload_residual": 6.945493637326138e-14,
+      "source_deviatoric_fraction": 0.005047105854674234,
+      "A": [
+        [
+          1.2246954553452083,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.5811941324339378,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          1.5491942511805314
+        ]
+      ],
+      "atlas_graph_hash": null,
+      "bulk_hydro_loc": 3.727608676223308e-06,
+      "source": "inc_cco_L10_R0p340_d2.json",
+      "source_sha256": "feccebacbe77ca58e2e5cb04238308c41f786cceef5cec60288b4255416dc14b"
+    },
+    {
+      "name": "vne",
+      "L": 10,
+      "R_fraction": 0.34,
+      "onset_pressure": 4.218301882851086e-06,
+      "s_P": 0.7726155400607582,
+      "scalar_rho_loc": 1.1600412285183803,
+      "scalar_rho_PD": 1.9527715912240815,
+      "patch_stress_per_reference_factor": [
+        [
+          -0.0034051776573122213,
+          -7.343180942538164e-06,
+          -5.3085421080405974e-05
+        ],
+        [
+          -7.343180942538164e-06,
+          -0.0038815740680277744,
+          4.5543604067474834e-05
+        ],
+        [
+          -5.3085421080405974e-05,
+          4.5543604067474834e-05,
+          -0.003708185859131905
+        ]
+      ],
+      "applied_pressure_per_reference_factor": 0.004743600154011598,
+      "preload_residual": 1.5293550935622585e-13,
+      "source_deviatoric_fraction": 0.05595577065278465,
+      "A": [
+        [
+          1.0000335062728574,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.9305646838597512,
+          0.0
+        ],
+        [
+          -0.5002055873797819,
+          0.0,
+          1.6359966306460814
+        ]
+      ],
+      "atlas_graph_hash": null,
+      "bulk_hydro_loc": 2.809491169037042e-06,
+      "source": "inc_vne_L10_R0p340_d2.json",
+      "source_sha256": "ebb1f94bb47188d085c9cc18c2c9d8b0af0a7f68d57767aaada6c1fe2883bd5d"
+    }
+  ]
+}

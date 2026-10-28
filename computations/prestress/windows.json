@@ -1,0 +1,661 @@
+{
+  "metadata": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "workers_per_script": 1,
+    "blas_threads": 1,
+    "loading": "hydrostatic preload; fixed periodic cell fluctuation eigenproblem",
+    "source_sha256": {
+      "common/sparse_frames.py": "2565628b070a32bc5f80187d447e46cb3716173b41db7a6962735c7fb03918e5",
+      "common/initial_stress.py": "204cec277e73a93029d8e6e86220c816d7ae26c4b6fd0c0f8b536367510e9f8f",
+      "truchet_2d/frame.py": "0bbbd5fb80c55a55b66926941b67dfe6b8f81b220a1b39df4c9de147792df8c2",
+      "frame_3d/frame.py": "791472303f9820844941ffd24e0ac91f2aeabdd9156b6a261566c7844dc5c3ed"
+    }
+  },
+  "runs": [
+    {
+      "window_radius": 2,
+      "pressure_ratio": 0.0,
+      "operator": "minus_commutator",
+      "negative_trial_rayleigh_scaled": -0.0012422152065069353,
+      "principal_minor": [
+        [
+          0.0,
+          0.0053088984688282655
+        ],
+        [
+          0.005308898468828265,
+          0.021446609406726252
+        ]
+      ],
+      "principal_minor_eigenvalue": -0.0012422152065069349,
+      "dofs": 375
+    },
+    {
+      "window_radius": 2,
+      "pressure_ratio": 0.0,
+      "operator": "plus_commutator",
+      "negative_trial_rayleigh_scaled": -0.001242215206506935,
+      "principal_minor": [
+        [
+          0.0,
+          -0.0053088984688282655
+        ],
+        [
+          -0.005308898468828265,
+          0.021446609406726255
+        ]
+      ],
+      "principal_minor_eigenvalue": -0.0012422152065069349,
+      "dofs": 375
+    },
+    {
+      "window_radius": 2,
+      "pressure_ratio": 0.5,
+      "operator": "minus_commutator",
+      "negative_trial_rayleigh_scaled": -0.0012422153572044772,
+      "principal_minor": [
+        [
+          0.0,
+          0.0053088984688282655
+        ],
+        [
+          0.005308898468828265,
+          0.02144660650356709
+        ]
+      ],
+      "principal_minor_eigenvalue": -0.0012422153572044766,
+      "dofs": 375
+    },
+    {
+      "window_radius": 2,
+      "pressure_ratio": 0.5,
+      "operator": "plus_commutator",
+      "negative_trial_rayleigh_scaled": -0.0012422153572044772,
+      "principal_minor": [
+        [
+          0.0,
+          -0.0053088984688282655
+        ],
+        [
+          -0.005308898468828265,
+          0.02144660650356709
+        ]
+      ],
+      "principal_minor_eigenvalue": -0.0012422153572044766,
+      "dofs": 375
+    },
+    {
+      "window_radius": 2,
+      "pressure_ratio": 1.0,
+      "operator": "minus_commutator",
+      "negative_trial_rayleigh_scaled": -0.0012422155079020534,
+      "principal_minor": [
+        [
+          0.0,
+          0.0053088984688282655
+        ],
+        [
+          0.005308898468828265,
+          0.021446603600407926
+        ]
+      ],
+      "principal_minor_eigenvalue": -0.0012422155079020534,
+      "dofs": 375
+    },
+    {
+      "window_radius": 2,
+      "pressure_ratio": 1.0,
+      "operator": "plus_commutator",
+      "negative_trial_rayleigh_scaled": -0.0012422155079020534,
+      "principal_minor": [
+        [
+          0.0,
+          -0.0053088984688282655
+        ],
+        [
+          -0.005308898468828265,
+          0.021446603600407926
+        ]
+      ],
+      "principal_minor_eigenvalue": -0.0012422155079020534,
+      "dofs": 375
+    },
+    {
+      "window_radius": 2,
+      "pressure_ratio": 1.224,
+      "operator": "minus_commutator",
+      "negative_trial_rayleigh_scaled": -0.001242215575414579,
+      "principal_minor": [
+        [
+          0.0,
+          0.0053088984688282655
+        ],
+        [
+          0.005308898468828265,
+          0.02144660229979262
+        ]
+      ],
+      "principal_minor_eigenvalue": -0.001242215575414579,
+      "dofs": 375
+    },
+    {
+      "window_radius": 2,
+      "pressure_ratio": 1.224,
+      "operator": "plus_commutator",
+      "negative_trial_rayleigh_scaled": -0.0012422155754145787,
+      "principal_minor": [
+        [
+          0.0,
+          -0.0053088984688282655
+        ],
+        [
+          -0.005308898468828265,
+          0.021446602299792623
+        ]
+      ],
+      "principal_minor_eigenvalue": -0.0012422155754145785,
+      "dofs": 375
+    },
+    {
+      "window_radius": 4,
+      "pressure_ratio": 0.0,
+      "operator": "minus_commutator",
+      "negative_trial_rayleigh_scaled": -8.390369776956913e-05,
+      "principal_minor": [
+        [
+          0.0,
+          0.00035858216055046206
+        ],
+        [
+          0.00035858216055046206,
+          0.0014485813926750641
+        ]
+      ],
+      "principal_minor_eigenvalue": -8.390369776956915e-05,
+      "dofs": 1431
+    },
+    {
+      "window_radius": 4,
+      "pressure_ratio": 0.0,
+      "operator": "plus_commutator",
+      "negative_trial_rayleigh_scaled": -8.390369776956913e-05,
+      "principal_minor": [
+        [
+          0.0,
+          -0.00035858216055046206
+        ],
+        [
+          -0.00035858216055046206,
+          0.0014485813926750641
+        ]
+      ],
+      "principal_minor_eigenvalue": -8.390369776956915e-05,
+      "dofs": 1431
+    },
+    {
+      "window_radius": 4,
+      "pressure_ratio": 0.5,
+      "operator": "minus_commutator",
+      "negative_trial_rayleigh_scaled": -8.390370794822494e-05,
+      "principal_minor": [
+        [
+          0.0,
+          0.00035858216055046206
+        ],
+        [
+          0.00035858216055046206,
+          0.001448581196585218
+        ]
+      ],
+      "principal_minor_eigenvalue": -8.390370794822494e-05,
+      "dofs": 1431
+    },
+    {
+      "window_radius": 4,
+      "pressure_ratio": 0.5,
+      "operator": "plus_commutator",
+      "negative_trial_rayleigh_scaled": -8.390370794822494e-05,
+      "principal_minor": [
+        [
+          0.0,
+          -0.00035858216055046206
+        ],
+        [
+          -0.00035858216055046206,
+          0.0014485811965852177
+        ]
+      ],
+      "principal_minor_eigenvalue": -8.390370794822494e-05,
+      "dofs": 1431
+    },
+    {
+      "window_radius": 4,
+      "pressure_ratio": 1.0,
+      "operator": "minus_commutator",
+      "negative_trial_rayleigh_scaled": -8.390371812688306e-05,
+      "principal_minor": [
+        [
+          0.0,
+          0.00035858216055046206
+        ],
+        [
+          0.00035858216055046206,
+          0.0014485810004953715
+        ]
+      ],
+      "principal_minor_eigenvalue": -8.390371812688305e-05,
+      "dofs": 1431
+    },
+    {
+      "window_radius": 4,
+      "pressure_ratio": 1.0,
+      "operator": "plus_commutator",
+      "negative_trial_rayleigh_scaled": -8.390371812688307e-05,
+      "principal_minor": [
+        [
+          0.0,
+          -0.00035858216055046206
+        ],
+        [
+          -0.00035858216055046206,
+          0.0014485810004953713
+        ]
+      ],
+      "principal_minor_eigenvalue": -8.390371812688309e-05,
+      "dofs": 1431
+    },
+    {
+      "window_radius": 4,
+      "pressure_ratio": 1.224,
+      "operator": "minus_commutator",
+      "negative_trial_rayleigh_scaled": -8.390372268692265e-05,
+      "principal_minor": [
+        [
+          0.0,
+          0.00035858216055046206
+        ],
+        [
+          0.00035858216055046206,
+          0.0014485809126471203
+        ]
+      ],
+      "principal_minor_eigenvalue": -8.390372268692266e-05,
+      "dofs": 1431
+    },
+    {
+      "window_radius": 4,
+      "pressure_ratio": 1.224,
+      "operator": "plus_commutator",
+      "negative_trial_rayleigh_scaled": -8.390372268692265e-05,
+      "principal_minor": [
+        [
+          0.0,
+          -0.00035858216055046206
+        ],
+        [
+          -0.00035858216055046206,
+          0.0014485809126471203
+        ]
+      ],
+      "principal_minor_eigenvalue": -8.390372268692266e-05,
+      "dofs": 1431
+    },
+    {
+      "window_radius": 6,
+      "pressure_ratio": 0.0,
+      "operator": "minus_commutator",
+      "negative_trial_rayleigh_scaled": -1.6812367471541986e-05,
+      "principal_minor": [
+        [
+          0.0,
+          7.185160144515515e-05
+        ],
+        [
+          7.185160144515515e-05,
+          0.00029026232852068863
+        ]
+      ],
+      "principal_minor_eigenvalue": -1.6812367471541986e-05,
+      "dofs": 3159
+    },
+    {
+      "window_radius": 6,
+      "pressure_ratio": 0.0,
+      "operator": "plus_commutator",
+      "negative_trial_rayleigh_scaled": -1.6812367471541986e-05,
+      "principal_minor": [
+        [
+          0.0,
+          -7.185160144515515e-05
+        ],
+        [
+          -7.185160144515515e-05,
+          0.00029026232852068863
+        ]
+      ],
+      "principal_minor_eigenvalue": -1.6812367471541986e-05,
+      "dofs": 3159
+    },
+    {
+      "window_radius": 6,
+      "pressure_ratio": 0.5,
+      "operator": "minus_commutator",
+      "negative_trial_rayleigh_scaled": -1.6812369511110045e-05,
+      "principal_minor": [
+        [
+          0.0,
+          7.185160144515515e-05
+        ],
+        [
+          7.185160144515515e-05,
+          0.00029026228922880227
+        ]
+      ],
+      "principal_minor_eigenvalue": -1.681236951111004e-05,
+      "dofs": 3159
+    },
+    {
+      "window_radius": 6,
+      "pressure_ratio": 0.5,
+      "operator": "plus_commutator",
+      "negative_trial_rayleigh_scaled": -1.6812369511110045e-05,
+      "principal_minor": [
+        [
+          0.0,
+          -7.185160144515515e-05
+        ],
+        [
+          -7.185160144515515e-05,
+          0.00029026228922880227
+        ]
+      ],
+      "principal_minor_eigenvalue": -1.681236951111004e-05,
+      "dofs": 3159
+    },
+    {
+      "window_radius": 6,
+      "pressure_ratio": 1.0,
+      "operator": "minus_commutator",
+      "negative_trial_rayleigh_scaled": -1.6812371550678568e-05,
+      "principal_minor": [
+        [
+          0.0,
+          7.185160144515515e-05
+        ],
+        [
+          7.185160144515515e-05,
+          0.0002902622499369159
+        ]
+      ],
+      "principal_minor_eigenvalue": -1.6812371550678565e-05,
+      "dofs": 3159
+    },
+    {
+      "window_radius": 6,
+      "pressure_ratio": 1.0,
+      "operator": "plus_commutator",
+      "negative_trial_rayleigh_scaled": -1.6812371550678568e-05,
+      "principal_minor": [
+        [
+          0.0,
+          -7.185160144515515e-05
+        ],
+        [
+          -7.185160144515515e-05,
+          0.0002902622499369159
+        ]
+      ],
+      "principal_minor_eigenvalue": -1.6812371550678565e-05,
+      "dofs": 3159
+    },
+    {
+      "window_radius": 6,
+      "pressure_ratio": 1.224,
+      "operator": "minus_commutator",
+      "negative_trial_rayleigh_scaled": -1.6812372464405412e-05,
+      "principal_minor": [
+        [
+          0.0,
+          7.185160144515515e-05
+        ],
+        [
+          7.185160144515515e-05,
+          0.0002902622323341509
+        ]
+      ],
+      "principal_minor_eigenvalue": -1.6812372464405412e-05,
+      "dofs": 3159
+    },
+    {
+      "window_radius": 6,
+      "pressure_ratio": 1.224,
+      "operator": "plus_commutator",
+      "negative_trial_rayleigh_scaled": -1.6812372464405412e-05,
+      "principal_minor": [
+        [
+          0.0,
+          -7.185160144515515e-05
+        ],
+        [
+          -7.185160144515515e-05,
+          0.0002902622323341509
+        ]
+      ],
+      "principal_minor_eigenvalue": -1.6812372464405412e-05,
+      "dofs": 3159
+    },
+    {
+      "window_radius": 8,
+      "pressure_ratio": 0.0,
+      "operator": "minus_commutator",
+      "negative_trial_rayleigh_scaled": -5.346213643866976e-06,
+      "principal_minor": [
+        [
+          0.0,
+          2.284829977871932e-05
+        ],
+        [
+          2.284829977871932e-05,
+          9.230136229562061e-05
+        ]
+      ],
+      "principal_minor_eigenvalue": -5.346213643866977e-06,
+      "dofs": 5559
+    },
+    {
+      "window_radius": 8,
+      "pressure_ratio": 0.0,
+      "operator": "plus_commutator",
+      "negative_trial_rayleigh_scaled": -5.3462136438669765e-06,
+      "principal_minor": [
+        [
+          0.0,
+          -2.284829977871932e-05
+        ],
+        [
+          -2.284829977871932e-05,
+          9.230136229562058e-05
+        ]
+      ],
+      "principal_minor_eigenvalue": -5.346213643866979e-06,
+      "dofs": 5559
+    },
+    {
+      "window_radius": 8,
+      "pressure_ratio": 0.5,
+      "operator": "minus_commutator",
+      "negative_trial_rayleigh_scaled": -5.346214292435156e-06,
+      "principal_minor": [
+        [
+          0.0,
+          2.284829977871932e-05
+        ],
+        [
+          2.284829977871932e-05,
+          9.230134980107937e-05
+        ]
+      ],
+      "principal_minor_eigenvalue": -5.346214292435156e-06,
+      "dofs": 5559
+    },
+    {
+      "window_radius": 8,
+      "pressure_ratio": 0.5,
+      "operator": "plus_commutator",
+      "negative_trial_rayleigh_scaled": -5.346214292435157e-06,
+      "principal_minor": [
+        [
+          0.0,
+          -2.284829977871932e-05
+        ],
+        [
+          -2.284829977871932e-05,
+          9.230134980107935e-05
+        ]
+      ],
+      "principal_minor_eigenvalue": -5.346214292435157e-06,
+      "dofs": 5559
+    },
+    {
+      "window_radius": 8,
+      "pressure_ratio": 1.0,
+      "operator": "minus_commutator",
+      "negative_trial_rayleigh_scaled": -5.346214941003488e-06,
+      "principal_minor": [
+        [
+          0.0,
+          2.284829977871932e-05
+        ],
+        [
+          2.284829977871932e-05,
+          9.230133730653808e-05
+        ]
+      ],
+      "principal_minor_eigenvalue": -5.346214941003487e-06,
+      "dofs": 5559
+    },
+    {
+      "window_radius": 8,
+      "pressure_ratio": 1.0,
+      "operator": "plus_commutator",
+      "negative_trial_rayleigh_scaled": -5.346214941003486e-06,
+      "principal_minor": [
+        [
+          0.0,
+          -2.284829977871932e-05
+        ],
+        [
+          -2.284829977871932e-05,
+          9.230133730653811e-05
+        ]
+      ],
+      "principal_minor_eigenvalue": -5.346214941003485e-06,
+      "dofs": 5559
+    },
+    {
+      "window_radius": 8,
+      "pressure_ratio": 1.224,
+      "operator": "minus_commutator",
+      "negative_trial_rayleigh_scaled": -5.346215231562144e-06,
+      "principal_minor": [
+        [
+          0.0,
+          2.284829977871932e-05
+        ],
+        [
+          2.284829977871932e-05,
+          9.230133170898364e-05
+        ]
+      ],
+      "principal_minor_eigenvalue": -5.346215231562144e-06,
+      "dofs": 5559
+    },
+    {
+      "window_radius": 8,
+      "pressure_ratio": 1.224,
+      "operator": "plus_commutator",
+      "negative_trial_rayleigh_scaled": -5.346215231562144e-06,
+      "principal_minor": [
+        [
+          0.0,
+          -2.284829977871932e-05
+        ],
+        [
+          -2.284829977871932e-05,
+          9.230133170898364e-05
+        ]
+      ],
+      "principal_minor_eigenvalue": -5.346215231562144e-06,
+      "dofs": 5559
+    }
+  ],
+  "algebra": {
+    "Q": [
+      [
+        1.0,
+        -1.0,
+        0.0
+      ],
+      [
+        -1.0,
+        2.0,
+        -1.0
+      ],
+      [
+        0.0,
+        -1.0,
+        1.0
+      ]
+    ],
+    "chi1": [
+      1.0,
+      0.6,
+      0.0
+    ],
+    "chi2": [
+      0.0,
+      0.8,
+      1.0
+    ],
+    "minus_commutator_sum": [
+      [
+        1.0,
+        -0.19999999999999996,
+        0.0
+      ],
+      [
+        -0.19999999999999996,
+        2.0,
+        -0.6000000000000001
+      ],
+      [
+        0.0,
+        -0.6000000000000001,
+        1.0
+      ]
+    ],
+    "plus_commutator_sum": [
+      [
+        1.0,
+        -1.0,
+        0.0
+      ],
+      [
+        -1.0,
+        2.0,
+        -1.0
+      ],
+      [
+        0.0,
+        -1.0,
+        1.0
+      ]
+    ],
+    "minus_commutator_relative_error": 0.39999999999999997,
+    "plus_commutator_relative_error": 0.0
+  },
+  "conclusion": "The minus-commutator sum does not equal Q. The plus-commutator windows sum to Q but are indefinite at zero load for an allowed uniform crystal; these windows provide no positive stability certificate.",
+  "candidate_comparison": "No certified lambda* exists for this construction, so a numerical gap to 1.224 is undefined (not a lower bound of zero).",
+  "seconds": 0.4238649000180885
+}

@@ -1,0 +1,857 @@
+{
+  "model": "Kirchhoff-Hermite exact-strain initial tangent v1",
+  "energy": "sum_e [0.5 b_e(q)^T Cb_e b_e(q) + t s0_e^T b_e(q)] + sign*p*V*(det(F)-1)",
+  "scope": "local potential verifying the exact initial tangent; no nonlinear preload continuation",
+  "step_sizes": [
+    0.001,
+    0.0003,
+    0.0001,
+    3e-05
+  ],
+  "runs": [
+    {
+      "name": "pcu",
+      "nodes": 1,
+      "elements": 6,
+      "r_over_l": 0.02,
+      "div": 2,
+      "t": 0.0002178287993556164,
+      "p": 2.737317423183558e-07,
+      "p0": 0.0012566370614359172,
+      "preload_stress": [
+        [
+          -0.0012566370614359172,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0012566370614359172,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012566370614359172
+        ]
+      ],
+      "PD_pressure": 6.843293557958896e-07,
+      "PD_Helmholtz_sym_gradient_pressure": 1.249580641769727e-06,
+      "PD_Helmholtz_censored": false,
+      "LE_bound_pressure": 6.843293557957727e-07,
+      "LE_censored": false,
+      "raw_schur_vs_code_relative": 5.023577633066159e-18,
+      "directions": [
+        {
+          "direction": "dilation",
+          "H": [
+            [
+              0.5773502691896258,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.5773502691896258,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.5773502691896258
+            ]
+          ],
+          "assembled_Gibbs": 0.0012571845249205542,
+          "assembled_Helmholtz": 0.0012566370614359177,
+          "D_det": 2.000000000000001,
+          "sweep": [
+            {
+              "step": 0.001,
+              "FD_E_plus_pV": 0.0012571845249206835,
+              "FD_E_minus_pV": 0.0012560895979511356,
+              "FD_E": 0.0012566370614359096,
+              "relative_error_plus": 1.0279867147461033e-13,
+              "relative_error_minus": 0.0008709357677528118,
+              "relative_error_Helmholtz": 6.384576997295469e-15,
+              "first_derivative_plus": 5.267965362655684e-14
+            },
+            {
+              "step": 0.0003,
+              "FD_E_plus_pV": 0.0012571845249205005,
+              "FD_E_minus_pV": 0.0012560895979524787,
+              "FD_E": 0.0012566370614364897,
+              "relative_error_plus": 4.2775286116951954e-14,
+              "relative_error_minus": 0.0008709357666844646,
+              "relative_error_Helmholtz": 4.552030842936607e-13,
+              "first_derivative_plus": 4.740981329532998e-15
+            },
+            {
+              "step": 0.0001,
+              "FD_E_plus_pV": 0.0012571845249106268,
+              "FD_E_minus_pV": 0.0012560895979540857,
+              "FD_E": 0.0012566370614323563,
+              "relative_error_plus": 7.89652479438022e-12,
+              "relative_error_minus": 0.0008709357654062079,
+              "relative_error_Helmholtz": 2.83406196225894e-12,
+              "first_derivative_plus": 5.262465542160395e-16
+            },
+            {
+              "step": 3e-05,
+              "FD_E_plus_pV": 0.0012571845251174918,
+              "FD_E_minus_pV": 0.0012560895979225543,
+              "FD_E": 0.0012566370615200249,
+              "relative_error_plus": 1.5664965203798951e-10,
+              "relative_error_minus": 0.0008709357904871865,
+              "relative_error_Helmholtz": 6.69303834433237e-11,
+              "first_derivative_plus": 4.767317597013949e-17
+            }
+          ]
+        },
+        {
+          "direction": "deviator",
+          "H": [
+            [
+              0.7071067811865475,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -0.7071067811865475,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "assembled_Gibbs": 0.0012563633296935985,
+          "assembled_Helmholtz": 0.001256637061435917,
+          "D_det": -0.9999999999999998,
+          "sweep": [
+            {
+              "step": 0.001,
+              "FD_E_plus_pV": 0.0012563633296934463,
+              "FD_E_minus_pV": 0.0012569107931780378,
+              "FD_E": 0.001256637061435742,
+              "relative_error_plus": 1.211607991249543e-13,
+              "relative_error_minus": 0.0004357525180019055,
+              "relative_error_Helmholtz": 1.392528009950661e-13,
+              "first_derivative_plus": 0.0
+            },
+            {
+              "step": 0.0003,
+              "FD_E_plus_pV": 0.001256363329693713,
+              "FD_E_minus_pV": 0.001256910793177724,
+              "FD_E": 0.0012566370614357184,
+              "relative_error_plus": 9.112948994013657e-14,
+              "relative_error_minus": 0.00043575251775216235,
+              "relative_error_Helmholtz": 1.5806141971682845e-13,
+              "first_derivative_plus": 0.0
+            },
+            {
+              "step": 0.0001,
+              "FD_E_plus_pV": 0.0012563633296887263,
+              "FD_E_minus_pV": 0.0012569107931821918,
+              "FD_E": 0.001256637061435459,
+              "relative_error_plus": 3.878008540653274e-12,
+              "relative_error_minus": 0.00043575252130828357,
+              "relative_error_Helmholtz": 3.64438557251028e-13,
+              "first_derivative_plus": 8.077935669463161e-24
+            },
+            {
+              "step": 3e-05,
+              "FD_E_plus_pV": 0.0012563633296836503,
+              "FD_E_minus_pV": 0.0012569107932135844,
+              "FD_E": 0.0012566370614486174,
+              "relative_error_plus": 7.918255188396942e-12,
+              "relative_error_minus": 0.0004357525462951958,
+              "relative_error_Helmholtz": 1.0106612830583671e-11,
+              "first_derivative_plus": 0.0
+            }
+          ]
+        },
+        {
+          "direction": "symmetric_shear",
+          "H": [
+            [
+              0.0,
+              0.7071067811865475,
+              0.0
+            ],
+            [
+              0.7071067811865475,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "assembled_Gibbs": 9.053750841571107e-07,
+          "assembled_Helmholtz": 1.1791068264754665e-06,
+          "D_det": -0.9999999999999998,
+          "sweep": [
+            {
+              "step": 0.001,
+              "FD_E_plus_pV": 9.056018140833055e-07,
+              "FD_E_minus_pV": 1.453065298674979e-06,
+              "FD_E": 1.1793335563791422e-06,
+              "relative_error_plus": 0.00025042651400751937,
+              "relative_error_minus": 0.6049318388607511,
+              "relative_error_Helmholtz": 0.0001922895352521608,
+              "first_derivative_plus": 0.0
+            },
+            {
+              "step": 0.0003,
+              "FD_E_plus_pV": 9.053954917057035e-07,
+              "FD_E_minus_pV": 1.4528589757165844e-06,
+              "FD_E": 1.179127233711144e-06,
+              "relative_error_plus": 2.2540435395085566e-05,
+              "relative_error_minus": 0.6047039521406448,
+              "relative_error_Helmholtz": 1.7307367932391343e-05,
+              "first_derivative_plus": 0.0
+            },
+            {
+              "step": 0.0001,
+              "FD_E_plus_pV": 9.053773613331197e-07,
+              "FD_E_minus_pV": 1.4528408426426378e-06,
+              "FD_E": 1.1791091019878788e-06,
+              "relative_error_plus": 2.515174151407935e-06,
+              "relative_error_minus": 0.6046839238957064,
+              "relative_error_Helmholtz": 1.9298611128048858e-06,
+              "first_derivative_plus": 0.0
+            },
+            {
+              "step": 3e-05,
+              "FD_E_plus_pV": 9.053753620693751e-07,
+              "FD_E_minus_pV": 1.4528388920034188e-06,
+              "FD_E": 1.179107127036397e-06,
+              "relative_error_plus": 3.069581538590565e-07,
+              "relative_error_minus": 0.6046817693862073,
+              "relative_error_Helmholtz": 2.549055977775841e-07,
+              "first_derivative_plus": 0.0
+            }
+          ]
+        },
+        {
+          "direction": "critical_PD_strain",
+          "H": [
+            [
+              1.4978497939567335e-20,
+              0.01561527833298741,
+              -0.1482905585223846
+            ],
+            [
+              0.01561527833298741,
+              -2.297623321497086e-19,
+              0.6912062451509698
+            ],
+            [
+              -0.1482905585223846,
+              0.6912062451509698,
+              1.4212680140690264e-20
+            ]
+          ],
+          "assembled_Gibbs": 9.053750841571097e-07,
+          "assembled_Helmholtz": 1.1791068264754653e-06,
+          "D_det": -1.0,
+          "sweep": [
+            {
+              "step": 0.001,
+              "FD_E_plus_pV": 9.055921752654536e-07,
+              "FD_E_minus_pV": 1.4530556599786886e-06,
+              "FD_E": 1.179323917622071e-06,
+              "relative_error_plus": 0.0002397802989531793,
+              "relative_error_minus": 0.6049211927799639,
+              "relative_error_Helmholtz": 0.0001841149094647562,
+              "first_derivative_plus": -8.762443355606153e-16
+            },
+            {
+              "step": 0.0003,
+              "FD_E_plus_pV": 9.053946238348447e-07,
+              "FD_E_minus_pV": 1.452858108521066e-06,
+              "FD_E": 1.1791263661779555e-06,
+              "relative_error_plus": 2.1581859360781272e-05,
+              "relative_error_minus": 0.6047029943105345,
+              "relative_error_Helmholtz": 1.657161340386319e-05,
+              "first_derivative_plus": -7.886290191371963e-17
+            },
+            {
+              "step": 0.0001,
+              "FD_E_plus_pV": 9.053772720875641e-07,
+              "FD_E_minus_pV": 1.452840759475148e-06,
+              "FD_E": 1.179109015781356e-06,
+              "relative_error_plus": 2.4166011333288424e-06,
+              "relative_error_minus": 0.6046838320360014,
+              "relative_error_Helmholtz": 1.8567493983951697e-06,
+              "first_derivative_plus": -8.661243561927277e-18
+            },
+            {
+              "step": 3e-05,
+              "FD_E_plus_pV": 9.053753880024431e-07,
+              "FD_E_minus_pV": 1.4528389179364867e-06,
+              "FD_E": 1.179107152969465e-06,
+              "relative_error_plus": 3.3560160725967004e-07,
+              "relative_error_minus": 0.6046817980296614,
+              "relative_error_Helmholtz": 2.7689942281751456e-07,
+              "first_derivative_plus": -1.0130109432182136e-18
+            }
+          ]
+        },
+        {
+          "direction": "rank_one_shear",
+          "H": [
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "assembled_Gibbs": 4.526875420785562e-07,
+          "assembled_Helmholtz": 4.526875420785562e-07,
+          "D_det": 0.0,
+          "sweep": [
+            {
+              "step": 0.001,
+              "FD_E_plus_pV": 4.5303473478640174e-07,
+              "FD_E_minus_pV": 4.5303473478640174e-07,
+              "FD_E": 4.5303473478640174e-07,
+              "relative_error_plus": 0.0007669588304802169,
+              "relative_error_minus": 0.0007669588304802169,
+              "relative_error_Helmholtz": 0.0007669588304802169,
+              "first_derivative_plus": 0.0
+            },
+            {
+              "step": 0.0003,
+              "FD_E_plus_pV": 4.5271879018363923e-07,
+              "FD_E_minus_pV": 4.5271879018363923e-07,
+              "FD_E": 4.5271879018363923e-07,
+              "relative_error_plus": 6.902797664707784e-05,
+              "relative_error_minus": 6.902797664707784e-05,
+              "relative_error_Helmholtz": 6.902797664707784e-05,
+              "first_derivative_plus": 0.0
+            },
+            {
+              "step": 0.0001,
+              "FD_E_plus_pV": 4.526910195448222e-07,
+              "FD_E_minus_pV": 4.526910195448222e-07,
+              "FD_E": 4.526910195448222e-07,
+              "relative_error_plus": 7.681824531790412e-06,
+              "relative_error_minus": 7.681824531790412e-06,
+              "relative_error_Helmholtz": 7.681824531790412e-06,
+              "first_derivative_plus": 0.0
+            },
+            {
+              "step": 3e-05,
+              "FD_E_plus_pV": 4.526879380554099e-07,
+              "FD_E_minus_pV": 4.526879380554099e-07,
+              "FD_E": 4.526879380554099e-07,
+              "relative_error_plus": 8.747244332128105e-07,
+              "relative_error_minus": 8.747244332128105e-07,
+              "relative_error_Helmholtz": 8.747244332128105e-07,
+              "first_derivative_plus": 0.0
+            }
+          ]
+        }
+      ],
+      "acoustic_relations": [
+        {
+          "a": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "n": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "acoustic": 4.526875420785562e-07,
+          "sym_gradient_Helmholtz": 5.895534132377334e-07,
+          "p_cross_squared_over_2": 1.368658711591779e-07,
+          "formula_relative_error": 1.6372304513714632e-15,
+          "Green_material_Hessian": 7.264192843969113e-07,
+          "Green_formula_relative_error": 1.6372304513714632e-15,
+          "Gibbs_rank_one_relative_error": 1.6372304513714632e-15
+        },
+        {
+          "a": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "n": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "acoustic": 0.0012566370614359172,
+          "sym_gradient_Helmholtz": 0.0012566370614359172,
+          "p_cross_squared_over_2": 0.0,
+          "formula_relative_error": 0.0,
+          "Green_material_Hessian": 0.0012569107931782355,
+          "Green_formula_relative_error": 0.0,
+          "Gibbs_rank_one_relative_error": 0.0
+        },
+        {
+          "a": [
+            0.22645540682891915,
+            0.792593923901217,
+            0.5661385170722979
+          ],
+          "n": [
+            0.3487429162314578,
+            0.11624763874381927,
+            0.9299811099505542
+          ],
+          "acoustic": 0.0003673077057830315,
+          "sym_gradient_Helmholtz": 0.00036737796454537467,
+          "p_cross_squared_over_2": 7.025876234314691e-08,
+          "formula_relative_error": 0.0,
+          "Green_material_Hessian": 0.0003675814375253499,
+          "Green_formula_relative_error": 1.475877248714654e-16,
+          "Gibbs_rank_one_relative_error": 1.475877248714654e-16
+        }
+      ]
+    },
+    {
+      "name": "cco",
+      "nodes": 4,
+      "elements": 40,
+      "r_over_l": 0.02,
+      "div": 2,
+      "t": 0.0002573779711316417,
+      "p": 6.850130605846547e-07,
+      "p0": 0.002661506179308133,
+      "preload_stress": [
+        [
+          -0.002661506179308134,
+          3.498311383709035e-20,
+          4.0204381012503823e-20
+        ],
+        [
+          3.498311383709035e-20,
+          -0.002661506179308131,
+          6.324542929613244e-20
+        ],
+        [
+          4.0204381012503823e-20,
+          6.324542929613244e-20,
+          -0.002661506179308133
+        ]
+      ],
+      "PD_pressure": 1.7125326514616369e-06,
+      "PD_Helmholtz_sym_gradient_pressure": 2.5801614392558877e-06,
+      "PD_Helmholtz_censored": false,
+      "LE_bound_pressure": 3.7459728265338727e-06,
+      "LE_censored": true,
+      "raw_schur_vs_code_relative": 3.023622404658641e-16,
+      "directions": [
+        {
+          "direction": "dilation",
+          "H": [
+            [
+              0.5773502691896258,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.5773502691896258,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.5773502691896258
+            ]
+          ],
+          "assembled_Gibbs": 0.0026704229938509204,
+          "assembled_Helmholtz": 0.0026690529677297513,
+          "D_det": 2.000000000000001,
+          "sweep": [
+            {
+              "step": 0.001,
+              "FD_E_plus_pV": 0.0026704228211215575,
+              "FD_E_minus_pV": 0.0026676827688785314,
+              "FD_E": 0.0026690527950000444,
+              "relative_error_plus": 6.46823980053242e-08,
+              "relative_error_minus": 0.0010261389220729547,
+              "relative_error_Helmholtz": 6.471572836064192e-08,
+              "first_derivative_plus": 2.36804903639671e-10
+            },
+            {
+              "step": 0.0003,
+              "FD_E_plus_pV": 0.0026704229783032648,
+              "FD_E_minus_pV": 0.0026676829260640603,
+              "FD_E": 0.002669052952183662,
+              "relative_error_plus": 5.8221696138315065e-09,
+              "relative_error_minus": 0.0010260800604134806,
+              "relative_error_Helmholtz": 5.824571240637539e-09,
+              "first_derivative_plus": 2.1312435844633537e-11
+            },
+            {
+              "step": 0.0001,
+              "FD_E_plus_pV": 0.00267042299213004,
+              "FD_E_minus_pV": 0.002667682939919567,
+              "FD_E": 0.0026690529660248034,
+              "relative_error_plus": 6.444223954785877e-10,
+              "relative_error_minus": 0.0010260748719071588,
+              "relative_error_Helmholtz": 6.387838066486935e-10,
+              "first_derivative_plus": 2.3680468417188812e-12
+            },
+            {
+              "step": 3e-05,
+              "FD_E_plus_pV": 0.0026704229940856714,
+              "FD_E_minus_pV": 0.002667682941278604,
+              "FD_E": 0.00266905296768214,
+              "relative_error_plus": 8.790780383716157e-11,
+              "relative_error_minus": 0.0010260743629851572,
+              "relative_error_Helmholtz": 1.7838244912073326e-11,
+              "first_derivative_plus": 2.1312551515309054e-13
+            }
+          ]
+        },
+        {
+          "direction": "deviator",
+          "H": [
+            [
+              0.7071067811865475,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -0.7071067811865475,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "assembled_Gibbs": 0.0002003743348985953,
+          "assembled_Helmholtz": 0.00020105934795917985,
+          "D_det": -0.9999999999999998,
+          "sweep": [
+            {
+              "step": 0.001,
+              "FD_E_plus_pV": 0.00020037498498619318,
+              "FD_E_minus_pV": 0.00020174501110724978,
+              "FD_E": 0.0002010599980467215,
+              "relative_error_plus": 3.244365593050566e-06,
+              "relative_error_minus": 0.006840577708458199,
+              "relative_error_Helmholtz": 3.2333116975565616e-06,
+              "first_derivative_plus": 3.2240199048451705e-11
+            },
+            {
+              "step": 0.0003,
+              "FD_E_plus_pV": 0.00020037439340820807,
+              "FD_E_minus_pV": 0.00020174441952781124,
+              "FD_E": 0.00020105940646800966,
+              "relative_error_plus": 2.920015319981126e-07,
+              "relative_error_minus": 0.0068376253371435864,
+              "relative_error_Helmholtz": 2.9100278301296705e-07,
+              "first_derivative_plus": 2.901620536340504e-12
+            },
+            {
+              "step": 0.0001,
+              "FD_E_plus_pV": 0.0002003743414006008,
+              "FD_E_minus_pV": 0.00020174436754386452,
+              "FD_E": 0.00020105935447223267,
+              "relative_error_plus": 3.244929300646913e-08,
+              "relative_error_minus": 0.006837365902986304,
+              "relative_error_Helmholtz": 3.239368318666497e-08,
+              "first_derivative_plus": 3.224021168596861e-13
+            },
+            {
+              "step": 3e-05,
+              "FD_E_plus_pV": 0.0002003743354562564,
+              "FD_E_minus_pV": 0.00020174436169078215,
+              "FD_E": 0.00020105934857351927,
+              "relative_error_plus": 2.7830964245923006e-09,
+              "relative_error_minus": 0.006837336692247456,
+              "relative_error_Helmholtz": 3.055512828660223e-09,
+              "first_derivative_plus": 2.901546755559394e-14
+            }
+          ]
+        },
+        {
+          "direction": "symmetric_shear",
+          "H": [
+            [
+              0.0,
+              0.7071067811865475,
+              0.0
+            ],
+            [
+              0.7071067811865475,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "assembled_Gibbs": 0.0015715175372245076,
+          "assembled_Helmholtz": 0.0015722025502850926,
+          "D_det": -0.9999999999999998,
+          "sweep": [
+            {
+              "step": 0.001,
+              "FD_E_plus_pV": 0.001571517658178847,
+              "FD_E_minus_pV": 0.0015728876842999034,
+              "FD_E": 0.0015722026712393753,
+              "relative_error_plus": 7.696658583895664e-08,
+              "relative_error_minus": 0.0008718624151122426,
+              "relative_error_Helmholtz": 7.693301514622841e-08,
+              "first_derivative_plus": 1.378640949709918e-22
+            },
+            {
+              "step": 0.0003,
+              "FD_E_plus_pV": 0.0015715175481126635,
+              "FD_E_minus_pV": 0.0015728875742322666,
+              "FD_E": 0.001572202561172465,
+              "relative_error_plus": 6.9284341857022645e-09,
+              "relative_error_minus": 0.0008717923760358369,
+              "relative_error_Helmholtz": 6.924917137345203e-09,
+              "first_derivative_plus": 0.0
+            },
+            {
+              "step": 0.0001,
+              "FD_E_plus_pV": 0.0015715175384270704,
+              "FD_E_minus_pV": 0.0015728875645399135,
+              "FD_E": 0.001572202551483492,
+              "relative_error_plus": 7.652239064771393e-10,
+              "relative_error_minus": 0.0008717862085239827,
+              "relative_error_Helmholtz": 7.622424046905514e-10,
+              "first_derivative_plus": 1.6155948629413102e-23
+            },
+            {
+              "step": 3e-05,
+              "FD_E_plus_pV": 0.0015715175374175308,
+              "FD_E_minus_pV": 0.0015728875636520567,
+              "FD_E": 0.0015722025505347937,
+              "relative_error_plus": 1.2282593752896373e-10,
+              "relative_error_minus": 0.0008717856435561575,
+              "relative_error_Helmholtz": 1.588224649659905e-10,
+              "first_derivative_plus": 2.243881754085153e-24
+            }
+          ]
+        },
+        {
+          "direction": "critical_PD_strain",
+          "H": [
+            [
+              -0.8112340669303563,
+              2.3408158896261896e-17,
+              -2.337715046933196e-18
+            ],
+            [
+              2.3408158896261896e-17,
+              0.48662688898231743,
+              -1.6933855840398603e-17
+            ],
+            [
+              -2.337715046933196e-18,
+              -1.6933855840398603e-17,
+              0.3241813683280174
+            ]
+          ],
+          "assembled_Gibbs": 3.0424416301491387e-06,
+          "assembled_Helmholtz": 3.7274545665314366e-06,
+          "D_det": -0.9999998186861677,
+          "sweep": [
+            {
+              "step": 0.001,
+              "FD_E_plus_pV": 3.043390296167908e-06,
+              "FD_E_minus_pV": 4.413416168839569e-06,
+              "FD_E": 3.7284032325037386e-06,
+              "relative_error_plus": 0.0003118107540235363,
+              "relative_error_minus": 0.45061654596910905,
+              "relative_error_Helmholtz": 0.00025450772246026214,
+              "first_derivative_plus": -9.399191790953581e-13
+            },
+            {
+              "step": 0.0003,
+              "FD_E_plus_pV": 3.042527010558023e-06,
+              "FD_E_minus_pV": 4.412552885105627e-06,
+              "FD_E": 3.7275399478318245e-06,
+              "relative_error_plus": 2.8063121421303664e-05,
+              "relative_error_minus": 0.4503327989530981,
+              "relative_error_Helmholtz": 2.2906060654530393e-05,
+              "first_derivative_plus": -8.459241011703248e-14
+            },
+            {
+              "step": 0.0001,
+              "FD_E_plus_pV": 3.042451109934741e-06,
+              "FD_E_minus_pV": 4.412476994622574e-06,
+              "FD_E": 3.727464052278658e-06,
+              "relative_error_plus": 3.1158479783316783e-06,
+              "relative_error_minus": 0.45030785501257986,
+              "relative_error_Helmholtz": 2.544832419076899e-06,
+              "first_derivative_plus": -9.400052527504833e-15
+            },
+            {
+              "step": 3e-05,
+              "FD_E_plus_pV": 3.042442787589285e-06,
+              "FD_E_minus_pV": 4.412468346099714e-06,
+              "FD_E": 3.727455566844498e-06,
+              "relative_error_plus": 3.8043133996648276e-07,
+              "relative_error_minus": 0.45030501238684983,
+              "relative_error_Helmholtz": 2.6836358261233507e-07,
+              "first_derivative_plus": -8.458324502231363e-16
+            }
+          ]
+        },
+        {
+          "direction": "rank_one_shear",
+          "H": [
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "assembled_Gibbs": 0.0007857587686122537,
+          "assembled_Helmholtz": 0.0007857587686122537,
+          "D_det": 0.0,
+          "sweep": [
+            {
+              "step": 0.001,
+              "FD_E_plus_pV": 0.0007857587738870614,
+              "FD_E_minus_pV": 0.0007857587738870614,
+              "FD_E": 0.0007857587738870614,
+              "relative_error_plus": 6.713011585816408e-09,
+              "relative_error_minus": 6.713011585816408e-09,
+              "relative_error_Helmholtz": 6.713011585816408e-09,
+              "first_derivative_plus": -3.446602374274795e-23
+            },
+            {
+              "step": 0.0003,
+              "FD_E_plus_pV": 0.0007857587690899227,
+              "FD_E_minus_pV": 0.0007857587690899227,
+              "FD_E": 0.0007857587690899227,
+              "relative_error_plus": 6.079079613195898e-10,
+              "relative_error_minus": 6.079079613195898e-10,
+              "relative_error_Helmholtz": 6.079079613195898e-10,
+              "first_derivative_plus": 0.0
+            },
+            {
+              "step": 0.0001,
+              "FD_E_plus_pV": 0.0007857587686912738,
+              "FD_E_minus_pV": 0.0007857587686912738,
+              "FD_E": 0.0007857587686912738,
+              "relative_error_plus": 1.0056537315804281e-10,
+              "relative_error_minus": 1.0056537315804281e-10,
+              "relative_error_Helmholtz": 1.0056537315804281e-10,
+              "first_derivative_plus": 0.0
+            },
+            {
+              "step": 3e-05,
+              "FD_E_plus_pV": 0.0007857587687345613,
+              "FD_E_minus_pV": 0.0007857587687345613,
+              "FD_E": 0.0007857587687345613,
+              "relative_error_plus": 1.5565533713545811e-10,
+              "relative_error_minus": 1.5565533713545811e-10,
+              "relative_error_Helmholtz": 1.5565533713545811e-10,
+              "first_derivative_plus": 0.0
+            }
+          ]
+        }
+      ],
+      "acoustic_relations": [
+        {
+          "a": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "n": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "acoustic": 0.0007857587686122537,
+          "sym_gradient_Helmholtz": 0.0007861012751425463,
+          "p_cross_squared_over_2": 3.4250653029232735e-07,
+          "formula_relative_error": 4.139446669110693e-16,
+          "Green_material_Hessian": 0.0007864437816728386,
+          "Green_formula_relative_error": 2.759631112740462e-16,
+          "Gibbs_rank_one_relative_error": 4.139446669110693e-16
+        },
+        {
+          "a": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "n": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "acoustic": 0.0008917102978984822,
+          "sym_gradient_Helmholtz": 0.0008917102978984822,
+          "p_cross_squared_over_2": 0.0,
+          "formula_relative_error": 0.0,
+          "Green_material_Hessian": 0.0008923953109590669,
+          "Green_formula_relative_error": 0.0,
+          "Gibbs_rank_one_relative_error": 0.0
+        },
+        {
+          "a": [
+            0.22645540682891915,
+            0.792593923901217,
+            0.5661385170722979
+          ],
+          "n": [
+            0.3487429162314578,
+            0.11624763874381927,
+            0.9299811099505542
+          ],
+          "acoustic": 0.0010604275703021183,
+          "sym_gradient_Helmholtz": 0.0010606033926945744,
+          "p_cross_squared_over_2": 1.758223924560231e-07,
+          "formula_relative_error": 0.0,
+          "Green_material_Hessian": 0.001061112583362703,
+          "Green_formula_relative_error": 2.0448396530780743e-16,
+          "Gibbs_rank_one_relative_error": 0.0
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "common/initial_stress.py": "204cec277e73a93029d8e6e86220c816d7ae26c4b6fd0c0f8b536367510e9f8f",
+    "validation/beam_validation.py": "5194a9bf29f018c7fc0d5e0a4edda5bbc2b44091f110ddbfe4b0c47c2741ea54",
+    "inclusions/cell_pcu.json": "d3a4fccf3952874ecad30d84a439df88aa3372445259048bc209dbdb3e73e7d4",
+    "inclusions/cell_cco.json": "eba199f9e1c1630cbbb4e7dbbc61fa6927d6192be63248584d71ab907a1f6b3f"
+  }
+}

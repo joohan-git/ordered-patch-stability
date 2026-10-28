@@ -1,0 +1,286 @@
+{
+  "base": {
+    "pattern": [
+      [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      [
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ]
+    ],
+    "shape": [
+      2,
+      2,
+      1
+    ],
+    "zfactor": 1.0,
+    "radius": 0.01,
+    "div": 1,
+    "grid": 4,
+    "critical_pressure": 1.1219000481156363e-07,
+    "bloch_pressure": 1.1219000481156363e-07,
+    "k": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "class_first": "Gamma-optical",
+    "thresholds": {
+      "PD": 0.00025336636648521266,
+      "LE": 0.00025336636648521244,
+      "gamma": 0.00025336636648516425,
+      "PD_censored": true,
+      "LE_censored": true,
+      "LE_direction": [
+        -0.7109914502043639,
+        1.2050775473014988e-05,
+        -0.7032006524393121
+      ],
+      "PD_volumetric_fraction": 3.589786576922754e-05,
+      "relaxed_pressure_eigenvalues_at_099_first": [
+        1.8407669447732876e-07,
+        1.8407669447732934e-07,
+        2.80617935319339e-07,
+        0.0003141478257903364,
+        0.0003165442337522373,
+        0.002199114870618471
+      ],
+      "gamma_strain_coupling_norm": 7.344717905830922e-17
+    },
+    "pressure_per_factor": 0.00044279754399893036,
+    "preload_strain": [
+      [
+        -1.3993236886908846,
+        -1.6927846963452216e-14,
+        0.0
+      ],
+      [
+        -1.6927846963452216e-14,
+        -1.3993236886908846,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -0.2013526226182309
+      ]
+    ],
+    "preload_stress": [
+      [
+        -0.0004427975439989303,
+        -1.514071393217062e-20,
+        0.0
+      ],
+      [
+        -1.514071393217062e-20,
+        -0.00044279754399893036,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -0.00044279754399893063
+      ]
+    ],
+    "equilibrium_residual": 8.346318473645684e-16,
+    "eigen_residual": 7.460486281742716e-13,
+    "seconds": 0.5046571000129916,
+    "participation_fraction": 0.9999999999999998
+  },
+  "runs": [
+    {
+      "L": 10,
+      "critical_pressure": 1.5955770854280564e-07,
+      "ratio": 1.4222096595039966,
+      "critical_load": 0.00036121256648567556,
+      "pressure_per_factor": 0.0004417280110024443,
+      "energy_ipr": 0.0010528572479941152,
+      "participating_cells": 949.7963773390762,
+      "participation_fraction": 0.9497963773390763,
+      "eigen_residual": 7.17529842043102e-08,
+      "equilibrium_residual": 2.54204599760515e-13,
+      "seconds": 21.292512199957855,
+      "ndof": 42000,
+      "sample": 0
+    },
+    {
+      "L": 10,
+      "critical_pressure": 1.6003517778644375e-07,
+      "ratio": 1.4264655577405647,
+      "critical_load": 0.00036230243789002204,
+      "pressure_per_factor": 0.0004417170878519534,
+      "energy_ipr": 0.0010750614565663008,
+      "participating_cells": 930.179380808569,
+      "participation_fraction": 0.930179380808569,
+      "eigen_residual": 1.9733346219555125e-08,
+      "equilibrium_residual": 7.014555721928429e-13,
+      "seconds": 20.037527800013777,
+      "ndof": 42000,
+      "sample": 1
+    },
+    {
+      "L": 10,
+      "critical_pressure": 1.5984049756454273e-07,
+      "ratio": 1.4247302853138633,
+      "critical_load": 0.0003618754219300668,
+      "pressure_per_factor": 0.0004417003418249064,
+      "energy_ipr": 0.00106928268340523,
+      "participating_cells": 935.2063916488455,
+      "participation_fraction": 0.9352063916488454,
+      "eigen_residual": 1.34942049743397e-08,
+      "equilibrium_residual": 2.2167044505995597e-13,
+      "seconds": 17.863993700011633,
+      "ndof": 42000,
+      "sample": 2
+    },
+    {
+      "L": 10,
+      "critical_pressure": 1.6110888658638455e-07,
+      "ratio": 1.436036007458828,
+      "critical_load": 0.0003647093007172373,
+      "pressure_per_factor": 0.0004417460324415852,
+      "energy_ipr": 0.0011395595575869793,
+      "participating_cells": 877.5320195791285,
+      "participation_fraction": 0.8775320195791284,
+      "eigen_residual": 7.717836642982808e-08,
+      "equilibrium_residual": 5.749213528216399e-13,
+      "seconds": 16.100812699995004,
+      "ndof": 42000,
+      "sample": 3
+    },
+    {
+      "L": 10,
+      "critical_pressure": 1.5944965882951566e-07,
+      "ratio": 1.4212465637855192,
+      "critical_load": 0.00036092154744835775,
+      "pressure_per_factor": 0.00044178481433650185,
+      "energy_ipr": 0.0010750551443739033,
+      "participating_cells": 930.1848423620963,
+      "participation_fraction": 0.9301848423620963,
+      "eigen_residual": 1.8190709154953336e-08,
+      "equilibrium_residual": 3.8476811254226235e-13,
+      "seconds": 20.85146999999415,
+      "ndof": 42000,
+      "sample": 4
+    },
+    {
+      "L": 10,
+      "critical_pressure": 1.5906898554178536e-07,
+      "ratio": 1.4178534514635284,
+      "critical_load": 0.0003601642122574457,
+      "pressure_per_factor": 0.0004416568335448129,
+      "energy_ipr": 0.0010851257199542656,
+      "participating_cells": 921.5522050681341,
+      "participation_fraction": 0.9215522050681341,
+      "eigen_residual": 4.315764397684894e-08,
+      "equilibrium_residual": 9.144790955958706e-14,
+      "seconds": 18.793139600020368,
+      "ndof": 42000,
+      "sample": 5
+    },
+    {
+      "L": 10,
+      "critical_pressure": 1.5908499448628196e-07,
+      "ratio": 1.4179961463900819,
+      "critical_load": 0.00036013817839450346,
+      "pressure_per_factor": 0.0004417332125004994,
+      "energy_ipr": 0.0011093907014850198,
+      "participating_cells": 901.3956928441977,
+      "participation_fraction": 0.9013956928441976,
+      "eigen_residual": 2.4743511548421422e-11,
+      "equilibrium_residual": 2.310315456489129e-13,
+      "seconds": 19.702020500029903,
+      "ndof": 42000,
+      "sample": 6
+    },
+    {
+      "L": 10,
+      "critical_pressure": 1.6000119524141344e-07,
+      "ratio": 1.4261626560240759,
+      "critical_load": 0.00036224581276731295,
+      "pressure_per_factor": 0.000441692324941212,
+      "energy_ipr": 0.0010907185081628315,
+      "participating_cells": 916.8268370950864,
+      "participation_fraction": 0.9168268370950865,
+      "eigen_residual": 5.8887066519468344e-08,
+      "equilibrium_residual": 2.487215327705772e-13,
+      "seconds": 16.74958780000452,
+      "ndof": 42000,
+      "sample": 7
+    },
+    {
+      "L": 10,
+      "critical_pressure": 1.6048429723521791e-07,
+      "ratio": 1.4304687614976954,
+      "critical_load": 0.00036332893832793966,
+      "pressure_per_factor": 0.0004417052436664576,
+      "energy_ipr": 0.0010559040108422666,
+      "participating_cells": 947.0557832262864,
+      "participation_fraction": 0.9470557832262864,
+      "eigen_residual": 3.160663148238862e-09,
+      "equilibrium_residual": 3.333496364278167e-13,
+      "seconds": 14.802270799991675,
+      "ndof": 42000,
+      "sample": 8
+    },
+    {
+      "L": 10,
+      "critical_pressure": 1.5867815101272543e-07,
+      "ratio": 1.4143697674248623,
+      "critical_load": 0.00035924464038507043,
+      "pressure_per_factor": 0.00044169942477816803,
+      "energy_ipr": 0.0010597640774683138,
+      "participating_cells": 943.6062433715576,
+      "participation_fraction": 0.9436062433715575,
+      "eigen_residual": 3.949010672759835e-08,
+      "equilibrium_residual": 1.6478611064811712e-13,
+      "seconds": 16.030016800039448,
+      "ndof": 42000,
+      "sample": 9
+    }
+  ],
+  "patches": [
+    {
+      "L": 10,
+      "critical_pressure": 1.582784902159108e-07,
+      "ratio": 1.410807410889751,
+      "critical_load": 0.00035829551923805876,
+      "pressure_per_factor": 0.00044175403184639714,
+      "energy_ipr": 0.0010861730900279631,
+      "participating_cells": 920.6635748766851,
+      "participation_fraction": 0.920663574876685,
+      "eigen_residual": 3.902254217145729e-09,
+      "equilibrium_residual": 1.0034292930474129e-13,
+      "seconds": 18.066485800023656,
+      "ndof": 42000,
+      "R": 0
+    },
+    {
+      "L": 10,
+      "critical_pressure": 1.2764158514286368e-07,
+      "ratio": 1.1377268889260927,
+      "critical_load": 0.00028862869067081533,
+      "pressure_per_factor": 0.0004422345708120906,
+      "energy_ipr": 0.0020109978341231144,
+      "participating_cells": 497.2655778299458,
+      "participation_fraction": 0.49726557782994585,
+      "eigen_residual": 8.00577926809256e-11,
+      "equilibrium_residual": 2.1278611764579668e-13,
+      "seconds": 10.23681149998447,
+      "ndof": 42000,
+      "R": 8,
+      "patch_energy_fraction": 0.8163665647588231
+    }
+  ],
+  "mean_ratio": 1.4237538856603016
+}

@@ -1,0 +1,47 @@
+{
+  "rows": [
+    {
+      "file": "inclusions/mode_cco.json",
+      "name": "cco",
+      "L": 10,
+      "joint_translation_max": 0.0007135962433290928,
+      "midpoint_translation_max": 1.0000000000003997,
+      "joint_over_midpoint_translation_max": 0.0007135962433288076,
+      "joint_translation_squared_fraction": 2.2223982860260925e-07,
+      "periodic_joint_over_midpoint_translation_max": 0.0007135962433288076,
+      "axial_elastic_energy_fraction": 0.00010193985531764173,
+      "nonaxial_elastic_energy_fraction": 0.9998980601446824,
+      "patch_energy_fraction": 0.9983137403685637,
+      "classification": "localized intra-strut bending mode"
+    },
+    {
+      "file": "inclusions/mode_pcu.json",
+      "name": "pcu",
+      "L": 10,
+      "joint_translation_max": 0.9999999999999328,
+      "midpoint_translation_max": 0.9930501582789224,
+      "joint_over_midpoint_translation_max": 1.0069984800496437,
+      "joint_translation_squared_fraction": 0.2508911159539677,
+      "periodic_joint_over_midpoint_translation_max": 1.0050446030026317,
+      "axial_elastic_energy_fraction": 0.00041280589363260376,
+      "nonaxial_elastic_energy_fraction": 0.9995871941063674,
+      "patch_energy_fraction": 0.21548547640091126,
+      "classification": "extended macroscopic shear mode"
+    },
+    {
+      "file": "inclusions/mode_pcu_L20.json",
+      "name": "pcu",
+      "L": 20,
+      "joint_translation_max": 0.00911616026076992,
+      "midpoint_translation_max": 0.9999999999997573,
+      "joint_over_midpoint_translation_max": 0.009116160260772131,
+      "joint_translation_squared_fraction": 0.0002490484338060455,
+      "periodic_joint_over_midpoint_translation_max": 0.009116160260772131,
+      "axial_elastic_energy_fraction": 7.298636462985299e-05,
+      "nonaxial_elastic_energy_fraction": 0.9999270136353702,
+      "patch_energy_fraction": 0.9800396829800189,
+      "classification": "localized intra-strut bending mode"
+    }
+  ],
+  "note": "A nearly rank-one symmetric cell-gradient fit can be misleading when joint translations vanish and midpoint bending dominates. Use these amplitudes and the full six-DOF fields before labeling a mode as a continuum shear band. Localized pcu at L=20 is not a pure rank-one shear band."
+}

@@ -1,0 +1,607 @@
+{
+  "all_checks_pass": true,
+  "n_nets": 138,
+  "n_mesh_runs": 414,
+  "immutable_model_sha256": {
+    "common/initial_stress.py": "204cec277e73a93029d8e6e86220c816d7ae26c4b6fd0c0f8b536367510e9f8f",
+    "validation/beam_validation.py": "5194a9bf29f018c7fc0d5e0a4edda5bbc2b44091f110ddbfe4b0c47c2741ea54",
+    "atlas/edge_center_atlas.py": "1754d6fcd8744e178932d7511dfa6df6f5c8d66799709b3b8a43d5533ca4e703",
+    "common/bloch_frame.py": "05ec866768ef426c61cec359474a5fb2afc04ad8e7deb5745aa77988aa030ac5"
+  },
+  "affine_assembly_checks": [
+    {
+      "name": "cco",
+      "div": 2,
+      "affine_elastic_matrix_relative_error": 4.3066446004710717e-17,
+      "affine_initial_stress_matrix_relative_error": 7.390914245902826e-17
+    },
+    {
+      "name": "pcu",
+      "div": 8,
+      "affine_elastic_matrix_relative_error": 0.0,
+      "affine_initial_stress_matrix_relative_error": 0.0
+    }
+  ],
+  "full_dense_sparse_benchmarks": [
+    {
+      "name": "cco",
+      "div": 8,
+      "rows": [
+        {
+          "k": [
+            0,
+            0,
+            0
+          ],
+          "dense": 0.0013941039356684163,
+          "sparse": 0.0013941039356679815,
+          "relative_error": -3.1186164761720647e-13,
+          "dense_seconds": 0.2586983000510372,
+          "sparse_seconds": 0.020768800051882863
+        },
+        {
+          "k": [
+            0.125,
+            0.25,
+            0.375
+          ],
+          "dense": 0.0015348617065585174,
+          "sparse": 0.001534861706558141,
+          "relative_error": -2.452482661396971e-13,
+          "dense_seconds": 0.24747810000553727,
+          "sparse_seconds": 0.011662999982945621
+        },
+        {
+          "k": [
+            0.007,
+            0.002,
+            0.001
+          ],
+          "dense": 0.0013942848563939833,
+          "sparse": 0.001394284856393626,
+          "relative_error": -2.5635049638594865e-13,
+          "dense_seconds": 0.24374669999815524,
+          "sparse_seconds": 0.01088669995078817
+        },
+        {
+          "k": [
+            0.25,
+            0.25,
+            0
+          ],
+          "dense": 0.0016109860192472915,
+          "sparse": 0.0016109860192474426,
+          "relative_error": 9.392486788328824e-14,
+          "dense_seconds": 0.24549180001486093,
+          "sparse_seconds": 0.00937689997954294
+        },
+        {
+          "k": [
+            0.5,
+            0,
+            0
+          ],
+          "dense": 0.0019903221931970856,
+          "sparse": 0.001990322193197153,
+          "relative_error": 3.375077994860476e-14,
+          "dense_seconds": 0.2708158000023104,
+          "sparse_seconds": 0.014390399970579892
+        }
+      ],
+      "stats": {
+        "calls": 5,
+        "max_scaled_residual": 8.899873293905499e-12,
+        "seconds": 0.06607930001337081
+      },
+      "threadpools": [
+        {
+          "library": "source-artifact:libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+          "symbol": "scipy_openblas_get_num_threads",
+          "num_threads": 1
+        },
+        {
+          "library": "source-artifact:libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+          "symbol": "scipy_openblas_get_num_threads64_",
+          "num_threads": 1
+        }
+      ]
+    },
+    {
+      "name": "tcm",
+      "div": 8,
+      "rows": [
+        {
+          "k": [
+            0,
+            0,
+            0
+          ],
+          "dense": 0.0018100405554644316,
+          "sparse": 0.0018100405554644769,
+          "relative_error": 2.5091040356528538e-14,
+          "dense_seconds": 13.347119299985934,
+          "sparse_seconds": 0.03566360002150759
+        },
+        {
+          "k": [
+            0.125,
+            0.25,
+            0.375
+          ],
+          "dense": 0.0016138776545952462,
+          "sparse": 0.0016138776545952438,
+          "relative_error": -1.4432899320127035e-15,
+          "dense_seconds": 13.703949599992484,
+          "sparse_seconds": 0.05998019996332005
+        },
+        {
+          "k": [
+            0.007,
+            0.002,
+            0.001
+          ],
+          "dense": 0.0018097648956964239,
+          "sparse": 0.0018097648956963953,
+          "relative_error": -1.5765166949677223e-14,
+          "dense_seconds": 13.774546900007408,
+          "sparse_seconds": 0.04411210003308952
+        },
+        {
+          "k": [
+            0.25,
+            0.25,
+            0
+          ],
+          "dense": 0.0016141198307667748,
+          "sparse": 0.0016141198307667976,
+          "relative_error": 1.4210854715202004e-14,
+          "dense_seconds": 14.019138199975714,
+          "sparse_seconds": 0.08261800004402176
+        },
+        {
+          "k": [
+            0.5,
+            0,
+            0
+          ],
+          "dense": 0.0016184413374065855,
+          "sparse": 0.001618441337406554,
+          "relative_error": -1.942890293094024e-14,
+          "dense_seconds": 11.633183800033294,
+          "sparse_seconds": 0.05104429996572435
+        }
+      ],
+      "stats": {
+        "calls": 5,
+        "max_scaled_residual": 1.363095393484471e-11,
+        "seconds": 0.27114639995852485
+      },
+      "threadpools": [
+        {
+          "library": "source-artifact:libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+          "symbol": "scipy_openblas_get_num_threads",
+          "num_threads": 1
+        },
+        {
+          "library": "source-artifact:libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+          "symbol": "scipy_openblas_get_num_threads64_",
+          "num_threads": 1
+        }
+      ]
+    }
+  ],
+  "full_sparse_rows": [
+    {
+      "name": "bpf",
+      "div": 4,
+      "dense_validation": [
+        {
+          "k": [
+            0,
+            0,
+            0
+          ],
+          "dense": 0.0002151790012011504,
+          "sparse": 0.0002151790012011085,
+          "relative_error": -1.9473311851925246e-13
+        },
+        {
+          "k": [
+            0.125,
+            0.25,
+            0.375
+          ],
+          "dense": 0.00025285922767050287,
+          "sparse": 0.0002528592276702661,
+          "relative_error": -9.364731212713195e-13
+        },
+        {
+          "k": [
+            0.007,
+            0.002,
+            0.001
+          ],
+          "dense": 0.00019512974957898346,
+          "sparse": 0.00019512974776753433,
+          "relative_error": -9.28330579075265e-09
+        }
+      ],
+      "final_wavevector_dense_check": {
+        "name": "bpf",
+        "div": 4,
+        "k": [
+          -7.591209631185869e-05,
+          6.01908754159277e-07,
+          0.006252777632984628
+        ],
+        "dense": 0.0001078350060187036,
+        "sparse": 0.00010783500966911571,
+        "relative_error": -3.3851827230257925e-08,
+        "lambda_mu_is_censored": true,
+        "sparse_residual": 6.748730916352892e-09
+      }
+    },
+    {
+      "name": "bpf",
+      "div": 8,
+      "dense_validation": [
+        {
+          "k": [
+            0,
+            0,
+            0
+          ],
+          "dense": 0.0002151740474152553,
+          "sparse": 0.00021517404741057628,
+          "relative_error": -2.174538327182063e-11
+        },
+        {
+          "k": [
+            0.125,
+            0.25,
+            0.375
+          ],
+          "dense": 0.00025285247476460694,
+          "sparse": 0.00025285247476423565,
+          "relative_error": -1.468380972369232e-12
+        },
+        {
+          "k": [
+            0.007,
+            0.002,
+            0.001
+          ],
+          "dense": 0.0001951266244150613,
+          "sparse": 0.00019512662608156864,
+          "relative_error": 8.54064552413547e-09
+        }
+      ],
+      "final_wavevector_dense_check": {
+        "name": "bpf",
+        "div": 8,
+        "k": [
+          -7.596230605533272e-05,
+          8.120764202783393e-07,
+          0.006250696228122245
+        ],
+        "dense": 0.00010783466367294048,
+        "sparse": 0.00010783465031265338,
+        "relative_error": 1.238960489757801e-07,
+        "lambda_mu_is_censored": true,
+        "sparse_residual": 2.7351207605686676e-08
+      }
+    },
+    {
+      "name": "cml",
+      "div": 8,
+      "dense_validation": [
+        {
+          "k": [
+            0,
+            0,
+            0
+          ],
+          "dense": 0.0004975535654130098,
+          "sparse": 0.0004975535654132657,
+          "relative_error": 5.142553050063725e-13
+        },
+        {
+          "k": [
+            0.125,
+            0.25,
+            0.375
+          ],
+          "dense": 0.0004944319669134109,
+          "sparse": 0.0004944319669147619,
+          "relative_error": 2.7324809082074353e-12
+        },
+        {
+          "k": [
+            0.007,
+            0.002,
+            0.001
+          ],
+          "dense": 0.0004967956591193653,
+          "sparse": 0.0004967956591302664,
+          "relative_error": 2.1942891947901444e-11
+        }
+      ],
+      "final_wavevector_dense_check": {
+        "name": "cml",
+        "div": 8,
+        "k": [
+          0.004031156067139545,
+          0.004776324843164117,
+          -2.4898408371592324e-07
+        ],
+        "dense": 0.00025624653683801036,
+        "sparse": 0.00025624652172335545,
+        "relative_error": 5.898481991728488e-08,
+        "lambda_mu_is_censored": true,
+        "sparse_residual": 2.6610594595910402e-09
+      }
+    },
+    {
+      "name": "lil",
+      "div": 8,
+      "dense_validation": [
+        {
+          "k": [
+            0,
+            0,
+            0
+          ],
+          "dense": 0.00018263074870190189,
+          "sparse": 0.00018263074869536233,
+          "relative_error": -3.5807579124025324e-11
+        },
+        {
+          "k": [
+            0.125,
+            0.25,
+            0.375
+          ],
+          "dense": 0.00032163844433768206,
+          "sparse": 0.0003216384443402309,
+          "relative_error": 7.924549905169442e-12
+        },
+        {
+          "k": [
+            0.007,
+            0.002,
+            0.001
+          ],
+          "dense": 0.00018276141205678621,
+          "sparse": 0.0001827614120548553,
+          "relative_error": -1.0565215369240377e-11
+        }
+      ],
+      "final_wavevector_dense_check": {
+        "name": "lil",
+        "div": 8,
+        "k": [
+          0.004419308311739579,
+          1.322120956342793e-07,
+          0.004419748825761955
+        ],
+        "dense": 0.00014560763259883355,
+        "sparse": 0.00014560761220697334,
+        "relative_error": 1.400466631551467e-07,
+        "lambda_mu_is_censored": true,
+        "sparse_residual": 1.0698549592973538e-08
+      }
+    },
+    {
+      "name": "lim",
+      "div": 2,
+      "dense_validation": [
+        {
+          "k": [
+            0,
+            0,
+            0
+          ],
+          "dense": 0.00012575381518159067,
+          "sparse": 0.00012575381518173663,
+          "relative_error": 1.1606271499431386e-12
+        },
+        {
+          "k": [
+            0.125,
+            0.25,
+            0.375
+          ],
+          "dense": 0.00021222097721291678,
+          "sparse": 0.00021222097721339242,
+          "relative_error": 2.241318242113266e-12
+        },
+        {
+          "k": [
+            0.007,
+            0.002,
+            0.001
+          ],
+          "dense": 0.00012579016267825883,
+          "sparse": 0.00012579016267837687,
+          "relative_error": 9.383605004131823e-13
+        }
+      ],
+      "final_wavevector_dense_check": {
+        "name": "lim",
+        "div": 2,
+        "k": [
+          0.004419599220799453,
+          4.588031544749906e-08,
+          0.004419244145175872
+        ],
+        "dense": 8.351612066828605e-05,
+        "sparse": 8.351612287296306e-05,
+        "relative_error": -2.639822027639127e-08,
+        "lambda_mu_is_censored": true,
+        "sparse_residual": 1.4426714628066942e-09
+      }
+    },
+    {
+      "name": "lim",
+      "div": 8,
+      "dense_validation": [
+        {
+          "k": [
+            0,
+            0,
+            0
+          ],
+          "dense": 0.00012572964311486284,
+          "sparse": 0.00012572964311558063,
+          "relative_error": 5.70898883722748e-12
+        },
+        {
+          "k": [
+            0.125,
+            0.25,
+            0.375
+          ],
+          "dense": 0.00021215546880736115,
+          "sparse": 0.0002121554688096434,
+          "relative_error": 1.0757394974802992e-11
+        },
+        {
+          "k": [
+            0.007,
+            0.002,
+            0.001
+          ],
+          "dense": 0.00012576597309368754,
+          "sparse": 0.00012576597309412718,
+          "relative_error": 3.495648215334768e-12
+        }
+      ],
+      "final_wavevector_dense_check": {
+        "name": "lim",
+        "div": 8,
+        "k": [
+          0.004422179666531812,
+          1.0840061105969423e-07,
+          0.0044218344259537
+        ],
+        "dense": 8.35134688537614e-05,
+        "sparse": 8.351345215722514e-05,
+        "relative_error": 1.9992630928555855e-07,
+        "lambda_mu_is_censored": true,
+        "sparse_residual": 2.804833282124473e-08
+      }
+    },
+    {
+      "name": "utp",
+      "div": 4,
+      "dense_validation": [
+        {
+          "k": [
+            0,
+            0,
+            0
+          ],
+          "dense": 0.0002136753056912478,
+          "sparse": 0.00021367530569194965,
+          "relative_error": 3.284705840655988e-12
+        },
+        {
+          "k": [
+            0.125,
+            0.25,
+            0.375
+          ],
+          "dense": 0.00021196505205834293,
+          "sparse": 0.00021196505206000864,
+          "relative_error": 7.858380612901783e-12
+        },
+        {
+          "k": [
+            0.007,
+            0.002,
+            0.001
+          ],
+          "dense": 0.00020999385389227298,
+          "sparse": 0.00020999385499184526,
+          "relative_error": 5.236211686465708e-09
+        }
+      ],
+      "final_wavevector_dense_check": {
+        "name": "utp",
+        "div": 4,
+        "k": [
+          3.6645872944760896e-07,
+          0.0041664034577978,
+          0.004659108711712882
+        ],
+        "dense": 9.814078278618948e-05,
+        "sparse": 9.81407795699432e-05,
+        "relative_error": 3.2771762192851384e-08,
+        "lambda_mu_is_censored": true,
+        "sparse_residual": 6.158198911627059e-09
+      }
+    },
+    {
+      "name": "utp",
+      "div": 8,
+      "dense_validation": [
+        {
+          "k": [
+            0,
+            0,
+            0
+          ],
+          "dense": 0.00021367024087471173,
+          "sparse": 0.0002136702408723918,
+          "relative_error": -1.0857537091624181e-11
+        },
+        {
+          "k": [
+            0.125,
+            0.25,
+            0.375
+          ],
+          "dense": 0.00021196158773858717,
+          "sparse": 0.00021196158773682903,
+          "relative_error": -8.294587239277007e-12
+        },
+        {
+          "k": [
+            0.007,
+            0.002,
+            0.001
+          ],
+          "dense": 0.00020998959581015192,
+          "sparse": 0.00020998959434252097,
+          "relative_error": -6.989065104434644e-09
+        }
+      ],
+      "final_wavevector_dense_check": {
+        "name": "utp",
+        "div": 8,
+        "k": [
+          1.42562420871113e-09,
+          -0.004166478347411297,
+          -0.004659446317143228
+        ],
+        "dense": 9.814061658630837e-05,
+        "sparse": 9.81405950767839e-05,
+        "relative_error": 2.1917051196140847e-07,
+        "lambda_mu_is_censored": true,
+        "sparse_residual": 1.1294471210548144e-08
+      }
+    }
+  ],
+  "failed_attempts": 8,
+  "all_failed_attempts_resolved": true,
+  "near_gamma_full_dense_sparse_max_relative_difference": 2.1917051196140847e-07,
+  "near_gamma_validation_note": "Eight full-sparse retry minima remain Gamma-censored. Dense/sparse agreement is quantified at a separate 1e-6 relative tolerance because of near-Gamma conditioning; all discrepancies are below this tolerance, the threshold statistics exclude these values, and substituting the dense roots preserves every class.",
+  "atlas/check_local_refinements": 1848,
+  "atlas/check_local_refinements_at_iteration_cap": 722,
+  "max_preload_pressure_change_2_to_8": 2.912003971289323e-12,
+  "source_sha256": {
+    "atlas/mesh_retry.py": "439512f7f28e88f6bc2af8a18959b7cec75a9ae7e8f1e77096fcc7dbd47924fe",
+    "atlas/mesh_verify.py": "3d8e45ea512f9438a22bfe929633634fb034473951839026e76371cfc9b9b669",
+    "atlas/mesh_dense_check.py": "3aaf739c0c43571ba899ec6852ed5dcce32dec4d0a10b0ba9057bfdc4504a828"
+  }
+}

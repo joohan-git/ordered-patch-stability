@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and this archive."
+title: "Ordered patches cap the stability of disordered frameworks: code and data"
+authors:
+  - family-names: Nam
+    given-names: Joohan
+    orcid: "https://orcid.org/0000-0001-5123-418X"
+    affiliation: "Technische Universität Dresden"
+version: 1.0.0
+doi: 10.5281/zenodo.23682287
+repository-code: "https://github.com/joohan-git/ordered-patch-stability"
+date-released: 2026-10-27
+license: MIT
+keywords:
+  - mechanical stability
+  - structural disorder
+  - rare regions
+  - elastic instability
+  - symmetry
+  - frameworks

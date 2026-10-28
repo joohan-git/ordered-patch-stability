@@ -1,0 +1,350 @@
+{
+  "name": "planted_L4_R2_P1",
+  "parameters": "hard",
+  "group": "planted",
+  "L": 4,
+  "nodes": 256,
+  "objective": {
+    "first_pressure_GPa": 6.64491424419079,
+    "first_class": "PD-only",
+    "lambda_PD_GPa": 6.64491424419079,
+    "lambda_LE_GPa": null,
+    "lambda_micro_GPa": null,
+    "micro": null,
+    "diagnostics": {
+      "PD_eigen_GPa": 1.1717490338697354e-11,
+      "second_PD_eigen_GPa": 1.925007392156526,
+      "principal_null_strains": [
+        -0.32463722313138244,
+        -0.09125119367252996,
+        0.8016586023686132
+      ],
+      "relative_middle_principal_strain": 0.10492298899161952,
+      "LE_eigen_GPa": 0.042434030246854604,
+      "LE_direction": [
+        0.7435527447665684,
+        -0.2897172201674809,
+        -0.6026551651554394
+      ],
+      "PD_strain_mode": [
+        0.6438297524889021,
+        0.05115224012926112,
+        -0.3092118070534622,
+        0.14675796053963902,
+        -0.07844686477618819,
+        -0.6779107219565139
+      ],
+      "gamma_pinned_eigen": 1.0743309858788088,
+      "Bloch_min_eigen": 1.094551852021224,
+      "Bloch_k": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "Bloch_checks": [
+        {
+          "k": [
+            0.5,
+            0.0,
+            0.0
+          ],
+          "eigen": 1.094551852021224
+        },
+        {
+          "k": [
+            0.5,
+            0.5,
+            0.0
+          ],
+          "eigen": 2.08075160864724
+        },
+        {
+          "k": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "eigen": 3.8452347239732863
+        },
+        {
+          "k": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "eigen": 3.261584535692016
+        }
+      ],
+      "equilibrium_residual": 6.542870599912502e-15
+    },
+    "diagnostics_at_PD": {
+      "PD_eigen_GPa": 1.1717490338697354e-11,
+      "second_PD_eigen_GPa": 1.925007392156526,
+      "principal_null_strains": [
+        -0.32463722313138244,
+        -0.09125119367252996,
+        0.8016586023686132
+      ],
+      "relative_middle_principal_strain": 0.10492298899161952,
+      "LE_eigen_GPa": 0.042434030246854604,
+      "LE_direction": [
+        0.7435527447665684,
+        -0.2897172201674809,
+        -0.6026551651554394
+      ],
+      "PD_strain_mode": [
+        0.6438297524889021,
+        0.05115224012926112,
+        -0.3092118070534622,
+        0.14675796053963902,
+        -0.07844686477618819,
+        -0.6779107219565139
+      ],
+      "gamma_pinned_eigen": 1.0743309858788088,
+      "Bloch_min_eigen": 1.094551852021224,
+      "Bloch_k": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "Bloch_checks": [
+        {
+          "k": [
+            0.5,
+            0.0,
+            0.0
+          ],
+          "eigen": 1.094551852021224
+        },
+        {
+          "k": [
+            0.5,
+            0.5,
+            0.0
+          ],
+          "eigen": 2.08075160864724
+        },
+        {
+          "k": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "eigen": 3.8452347239732863
+        },
+        {
+          "k": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "eigen": 3.261584535692016
+        }
+      ],
+      "equilibrium_residual": 6.542870599912502e-15
+    },
+    "fold_residual": 6.542870599912502e-15,
+    "root_evidence": {
+      "method": "augmented equilibrium/zero PD fold",
+      "residual": 1.171686928854675e-11,
+      "calls": 13,
+      "message": "The solution converged."
+    },
+    "trace": [
+      {
+        "p_GPa": 0.0,
+        "PD_eigen_GPa": 9.788666111175482,
+        "eigenvalues": [
+          1.4942290626995312,
+          22.883331342409523,
+          33.72864938967909,
+          52.40298876783145,
+          15.024952155249972
+        ],
+        "equilibrium_residual": 1.0239084939355663e-15
+      },
+      {
+        "p_GPa": 1.6612285610476976,
+        "PD_eigen_GPa": 8.677119103558823,
+        "eigenvalues": [
+          1.3335267278786143,
+          19.579463224129356,
+          26.966880841225855,
+          43.443533318246324,
+          12.413794016817853
+        ],
+        "equilibrium_residual": 3.3033087453821206e-10
+      },
+      {
+        "p_GPa": 3.322457122095395,
+        "PD_eigen_GPa": 7.386869930738706,
+        "eigenvalues": [
+          1.2062089903765367,
+          16.314261572680543,
+          20.283991041001883,
+          34.59403877265737,
+          9.836258541965343
+        ],
+        "equilibrium_residual": 5.44917029849531e-13
+      },
+      {
+        "p_GPa": 4.983685683143093,
+        "PD_eigen_GPa": 5.7306205967400405,
+        "eigenvalues": [
+          1.1180734302275541,
+          12.822395719169913,
+          13.237747229650786,
+          24.892975442690332,
+          7.127963039230892
+        ],
+        "equilibrium_residual": 6.9146246112711676e-15
+      },
+      {
+        "p_GPa": 6.3126685319812506,
+        "PD_eigen_GPa": 3.392149324273898,
+        "eigenvalues": [
+          1.0803593046681015,
+          8.644265258092982,
+          6.091438083663449,
+          14.34647474416952,
+          4.489509835063521
+        ],
+        "equilibrium_residual": 7.137677018086366e-15
+      },
+      {
+        "p_GPa": 6.64491424419079,
+        "PD_eigen_GPa": 1.171686928854675e-11,
+        "eigenvalues": [
+          1.074330985879132,
+          1.0945518520214885,
+          2.080751608647857,
+          3.8452347239733933,
+          3.2615845356925393
+        ],
+        "equilibrium_residual": 6.542870599912502e-15
+      }
+    ],
+    "scope": "Straight-reference-angle kernel; smallest algebraic eigenvalue at every declared wavevector; finite grids, not a global BZ certificate."
+  },
+  "published": {
+    "first_pressure_GPa": 3.327699519702474,
+    "first_class": "PD-only",
+    "lambda_PD_GPa": 3.327699519702474,
+    "lambda_LE_GPa": null,
+    "lambda_micro_GPa": null,
+    "diagnostics": {
+      "PD_eigen_GPa": -1.694115106232148e-13,
+      "second_PD_eigen_GPa": 0.6545625473729476,
+      "principal_null_strains": [
+        -0.510104736349256,
+        -0.27318076017624227,
+        0.8003613795505125
+      ],
+      "relative_middle_principal_strain": 0.2766023465007667,
+      "LE_eigen_GPa": 0.0490161101434163,
+      "LE_direction": [
+        -0.7247344953411937,
+        -0.6879251917929868,
+        -0.038972320422673706
+      ],
+      "PD_strain_mode": [
+        0.7926512404648167,
+        -0.4921218983232353,
+        -0.28345345911656755,
+        -0.09519552005692422,
+        -0.05978896119082134,
+        -0.1911472672469816
+      ],
+      "gamma_pinned_eigen": 1.205865929701925,
+      "Bloch_min_eigen": 9.828048098439833,
+      "Bloch_k": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "Bloch_checks": [
+        {
+          "k": [
+            0.5,
+            0.0,
+            0.0
+          ],
+          "eigen": 16.303836839766607
+        },
+        {
+          "k": [
+            0.5,
+            0.5,
+            0.0
+          ],
+          "eigen": 20.26269041144024
+        },
+        {
+          "k": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "eigen": 34.56568251191048
+        },
+        {
+          "k": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "eigen": 9.828048098439833
+        }
+      ],
+      "equilibrium_residual": 6.3012304925293704e-15
+    },
+    "signed_check": [
+      {
+        "p_GPa": 3.327689519702474,
+        "PD_eigen_GPa": 4.5569321558745956e-05
+      },
+      {
+        "p_GPa": 3.327709519702474,
+        "PD_eigen_GPa": -4.556935254507297e-05
+      }
+    ],
+    "bracket_GPa": [
+      3.3273667473585378,
+      3.328032287262
+    ],
+    "classification_check": {
+      "PD_eigen_GPa": -1.694115106232148e-13,
+      "second_PD_eigen_GPa": 0.6545625473729476,
+      "principal_null_strains": [
+        -0.510104736349256,
+        -0.27318076017624227,
+        0.8003613795505125
+      ],
+      "relative_middle_principal_strain": 0.2766023465007667,
+      "LE_eigen_GPa": 0.0490161101434163,
+      "name": "planted_L4_R2_P1",
+      "parameters": "hard",
+      "first_class": "PD-only"
+    }
+  },
+  "patch": {
+    "patch_energy_fraction": 0.1637057719446042,
+    "node_energy_participation": 0.05337053073196028,
+    "cell_energy_participation": 0.0900393028572129,
+    "material_energy_total": 9125289.698542977,
+    "patch_stress": {
+      "s_P": 1.1279825811420865,
+      "patch_pressure_GPa": 7.495347520630145,
+      "global_pressure_from_virial": 6.644914244190785,
+      "convention": "Current-volume virial, radial half to endpoints, angle term to centre"
+    },
+    "energy_convention": "Positive material quadratic energy at current geometry; exact linear-angle limit; PD includes macro strain and relaxed fluctuation."
+  },
+  "reference_angle_snapping": "theta0>pi-1e-6 snapped to pi in constructor",
+  "spectral_search": "dense lowest algebraic eigensolve for <=324 DOF, otherwise ARPACK SA, residual checks and two starts at critical states",
+  "eigen_calls": 40,
+  "max_eigen_residual": 7.361407064455299e-10,
+  "seconds": 7.577227300032973,
+  "cpu_seconds": 7.484375,
+  "status": "verified"
+}

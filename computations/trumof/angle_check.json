@@ -1,0 +1,92 @@
+[
+  {
+    "name": "pc_tiled_L2",
+    "snapped_angles": 32,
+    "recorded_GPa": null,
+    "angle_regularized_GPa": 0.7460235595703122,
+    "status": "signed_Gamma_or_cell_crossing",
+    "bloch_min": 1.4918175072836315,
+    "seconds": 0.7563607692718506
+  },
+  {
+    "name": "random_L2_seed200",
+    "snapped_angles": 42,
+    "recorded_GPa": 1.7886718750000004,
+    "angle_regularized_GPa": 1.7886718750000004,
+    "status": "continuation_censored",
+    "bloch_min": 4.378553268577983,
+    "seconds": 1.7445247173309326
+  },
+  {
+    "name": "random_L2_seed201",
+    "snapped_angles": 17,
+    "recorded_GPa": 1.4347656250000003,
+    "angle_regularized_GPa": 1.4347656250000003,
+    "status": "continuation_censored",
+    "bloch_min": 4.737163996013331,
+    "seconds": 1.5915119647979736
+  },
+  {
+    "name": "random_L2_seed202",
+    "snapped_angles": 38,
+    "recorded_GPa": 1.6761718750000003,
+    "angle_regularized_GPa": 1.6761718750000003,
+    "status": "continuation_censored",
+    "bloch_min": 4.146731129366239,
+    "seconds": 1.728116512298584
+  },
+  {
+    "name": "random_L3_seed300",
+    "snapped_angles": 132,
+    "recorded_GPa": 1.8734375000000005,
+    "angle_regularized_GPa": 1.8734375000000005,
+    "status": "continuation_censored",
+    "bloch_min": 1.8760130404729236,
+    "seconds": 5.695073366165161
+  },
+  {
+    "name": "random_L3_seed301",
+    "snapped_angles": 121,
+    "recorded_GPa": 2.025781250000001,
+    "angle_regularized_GPa": 2.025781250000001,
+    "status": "continuation_censored",
+    "bloch_min": 1.4583566472706155,
+    "seconds": 4.947124719619751
+  },
+  {
+    "name": "random_L3_seed302",
+    "snapped_angles": 122,
+    "recorded_GPa": 1.8785156250000026,
+    "angle_regularized_GPa": 1.8785156250000026,
+    "status": "continuation_censored",
+    "bloch_min": 0.29978424193001846,
+    "seconds": 5.304207801818848
+  },
+  {
+    "name": "random_L4_seed401",
+    "snapped_angles": 306,
+    "recorded_GPa": 1.9421875000000004,
+    "angle_regularized_GPa": 1.9421875000000004,
+    "status": "continuation_censored",
+    "bloch_min": 1.058918097446699,
+    "seconds": 21.35384511947632
+  },
+  {
+    "name": "random_L4_seed402",
+    "snapped_angles": 293,
+    "recorded_GPa": 1.7300781249999997,
+    "angle_regularized_GPa": 1.7300781249999997,
+    "status": "continuation_censored",
+    "bloch_min": 1.0418394649403884,
+    "seconds": 17.986076831817627
+  },
+  {
+    "name": "random_L4_seed403",
+    "snapped_angles": 318,
+    "recorded_GPa": 1.8460937500000003,
+    "angle_regularized_GPa": 1.8460937500000003,
+    "status": "continuation_censored",
+    "bloch_min": 1.0871073052992073,
+    "seconds": 16.80546498298645
+  }
+]
